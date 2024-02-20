@@ -9,6 +9,7 @@
                             <span> 
                                 <span class="btn-text">Get started</span>
                                 <span class="btn-icon"><i class="feather icon-feather-mail"></i></span>
+                                
                                 <span class="btn-icon"><i class="feather icon-feather-mail"></i></span>
                             </span>
                         </a>
