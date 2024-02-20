@@ -1,0 +1,3 @@
+<?php
+
+//FakeBrains is Golden
