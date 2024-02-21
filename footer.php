@@ -1,64 +1,91 @@
 
-        <!-- start footer -->        
-        <footer>
-            <div class="container">
-                <div class="row justify-content-center mb-30px mx-0">
-                    <div class="col-12 position-relative text-center bg-dark-gray p-40px border-radius-6px position-relative overflow-hidden lg-p-30px">
-                        <h5 class="alt-font d-block d-xl-inline-block align-middle text-white mb-0 fw-600 me-35px lg-me-0 lg-mb-20px">Let's start something awesome analytics together.</h5>
-                        <a href="demo-data-analysis-what-we-do.html" class="btn btn-large btn-white btn-hover-animation-switch btn-round-edge btn-box-shadow btn-icon-left fw-700">
-                            <span> 
-                                <span class="btn-text">Get started</span>
-                                <span class="btn-icon"><i class="feather icon-feather-mail"></i></span>
-                                <span class="btn-icon"><i class="feather icon-feather-mail"></i></span>
-                            </span>
+        <footer class="p-0 footer-light position-relative"> 
+            <div class="container position-relative"> 
+                <div class="row justify-content-center pt-5 sm-pt-40px">
+                    <!-- start footer column -->
+                    <div class="col-6 col-xl-3 col-lg-12 col-sm-6 last-paragraph-no-margin text-xl-start text-lg-center order-sm-1 lg-mb-50px sm-mb-30px">
+                        <a href="demo-it-business.html" class="footer-logo mb-15px d-inline-block"> 
+                            <img src="images/demo-it-business-logo-black.png" data-at2x="images/demo-it-business-logo-black@2x.png" alt="">
                         </a>
-                        <div class="bg-gradient-flamingo-amethyst-green h-6px w-100 position-absolute left-0px bottom-0px"></div>
-                    </div>                    
-                </div>
-                <div class="row align-items-center">
-                    <!-- start footer column -->
-                    <div class="col-12 col-lg-auto md-mb-15px text-center text-lg-start"> 
-                        <a href="demo-data-analysis.html" class="footer-logo"><img src="<?php echo get_template_directory_uri();?>/assets/images/demo-data-analysis-logo-black.png" data-at2x="images/demo-data-analysis-logo-black@2x.png" alt=""></a>
+                        <p class="lh-28 w-90 xl-w-100 mx-lg-auto mx-xl-0">Gearing your company through an innovative strategy.</p>
+                        <div class="elements-social social-icon-style-02 mt-15px">
+                            <ul class="medium-icon dark">
+                                <li class="my-0"><a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li class="my-0"><a class="dribbble" href="http://www.dribbble.com" target="_blank"><i class="fa-brands fa-dribbble"></i></a></li> 
+                                <li class="my-0"><a class="twitter" href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li> 
+                                <li class="my-0"><a class="instagram" href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li> 
+                            </ul>
+                        </div>
                     </div>
                     <!-- end footer column -->
                     <!-- start footer column -->
-                    <div class="col"> 
-                        <ul class="footer-navbar fs-18 alt-font fw-600 text-center text-lg-end"> 
-                            <li class="nav-item active"><a href="demo-data-analysis.html" class="nav-link">Home</a></li>
-                            <li class="nav-item"><a href="demo-data-analysis-about.html" class="nav-link">About</a></li>
-                            <li class="nav-item"><a href="demo-data-analysis-what-we-do.html" class="nav-link">What we do</a></li>
-                            <li class="nav-item"><a href="demo-data-analysis-cases.html" class="nav-link">Cases</a></li>
-                            <li class="nav-item"><a href="demo-data-analysis-testimonials.html" class="nav-link">Testimonials</a></li>
-                            <li class="nav-item"><a href="demo-data-analysis-pricing.html" class="nav-link">Pricing</a></li>
-                            <li class="nav-item"><a href="demo-data-analysis-contact.html" class="nav-link">Contact</a></li>
-                        </ul>
-                    </div>
-                    <!-- end footer column -->                  
-                </div>
-                <div class="row justify-content-center align-items-center pt-30px">
-                    <!-- start footer divider -->
-                    <div class="col-12 mb-30px">
-                        <div class="divider-style-03 divider-style-03-01 border-1 border-color-extra-medium-gray"></div>
-                    </div>
-                    <!-- end footer divider -->
-                    <!-- start footer column -->
-                    <div class="col-lg-7 col-md-8 fs-14 lh-24 text-center text-md-start last-paragraph-no-margin sm-mb-20px"><p>This site is protected by reCAPTCHA and the Google <a href="#" class="text-decoration-line-bottom text-dark-gray">privacy policy</a> and <a href="#" class="text-decoration-line-bottom text-dark-gray">terms of service</a> apply. You must not use this website if you disagree with any of these website standard terms and conditions.</p></div>
-                    <!-- end footer column -->
-                    <!-- start footer column -->
-                    <div class="col-lg-5 col-md-4 text-end elements-social social-icon-style-08 text-center text-md-end">
-                        <ul class="medium-icon dark d-inline-block">
-                            <li><a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a class="instagram" href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>  
-                            <li><a class="twitter" href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li> 
-                            <li><a class="dribbble" href="http://www.dribbble.com" target="_blank"><i class="fa-brands fa-dribbble"></i></a></li>
+                    <div class="col-6 col-xl-2 col-lg-3 col-sm-4 xs-mb-30px order-sm-3 order-lg-2">
+                        <span class="fw-600 d-block text-dark-gray mb-5px">Company</span>
+                        <ul>
+                            <li><a href="demo-it-business-about.html">Who we are</a></li>
+                            <li><a href="demo-it-business-services.html">Our services</a><div class="bg-dark-gray fw-600 text-white lh-22 text-uppercase border-radius-30px ps-10px pe-10px fs-10 ms-10px d-inline-block align-middle">Hot</div></li>
+                            <li><a href="demo-it-business-case-studies.html">Our clients</a></li>
+                            <li><a href="demo-it-business-contact.html">Contact us</a></li>
                         </ul>
                     </div>
                     <!-- end footer column -->
+                    <!-- start footer column -->
+                    <div class="col-6 col-xl-2 col-lg-3 col-md-5 col-sm-4 xs-mb-30px order-sm-4 order-lg-3">
+                        <span class="fw-600 d-block text-dark-gray mb-5px">Services</span>
+                        <ul>
+                            <li><a href="#">Planning</a></li>
+                            <li><a href="#">Research</a></li>
+                            <li><a href="#">Consulting</a></li>
+                            <li><a href="#">Analysis</a></li>
+                        </ul>
+                    </div>
+                    <!-- end footer column -->
+                    <!-- start footer column -->
+                    <div class="col-6 col-xl-2 col-lg-3 col-md-3 col-sm-4 xs-mb-30px order-sm-5 order-lg-4">
+                        <span class="fw-600 d-block text-dark-gray mb-5px">Need help?</span>
+                        <span>Call us directly?</span>
+                        <span class="d-block mb-10px"><a class="text-dark-gray fw-600" href="tel:1235678901">(123) 567 8901</a></span>
+                        <span>Need support?</span>
+                        <a href="mailto:help@domain.com" class="text-dark-gray fw-600">help@domain.com</a>
+                    </div>
+                    <!-- end footer column -->
+                    <!-- start footer column -->
+                    <div class="col-xl-3 col-lg-3 col-sm-6 md-mb-50px sm-mb-30px xs-mb-0 order-sm-2 order-lg-5">
+                        <span class="fw-600 d-block text-dark-gray mb-5px">Subscribe newsletter</span>
+                        <p class="lh-28 w-95 mb-10px xs-mb-10px">Subscribe our newsletter to get the latest news and updates!</p>
+                        <div class="d-inline-block w-100 newsletter-style-04 position-relative"> 
+                            <form action="email-templates/subscribe-newsletter.php" method="post" class="position-relative w-100">
+                                <input class="fs-15 bg-white w-100 border-0 border-bottom border-1 border-color-dark-gray form-control required" type="email" name="email" placeholder="Enter your email address" />
+                                <input type="hidden" name="redirect" value="">
+                                <button class="btn submit" aria-label="submit"><i class="icon feather icon-feather-mail icon-small"></i></button>
+                                <div class="form-results border-radius-0px p-15px fs-16 lh-24 w-100 text-center position-absolute d-none"></div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- end footer column -->                      
                 </div>
-            </div>
+                <div class="row justify-content-center align-items-center pt-7">
+                    <!-- start divider -->
+                    <div class="col-12">
+                        <div class="divider-style-03 divider-style-03-01 border-color-extra-medium-gray"></div>
+                    </div>
+                    <!-- end divider -->
+                    <!-- start copyright -->
+                    <div class="col-lg-5 pt-20px pb-20px md-pt-0 order-2 order-lg-1 text-center text-lg-start last-paragraph-no-margin fs-14"><p>&copy; 2024 Crafto is Proudly Powered by <a href="https://www.themezaa.com/" target="_blank" class="text-dark-gray fw-600 text-decoration-line-bottom">ThemeZaa</a></p></div>
+                    <!-- end copyright -->
+                    <!-- start footer menu -->
+                    <div class="col-lg-7 pt-20px pb-20px md-pt-25px md-pb-5px order-1 order-lg-2 text-center text-lg-end fs-14">
+                        <ul class="footer-navbar sm-lh-normal"> 
+                            <li><a href="#" class="nav-link">Privacy policy</a></li>
+                            <li><a href="#" class="nav-link">Terms and conditions</a></li>
+                            <li><a href="#" class="nav-link">Copyright</a></li>
+                        </ul>
+                    </div>
+                    <!-- end footer menu -->
+                </div>
+            </div> 
         </footer>
         <!-- end footer -->
-        
         <!-- start scroll progress -->
         <div class="scroll-progress d-none d-xxl-block">
             <a href="#" class="scroll-top" aria-label="scroll">
