@@ -97,5 +97,6 @@
         <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/jquery.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/vendors.min.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/js/main.js"></script>
+        
     </body>
 </html>

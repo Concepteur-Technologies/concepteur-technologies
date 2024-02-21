@@ -16,7 +16,7 @@
     </head>
     <body data-mobile-nav-style="full-screen-menu" data-mobile-nav-bg-color="#252840" class="custom-cursor">  
         <!-- start header -->
-
+        <div class="page-loader"></div>
         <div class="cursor-page-inner">
             <div class="circle-cursor circle-cursor-inner"></div>
             <div class="circle-cursor circle-cursor-outer"></div>
