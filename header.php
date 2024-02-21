@@ -27,9 +27,9 @@
                 <div class="container-fluid">
                     <div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
                         <a class="navbar-brand" href="demo-it-business.html">
-                            <img src="images/demo-it-business-logo-white.png" data-at2x="images/demo-it-business-logo-white@2x.png" alt="" class="default-logo">
-                            <img src="images/demo-it-business-logo-black.png" data-at2x="images/demo-it-business-logo-black@2x.png" alt="" class="alt-logo">
-                            <img src="images/demo-it-business-logo-black.png" data-at2x="images/demo-it-business-logo-black@2x.png" alt="" class="mobile-logo"> 
+                            <img src="<?php echo get_template_directory_uri().'/assets/images/logo.png';?>" data-at2x="<?php echo get_template_directory_uri().'/assets/images/logo.png';?>" alt="" class="default-logo">
+                            <img src="<?php echo get_template_directory_uri().'/assets/images/logo.png';?>" data-at2x="<?php echo get_template_directory_uri().'/assets/images/logo.png';?>" alt="" class="alt-logo">
+                            <img src="<?php echo get_template_directory_uri().'/assets/images/logo.png';?>" data-at2x="<?php echo get_template_directory_uri().'/assets/images/logo.png';?>" alt="" class="mobile-logo"> 
                         </a>
                     </div>
                     <div class="col-auto col-xxl-6 col-lg-8 menu-order position-static">
@@ -41,29 +41,29 @@
                         </button>
                         <div class="collapse navbar-collapse justify-content-center" id="navbarNav"> 
                             <ul class="navbar-nav"> 
-                                <li class="nav-item"><a href="demo-it-business.html" class="nav-link">Home</a></li>
-                                <li class="nav-item"><a href="demo-it-business-about.html" class="nav-link">About</a></li> 
+                                <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="" class="nav-link">About</a></li> 
                                 <li class="nav-item dropdown dropdown-with-icon-style02">
                                     <a  href="demo-it-business-services.html" class="nav-link">Services</a>
                                     <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
-                                        <li><a href="demo-it-business-services-details.html"><i class="bi bi-briefcase"></i>Data analytics</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="bi bi-clipboard-data"></i>Finance consulting</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="bi bi-peace"></i>Technology innovation</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="bi bi-bar-chart-line"></i>Digital commerce</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="bi bi-send-check"></i>Artificial intelligence</a></li>
-                                        <li><a href="demo-it-business-services-details.html"><i class="bi bi-globe2"></i>Cloud computing</a></li>
+                                        <li><a href=""><i class="bi bi-briefcase"></i>Data analytics</a></li>
+                                        <li><a href=""><i class="bi bi-clipboard-data"></i>Finance consulting</a></li>
+                                        <li><a href=""><i class="bi bi-peace"></i>Technology innovation</a></li>
+                                        <li><a href=""><i class="bi bi-bar-chart-line"></i>Digital commerce</a></li>
+                                        <li><a href=""><i class="bi bi-send-check"></i>Artificial intelligence</a></li>
+                                        <li><a href=""><i class="bi bi-globe2"></i>Cloud computing</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a href="demo-it-business-case-studies.html" class="nav-link">Case studies</a></li>
-                                <li class="nav-item"><a href="demo-it-business-blog.html" class="nav-link">Blog</a></li>
-                                <li class="nav-item"><a href="demo-it-business-contact.html" class="nav-link">Contact</a></li>
+                                <li class="nav-item"><a href="" class="nav-link">Case studies</a></li>
+                                <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
+                                <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-auto col-xxl-3 col-lg-2 text-end d-none d-sm-flex">
                         <div class="header-icon">
-                            <div class="header-button"><a href="demo-it-business-contact.html" class="btn btn-large btn-transparent-white-light btn-rounded text-transform-none border-1">Start a project<i class="fa-solid fa-arrow-right"></i></a></div>
+                            <div class="header-button"><a href="" class="btn btn-large btn-transparent-white-light btn-rounded text-transform-none border-1">Start a project<i class="fa-solid fa-arrow-right"></i></a></div>
                         </div>  
                     </div>
                 </div>
@@ -72,8 +72,12 @@
         </header>
         <!-- end header -->  
         <!-- start hero section -->
-        <section class="cover-background full-screen ipad-top-space-margin py-0 md-h-750px sm-h-650px" style="background-image:url('https://via.placeholder.com/1920x1080');">
+        <section class="cover-background full-screen bg-dark-gray ipad-top-space-margin position-relative section-dark md-h-auto" style="background-image: url('<?php echo get_template_directory_uri().'/assets/images/banner.jpg';?>')">
+        <div class="background-position-center-top h-100 w-100 position-absolute left-0px top-0" style="background-image: url('<?php echo get_template_directory_uri().'/assets/images/vertical-line-bg-small.svg';?>')"></div>
+            <div id="particles-style-01" class="h-100 position-absolute left-0px top-0 w-100" data-particle="true" data-particle-options='{"particles": {"number": {"value": 6,"density": {"enable": true,"value_area": 2000}},"color": {"value": ["#d5d52b", "#d5d52b", "#d5d52b", "#d5d52b", "#d5d52b"]},"shape": {"type": "circle","stroke":{"width":0,"color":"#000000"}},"opacity": {"value": 1,"random": false,"anim": {"enable": false,"speed": 1,"sync": false}},"size": {"value": 8,"random": true,"anim": {"enable": false,"sync": true}},"line_linked":{"enable":false,"distance":0,"color":"#ffffff","opacity":1,"width":1},"move": {"enable": true,"speed":1,"direction": "right","random": false,"straight": false}},"interactivity": {"detect_on": "canvas","events": {"onhover": {"enable": false,"mode": "repulse"},"onclick": {"enable": false,"mode": "push"},"resize": true}},"retina_detect": false}'></div> 
+            <div id="particles-style-01" class="h-100 position-absolute left-0px top-0 w-100" data-particle="true" data-particle-options='{"particles": {"number": {"value": 12,"density": {"enable": true,"value_area": 2000}},"color": {"value": ["#9bb907", "#9bb907", "#9bb907", "#9bb907"]},"shape": {"type": "edge","stroke":{"width":0,"color":"#000000"}},"opacity": {"value": 0.8,"random": false,"anim": {"enable": false,"speed": 1,"sync": false}},"size": {"value": 5,"random": true,"anim": {"enable": false,"sync": true}},"line_linked":{"enable":false,"distance":0,"color":"#ffffff","opacity":0.4,"width":1},"move": {"enable": true,"speed":1,"direction": "right","random": false,"straight": false}},"interactivity": {"detect_on": "canvas","events": {"onhover": {"enable": false,"mode": "repulse"},"onclick": {"enable": false,"mode": "push"},"resize": true}},"retina_detect": false}'></div>
             <div class="opacity-very-light bg-black"></div>
+            <div class="looping-wrapper"></div>
             <div class="shape-image-animation bottom-0 p-0 w-100 d-none d-md-block"> 
                 <svg xmlns="http://www.w3.org/2000/svg" widht="3000" height="400" viewBox="0 180 2500 200" fill="#ffffff"> 
                 <path class="st1" d="M 0 250 C 1200 400 1200 50 3000 250 L 3000 550 L 0 550 L 0 250">
@@ -91,26 +95,47 @@
             <div class="container h-100"> 
                 <div class="row align-items-center h-100">
                     <div class="col-xl-6 col-lg-8 col-md-10 position-relative z-index-1" data-anime='{ "el": "childs", "translateY": [0, 0], "perspective": [1200,1200], "scale": [1.05, 1], "rotateX": [30, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>   
-                        <span class="ps-25px pe-25px pt-5px pb-5px mb-25px text-uppercase text-white fs-12 ls-1px fw-600 border-radius-100px bg-gradient-dark-gray-transparent d-flex w-70 sm-w-100"><i class="bi bi-megaphone text-white icon-small me-10px"></i>Grow your business with us</span>
-                        <h1 class="text-white fw-600 ls-minus-2px mb-25px">We craft unique business ideas.</h1> 
-                        <div><p class="fw-300 fs-18 w-85 sm-w-95 text-white opacity-6">We're a fully dedicated corporate service agency collaborating with brands all over the world.</p></div>
-                        <a href="index.html" target="blank" class="btn btn-extra-large btn-switch-text btn-gradient-purple-pink btn-rounded me-10px ls-0px mt-15px">
-                            <span>
-                                <span class="btn-double-text" data-text="Explore crafto">Explore crafto</span>
-                                <span><i class="fa-brands fa-youtube"></i></span>
-                            </span>
-                        </a>
+                        <h1 class="fs-90 lg-fs-80 md-fs-70 fw-600 text-white ls-minus-2px shadow-nonex">Unlocking Innovation</h1> 
+                        <span class="fs-60 lg-fs-80 md-fs-70 fw-600 text-white ls-minus-2px shadow-none" data-shadow-animation="true" data-animation-delay="500"><div class="divider-style-03 divider-style-03-01 border-color-white mb-10px mt-20px w-100"></div>Your Partner for <span class="text-highlight">Custom<span class="bg-majorelle-blue h-20px bottom-10px separator-animation"></span></span> Software Development</span>
+                        <div><p class="fw-700 fs-18 w-85 sm-w-95 text-white opacity-10">We're a fully dedicated corporate service agency collaborating with brands all over the world.</p></div>
                         <a href="demo-it-business-contact.html" class="btn btn-extra-large btn-switch-text btn-transparent-white-light btn-rounded border-1 ls-0px mt-15px">
                             <span>
                                 <span class="btn-double-text" data-text="Contact us">Contact us</span>
                                 <span><i class="fa-regular fa-envelope"></i></span>
                             </span>
                         </a>
-                    </div>  
+                    </div>
+                    <div class="col-xl-6 col-lg-8 z-index-1">  
+                        <div class="fs-90 sm-fs-80 xs-fs-70 fw-600 mb-20px ls-minus-4px overflow-hidden">
+                            <div class="d-inline-block text-white" data-anime='{ "translateY": [100, 0], "easing": "easeOutCubic", "duration": 900 }'>
+                                Power up web with
+                                <div class="highlight-separator" data-shadow-animation="true" data-animation-delay="1500">
+                                    hosting<span><img src="images/highlight-separator.svg" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fs-19 fw-300 mb-30px w-80 sm-w-100 d-block mx-auto mx-lg-0 overflow-hidden w-100">
+                        <a href="#" class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto" style="margin: 10px;">Border dark gray<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
+                        <a href="#" class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto" style="margin: 10px;">Border dark gray<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
+                        <a href="#" class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto" style="margin: 10px;">Border dark gray<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
+                        <a href="#" class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto" style="margin: 10px;">Border dark gray<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
+                        <a href="#" class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto" style="margin: 10px;">Border dark gray<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
+                        <a href="#" class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto" style="margin: 10px;">Border dark gray<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
+
+                        </div>
+                    </div>
+                    <!-- <div class="col-xl-6 col-lg-8 col-md-10 position-relative z-index-1" data-anime='{ "el": "childs", "translateY": [0, 0], "perspective": [1200,1200], "scale": [1.05, 1], "rotateX": [30, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>   
+                        <div><p class="fw-700 fs-18 w-85 sm-w-95 text-white opacity-10">We're a fully dedicated corporate service agency collaborating with brands all over the world.We're a fully dedicated corporate service agency collaborating with brands all over the world.We're a fully dedicated corporate service agency collaborating with brands all over the world.We're a fully dedicated corporate service agency collaborating with brands all over the world.</p></div>
+                        <div><p class="fw-700 fs-18 w-85 sm-w-95 text-white opacity-10">We're a fully dedicated corporate service agency collaborating with brands all over the world.We're a fully dedicated corporate service agency collaborating with brands all over the world.We're a fully dedicated corporate service agency collaborating with brands all over the world.We're a fully dedicated corporate service agency collaborating with brands all over the world.</p></div>
+                        <div><p class="fw-700 fs-18 w-85 sm-w-95 text-white opacity-10">We're a fully dedicated corporate service agency collaborating with brands all over the world.We're a fully dedicated corporate service agency collaborating with brands all over the world.We're a fully dedicated corporate service agency collaborating with brands all over the world.We're a fully dedicated corporate service agency collaborating with brands all over the world.</p></div>
+                    </div> -->
                 </div> 
             </div>
+            
         </section>
         <!-- end hero section -->
+
+       
         <!-- start section -->
         <section class="pt-3 sm-pt-50px">
             <div class="container">
@@ -155,6 +180,7 @@
                     </div>
                     <!-- end features box item --> 
                 </div>
+                
                 <div class="row mb-10 align-items-center">
                     <div class="col-lg-5 position-relative md-mb-20">
                         <div class="w-70 xs-w-80" data-animation-delay="50" data-shadow-animation="true">

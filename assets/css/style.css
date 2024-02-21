@@ -46,7 +46,7 @@ Table of contents
     02. CSS color variable
 ====================================== */
 :root {
-  --base-color: #2946f3;
+  --base-color: #9bb907;
   --white: #ffffff;
   --black: #000000;
   --red: #dc3131;
@@ -76,7 +76,7 @@ Table of contents
   --cornflower-blue:#445fed;
   --jade:#00AF6B;
   --orange: #ef991f;
-  --majorelle-blue: #724ade;
+  --majorelle-blue: #45cc1c;
   --light-majorelle-blue: #f2edfe;
   --spring-wood: #f9f6f3;
   --tropical-blue: #1ea3b1;

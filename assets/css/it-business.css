@@ -5,8 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
 /* variable */
 :root {     
-    --base-color: #074eb9; 
-    --dark-gray:#252840;
+    --base-color: #275a49; 
+    --dark-gray:#275a49;
     --black:#05060a;
     --medium-gray:#7d8087;
     --very-light-gray: #f0f2f8;
@@ -82,11 +82,11 @@ header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
     background: linear-gradient(to right, rgba(243, 69, 59, 1.0) 10%, rgba(255, 255, 255, 0.0) 95%);
 }
 .bg-gradient-base-color-transparent {
-    background: -webkit-linear-gradient(right, rgba(15, 89, 201, 1.0), rgba(255, 255, 255, 0.0));
-    background: linear-gradient(to right, rgba(15, 89, 201, 1.0) 10%, rgba(255, 255, 255, 0.0) 95%);
+    background: -webkit-linear-gradient(right, #275a49, rgba(255, 255, 255, 0.0));
+    background: linear-gradient(to right,#275a49 10%, rgba(255, 255, 255, 0.0) 95%);
 }
 .bg-gradient-light-gray-transparent {
-    background: -webkit-linear-gradient(right, rgba(222, 230, 244, 1.0), rgba(255, 255, 255, 0.0));
+    background: -webkit-linear-gradient(right, #275a49, rgba(255, 255, 255, 0.0));
     background: linear-gradient(to right, rgba(222, 230, 244, 1.0), rgba(255, 255, 255, 0.0));
 }
 .bg-midnight-blue {
