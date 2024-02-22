@@ -72,25 +72,14 @@
         </header>
         <!-- end header -->  
         <!-- start hero section -->
-        <section class="cover-background full-screen bg-dark-gray ipad-top-space-margin position-relative section-dark md-h-auto" style="background-image: url('<?php echo get_template_directory_uri().'/assets/images/banner.jpg';?>')">
+        <section class="cover-background bg-dark-gray ipad-top-space-margin position-relative section-dark md-h-auto" style="background-image: url('<?php echo get_template_directory_uri().'/assets/images/banner.jpg';?>')" sty>
         <div class="background-position-center-top h-100 w-100 position-absolute left-0px top-0" style="background-image: url('<?php echo get_template_directory_uri().'/assets/images/vertical-line-bg-small.svg';?>')"></div>
-            <div id="particles-style-01" class="h-100 position-absolute left-0px top-0 w-100" data-particle="true" data-particle-options='{"particles": {"number": {"value": 6,"density": {"enable": true,"value_area": 2000}},"color": {"value": ["#d5d52b", "#d5d52b", "#d5d52b", "#d5d52b", "#d5d52b"]},"shape": {"type": "circle","stroke":{"width":0,"color":"#000000"}},"opacity": {"value": 1,"random": false,"anim": {"enable": false,"speed": 1,"sync": false}},"size": {"value": 8,"random": true,"anim": {"enable": false,"sync": true}},"line_linked":{"enable":false,"distance":0,"color":"#ffffff","opacity":1,"width":1},"move": {"enable": true,"speed":1,"direction": "right","random": false,"straight": false}},"interactivity": {"detect_on": "canvas","events": {"onhover": {"enable": false,"mode": "repulse"},"onclick": {"enable": false,"mode": "push"},"resize": true}},"retina_detect": false}'></div> 
-            <div id="particles-style-01" class="h-100 position-absolute left-0px top-0 w-100" data-particle="true" data-particle-options='{"particles": {"number": {"value": 12,"density": {"enable": true,"value_area": 2000}},"color": {"value": ["#9bb907", "#9bb907", "#9bb907", "#9bb907"]},"shape": {"type": "edge","stroke":{"width":0,"color":"#000000"}},"opacity": {"value": 0.8,"random": false,"anim": {"enable": false,"speed": 1,"sync": false}},"size": {"value": 5,"random": true,"anim": {"enable": false,"sync": true}},"line_linked":{"enable":false,"distance":0,"color":"#ffffff","opacity":0.4,"width":1},"move": {"enable": true,"speed":1,"direction": "right","random": false,"straight": false}},"interactivity": {"detect_on": "canvas","events": {"onhover": {"enable": false,"mode": "repulse"},"onclick": {"enable": false,"mode": "push"},"resize": true}},"retina_detect": false}'></div>
+            <div id="particles-style-01" class="h-100 position-absolute left-0px top-0 w-100" data-particle="true" data-particle-options='{"particles": {"number": {"value": 22,"density": {"enable": true,"value_area": 2000}},"color": {"value": ["#d5d52b", "#d5d52b", "#d5d52b", "#d5d52b", "#d5d52b"]},"shape": {"type": "circle","stroke":{"width":0,"color":"#000000"}},"opacity": {"value": 1,"random": false,"anim": {"enable": false,"speed": 1,"sync": false}},"size": {"value": 8,"random": true,"anim": {"enable": false,"sync": true}},"line_linked":{"enable":false,"distance":0,"color":"#ffffff","opacity":1,"width":1},"move": {"enable": true,"speed":1,"direction": "right","random": false,"straight": false}},"interactivity": {"detect_on": "canvas","events": {"onhover": {"enable": false,"mode": "repulse"},"onclick": {"enable": false,"mode": "push"},"resize": true}},"retina_detect": false}'></div> 
+            <div id="particles-style-01" class="h-100 position-absolute left-0px top-0 w-100" data-particle="true" data-particle-options='{"particles": {"number": {"value": 122,"density": {"enable": true,"value_area": 2000}},"color": {"value": ["#9bb907", "#9bb907", "#9bb907", "#9bb907"]},"shape": {"type": "edge","stroke":{"width":0,"color":"#000000"}},"opacity": {"value": 0.8,"random": false,"anim": {"enable": false,"speed": 1,"sync": false}},"size": {"value": 5,"random": true,"anim": {"enable": false,"sync": true}},"line_linked":{"enable":false,"distance":0,"color":"#ffffff","opacity":0.4,"width":1},"move": {"enable": true,"speed":1,"direction": "right","random": false,"straight": false}},"interactivity": {"detect_on": "canvas","events": {"onhover": {"enable": false,"mode": "repulse"},"onclick": {"enable": false,"mode": "push"},"resize": true}},"retina_detect": false}'></div>
             <div class="opacity-very-light bg-black"></div>
             <div class="looping-wrapper"></div>
             <div class="shape-image-animation bottom-0 p-0 w-100 d-none d-md-block"> 
-                <svg xmlns="http://www.w3.org/2000/svg" widht="3000" height="400" viewBox="0 180 2500 200" fill="#ffffff"> 
-                <path class="st1" d="M 0 250 C 1200 400 1200 50 3000 250 L 3000 550 L 0 550 L 0 250">
-                <animate
-                    attributeName="d"
-                    dur="5s"
-                    values="M 0 250 C 1200 400 1200 50 3000 250 L 3000 550 L 0 550 L 0 250;
-                            M 0 250 C 400 50 400 400 3000 250 L 3000 550 L 0 550 L 0 250;
-                            M 0 250 C 1200 400 1200 50 3000 250 L 3000 550 L 0 550 L 0 250"
-                    repeatCount="indefinite"
-                    />
-                </path>
-                </svg>
+            
             </div> 
             <div class="container h-100"> 
                 <div class="row align-items-center h-100">
@@ -115,20 +104,15 @@
                             </div>
                         </div>
                         <div class="fs-19 fw-300 mb-30px w-80 sm-w-100 d-block mx-auto mx-lg-0 overflow-hidden w-100">
-                        <a href="#" class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto" style="margin: 10px;">Border dark gray<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
-                        <a href="#" class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto" style="margin: 10px;">Border dark gray<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
-                        <a href="#" class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto" style="margin: 10px;">Border dark gray<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
-                        <a href="#" class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto" style="margin: 10px;">Border dark gray<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
-                        <a href="#" class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto" style="margin: 10px;">Border dark gray<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
-                        <a href="#" class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto" style="margin: 10px;">Border dark gray<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
+                        <a href="#" class="btn btn-large btn-gradient-sky-blue-pink d-table d-lg-inline-block xl-mb-15px md-mx-auto" style="margin: 10px;border-radius:10px;">Web Service<i class="line-icon-Arrow-Forward2 align-middle icon-small text-base-color"></i></a>
+                        <a href="#" class="btn btn-large btn-gradient-sky-blue-pink d-table d-lg-inline-block xl-mb-15px md-mx-auto" style="margin: 10px;border-radius:10px;">Database<i class="line-icon-Arrow-Forward2 align-middle icon-small text-base-color"></i></a>
+                        <a href="#" class="btn btn-large btn-gradient-sky-blue-pink d-table d-lg-inline-block xl-mb-15px md-mx-auto" style="margin: 10px;border-radius:10px;">Careers<i class="line-icon-Arrow-Forward2 align-middle icon-small text-base-color"></i></a>
+                        <a href="#" class="btn btn-large btn-gradient-sky-blue-pink d-table d-lg-inline-block xl-mb-15px md-mx-auto" style="margin: 10px;border-radius:10px;">Team<i class="line-icon-Arrow-Forward2 align-middle icon-small text-base-color"></i></a>
+                        <a href="#" class="btn btn-large btn-gradient-sky-blue-pink d-table d-lg-inline-block xl-mb-15px md-mx-auto" style="margin: 10px;border-radius:10px;">Border dark gray<i class="line-icon-Arrow-Forward2 align-middle icon-small text-base-color"></i></a>
+                        <a href="#" class="btn btn-large btn-gradient-sky-blue-pink d-table d-lg-inline-block xl-mb-15px md-mx-auto" style="margin: 10px;border-radius:10px;">Border dark gray<i class="line-icon-Arrow-Forward2 align-middle icon-small text-base-color"></i></a>
 
                         </div>
                     </div>
-                    <!-- <div class="col-xl-6 col-lg-8 col-md-10 position-relative z-index-1" data-anime='{ "el": "childs", "translateY": [0, 0], "perspective": [1200,1200], "scale": [1.05, 1], "rotateX": [30, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>   
-                        <div><p class="fw-700 fs-18 w-85 sm-w-95 text-white opacity-10">We're a fully dedicated corporate service agency collaborating with brands all over the world.We're a fully dedicated corporate service agency collaborating with brands all over the world.We're a fully dedicated corporate service agency collaborating with brands all over the world.We're a fully dedicated corporate service agency collaborating with brands all over the world.</p></div>
-                        <div><p class="fw-700 fs-18 w-85 sm-w-95 text-white opacity-10">We're a fully dedicated corporate service agency collaborating with brands all over the world.We're a fully dedicated corporate service agency collaborating with brands all over the world.We're a fully dedicated corporate service agency collaborating with brands all over the world.We're a fully dedicated corporate service agency collaborating with brands all over the world.</p></div>
-                        <div><p class="fw-700 fs-18 w-85 sm-w-95 text-white opacity-10">We're a fully dedicated corporate service agency collaborating with brands all over the world.We're a fully dedicated corporate service agency collaborating with brands all over the world.We're a fully dedicated corporate service agency collaborating with brands all over the world.We're a fully dedicated corporate service agency collaborating with brands all over the world.</p></div>
-                    </div> -->
                 </div> 
             </div>
             
@@ -181,39 +165,6 @@
                     <!-- end features box item --> 
                 </div>
                 
-                <div class="row mb-10 align-items-center">
-                    <div class="col-lg-5 position-relative md-mb-20">
-                        <div class="w-70 xs-w-80" data-animation-delay="50" data-shadow-animation="true">
-                            <img src="https://via.placeholder.com/640x784" alt="" class="border-radius-8px w-100">
-                        </div>
-                        <div class="w-60 overflow-hidden position-absolute right-minus-15px xs-right-15px xs-w-60 bottom-minus-50px" data-shadow-animation="true" data-animation-delay="250" data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)">
-                            <img src="https://via.placeholder.com/640x784" alt="" class="border-radius-8px w-100 box-shadow-quadruple-large" />
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-6 offset-lg-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <span class="ps-25px pe-25px mb-20px text-uppercase text-base-color fs-12 lh-40 fw-700 border-radius-100px bg-gradient-very-light-gray-transparent d-inline-flex"><i class="bi bi-award fs-16 me-5px"></i>Creative approach</span>
-                        <h3 class="text-dark-gray fs-50 fw-700 ls-minus-2px">Powerful agency for corporate business.</h3>
-                        <p class="mb-40px sm-mb-25px">We strive to develop real-world web solutions that are ideal for small to large projects with bespoke project requirements. We create compelling web designs, which are the right-fit for your target groups and also deliver optimized.</p>
-                        <div class="progress-bar-style-02">
-                            <!-- start progress bar item -->
-                            <div class="progress mb-15px border-radius-50px fw-700 fs-11 lh-11 text-white bg-white">
-                                <div class="progress-bar bg-gradient-flamingo-red-transparent m-0" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" aria-label="business">
-                                    <span class="progress-bar-percent text-flamingo">98%</span>
-                                </div>
-                                <div class="progress-bar-title text-uppercase">business growth</div>
-                            </div>
-                            <!-- end progress bar item -->
-                            <!-- start progress bar item -->
-                            <div class="progress border-radius-50px fw-700 fs-11 lh-11 text-white bg-white">
-                                <div class="progress-bar bg-gradient-base-color-transparent m-0" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="technology">
-                                    <span class="progress-bar-percent text-base-color">85%</span>
-                                </div>
-                                <div class="progress-bar-title text-uppercase">new technology</div>
-                            </div>
-                            <!-- end progress bar item -->
-                        </div>
-                    </div>
-                </div>
                 <div class="row row-cols-1 row-cols-lg-5 row-cols-md-3 row-cols-sm-2 clients-style-06 justify-content-center ps-3 pe-3 xs-mt-40px" data-anime='{ "el": "childs", "scale": [0.8,1], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                     <!-- start client item -->
                     <div class="col client-box text-center md-mb-40px">

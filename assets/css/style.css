@@ -10752,7 +10752,7 @@ blockquote footer {
 }
 [class*=btn-gradient-]:hover {
   background-position: right center;
-  color: var(--white);
+  color: var(--black);
 }
 .btn-gradient-purple-pink {
   background-image: linear-gradient(to right, #8b14b1, #d53d6e, #8b14b1);
@@ -10780,9 +10780,9 @@ blockquote footer {
   color: var(--white);
 }
 .btn-gradient-sky-blue-pink {
-  background-image: linear-gradient(to right, #5758df, #f77991, #5758df);
+  background-image: linear-gradient(to right, #f5f5f5, #938a8a, #c8d1cf);
   background-size: 200% auto;
-  color: var(--white);
+  color: #000000;
 }
 .btn-dual .btn {
   margin-left: 10px;
