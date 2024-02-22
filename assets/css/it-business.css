@@ -5,8 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
 /* variable */
 :root {     
-    --base-color: #275a49; 
-    --dark-gray:#275a49;
+    --base-color: #074eb9; 
+    --dark-gray:#000000;
     --black:#05060a;
     --medium-gray:#7d8087;
     --very-light-gray: #f0f2f8;

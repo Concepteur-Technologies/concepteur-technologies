@@ -72,12 +72,12 @@
         </header>
         <!-- end header -->  
         <!-- start hero section -->
-        <section class="cover-background bg-dark-gray ipad-top-space-margin position-relative section-dark md-h-auto" style="background-image: url('<?php echo get_template_directory_uri().'/assets/images/banner.jpg';?>')" sty>
+        <section class="cover-background bg-black ipad-top-space-margin position-relative section-dark md-h-auto">
         <div class="background-position-center-top h-100 w-100 position-absolute left-0px top-0" style="background-image: url('<?php echo get_template_directory_uri().'/assets/images/vertical-line-bg-small.svg';?>')"></div>
             <div id="particles-style-01" class="h-100 position-absolute left-0px top-0 w-100" data-particle="true" data-particle-options='{"particles": {"number": {"value": 22,"density": {"enable": true,"value_area": 2000}},"color": {"value": ["#d5d52b", "#d5d52b", "#d5d52b", "#d5d52b", "#d5d52b"]},"shape": {"type": "circle","stroke":{"width":0,"color":"#000000"}},"opacity": {"value": 1,"random": false,"anim": {"enable": false,"speed": 1,"sync": false}},"size": {"value": 8,"random": true,"anim": {"enable": false,"sync": true}},"line_linked":{"enable":false,"distance":0,"color":"#ffffff","opacity":1,"width":1},"move": {"enable": true,"speed":1,"direction": "right","random": false,"straight": false}},"interactivity": {"detect_on": "canvas","events": {"onhover": {"enable": false,"mode": "repulse"},"onclick": {"enable": false,"mode": "push"},"resize": true}},"retina_detect": false}'></div> 
             <div id="particles-style-01" class="h-100 position-absolute left-0px top-0 w-100" data-particle="true" data-particle-options='{"particles": {"number": {"value": 122,"density": {"enable": true,"value_area": 2000}},"color": {"value": ["#9bb907", "#9bb907", "#9bb907", "#9bb907"]},"shape": {"type": "edge","stroke":{"width":0,"color":"#000000"}},"opacity": {"value": 0.8,"random": false,"anim": {"enable": false,"speed": 1,"sync": false}},"size": {"value": 5,"random": true,"anim": {"enable": false,"sync": true}},"line_linked":{"enable":false,"distance":0,"color":"#ffffff","opacity":0.4,"width":1},"move": {"enable": true,"speed":1,"direction": "right","random": false,"straight": false}},"interactivity": {"detect_on": "canvas","events": {"onhover": {"enable": false,"mode": "repulse"},"onclick": {"enable": false,"mode": "push"},"resize": true}},"retina_detect": false}'></div>
             <div class="opacity-very-light bg-black"></div>
-            <div class="looping-wrapper"></div>
+            <!-- <div class="looping-wrapper"></div> -->
             <div class="shape-image-animation bottom-0 p-0 w-100 d-none d-md-block"> 
             
             </div> 
@@ -89,7 +89,7 @@
                         <div><p class="fw-700 fs-18 w-85 sm-w-95 text-white opacity-10">We're a fully dedicated corporate service agency collaborating with brands all over the world.</p></div>
                         <a href="demo-it-business-contact.html" class="btn btn-extra-large btn-switch-text btn-transparent-white-light btn-rounded border-1 ls-0px mt-15px">
                             <span>
-                                <span class="btn-double-text" data-text="Contact us">Contact us</span>
+                                <span class="btn-double-text" data-text="Contact us">Contact Us </span>
                                 <span><i class="fa-regular fa-envelope"></i></span>
                             </span>
                         </a>
@@ -97,19 +97,20 @@
                     <div class="col-xl-6 col-lg-8 z-index-1">  
                         <div class="fs-90 sm-fs-80 xs-fs-70 fw-600 mb-20px ls-minus-4px overflow-hidden">
                             <div class="d-inline-block text-white" data-anime='{ "translateY": [100, 0], "easing": "easeOutCubic", "duration": 900 }'>
-                                Power up web with
-                                <div class="highlight-separator" data-shadow-animation="true" data-animation-delay="1500">
-                                    hosting<span><img src="images/highlight-separator.svg" alt=""></span>
+                                Unleash the Power of 
+                                <div class="highlight-separator" data-shadow-animation="true" data-animation-delay="1500" style="font-size: 44px;">
+                                Imagination
                                 </div>
+                                <div class="divider-style-03 divider-style-03-03 border-color-white mb-20px mt-20px w-100"></div>
                             </div>
                         </div>
                         <div class="fs-19 fw-300 mb-30px w-80 sm-w-100 d-block mx-auto mx-lg-0 overflow-hidden w-100">
-                        <a href="#" class="btn btn-large btn-gradient-sky-blue-pink d-table d-lg-inline-block xl-mb-15px md-mx-auto" style="margin: 10px;border-radius:10px;">Web Service<i class="line-icon-Arrow-Forward2 align-middle icon-small text-base-color"></i></a>
-                        <a href="#" class="btn btn-large btn-gradient-sky-blue-pink d-table d-lg-inline-block xl-mb-15px md-mx-auto" style="margin: 10px;border-radius:10px;">Database<i class="line-icon-Arrow-Forward2 align-middle icon-small text-base-color"></i></a>
-                        <a href="#" class="btn btn-large btn-gradient-sky-blue-pink d-table d-lg-inline-block xl-mb-15px md-mx-auto" style="margin: 10px;border-radius:10px;">Careers<i class="line-icon-Arrow-Forward2 align-middle icon-small text-base-color"></i></a>
-                        <a href="#" class="btn btn-large btn-gradient-sky-blue-pink d-table d-lg-inline-block xl-mb-15px md-mx-auto" style="margin: 10px;border-radius:10px;">Team<i class="line-icon-Arrow-Forward2 align-middle icon-small text-base-color"></i></a>
-                        <a href="#" class="btn btn-large btn-gradient-sky-blue-pink d-table d-lg-inline-block xl-mb-15px md-mx-auto" style="margin: 10px;border-radius:10px;">Border dark gray<i class="line-icon-Arrow-Forward2 align-middle icon-small text-base-color"></i></a>
-                        <a href="#" class="btn btn-large btn-gradient-sky-blue-pink d-table d-lg-inline-block xl-mb-15px md-mx-auto" style="margin: 10px;border-radius:10px;">Border dark gray<i class="line-icon-Arrow-Forward2 align-middle icon-small text-base-color"></i></a>
+                        <a href="#" class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto" style="margin: 10px">Border dark gray<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
+                        <a href="#" class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto" style="margin: 10px">Border dark gray<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
+                        <a href="#" class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto" style="margin: 10px">Border dark gray<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
+                        <a href="#" class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto" style="margin: 10px">Border dark gray<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
+                        <a href="#" class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto" style="margin: 10px">Border dark gray<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
+                        <a href="#" class="btn btn-extra-large fw-600 btn-rounded with-rounded btn-white btn-box-shadow d-table d-lg-inline-block lg-mb-15px md-mx-auto" style="margin: 10px">Border dark gray<span class="bg-dark-gray text-white"><i class="fa-solid fa-arrow-right"></i></span></a>
 
                         </div>
                     </div>
@@ -192,6 +193,74 @@
                     </div> 
                     <!-- end client item -->
                 </div> 
+            </div>
+        </section>
+
+        <section class="big-section border-top border-color-extra-medium-gray">
+            <div class="container">
+                <div class="row justify-content-center mb-3">
+                    <div class="col-12 col-lg-10 text-center">
+                        <h2 class="fs-70 text-dark-gray fw-700 ls-minus-2px">
+                            Creative <span class="text-jade">solutions</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-xl-3 row-cols-lg-2 row-cols-md-2 justify-content-center">
+                    <!-- start features box item -->
+                    <div class="col icon-with-text-style-08 lg-mb-50px sm-mb-40px">
+                        <div class="feature-box feature-box-left-icon-middle">
+                            <div class="feature-box-icon hover-box dark-hover feature-box-icon-rounded w-100px h-100px rounded-circle bg-jade">
+                                <i class="line-icon-Medal-2 icon-large text-white"></i>
+                                <div class="feature-box-icon-hover bg-dark-gray rounded-circle"></div>
+                            </div>
+                            <div class="feature-box-content last-paragraph-no-margin">
+                                <span class="d-inline-block fs-18 fw-600 text-dark-gray mb-5px">Effective strategy</span>
+                                <p>Lorem ipsum is simply dummy text the printing typesetting.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end features box item -->
+                    <!-- start features box item -->
+                    <div class="col icon-with-text-style-08 lg-mb-50px sm-mb-40px">
+                        <div class="feature-box feature-box-left-icon-middle overflow-hidden">
+                            <div class="feature-box-icon hover-box dark-hover feature-box-icon-rounded w-100px h-100px rounded-circle bg-jade">
+                                <i class="line-icon-Idea-5 icon-large text-white"></i>
+                                <div class="feature-box-icon-hover bg-dark-gray rounded-circle"></div>
+                            </div>
+                            <div class="feature-box-content last-paragraph-no-margin">
+                                <span class="d-inline-block fs-18 fw-600 text-dark-gray mb-5px">Inventive solutions</span>
+                                <p>Lorem ipsum is simply dummy text the printing typesetting.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end features box item -->
+                    <!-- start features box item -->
+                    <div class="col icon-with-text-style-08">
+                        <div class="feature-box feature-box-left-icon-middle overflow-hidden">
+                            <div class="feature-box-icon hover-box dark-hover feature-box-icon-rounded w-100px h-100px rounded-circle bg-jade">
+                                <i class="line-icon-Knight icon-large text-white"></i>
+                                <div class="feature-box-icon-hover bg-dark-gray rounded-circle"></div>
+                            </div>
+                            <div class="feature-box-content last-paragraph-no-margin">
+                                <span class="d-inline-block fs-18 fw-600 text-dark-gray mb-5px">Market analysis</span>
+                                <p>Lorem ipsum is simply dummy text the printing typesetting.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end features box item -->
+                </div>
+                <div class="row justify-content-center mt-5">
+                    <div class="col-auto text-center last-paragraph-no-margin">
+                        <div class="feature-box feature-box-left-icon-middle overflow-hidden">
+                            <div class="feature-box-icon me-10px">
+                                <i class="bi bi-chat-text icon-extra-medium text-dark-gray"></i>
+                            </div>
+                            <div class="feature-box-content fs-18 text-dark-gray fw-600">
+                                Let's make something great work together. <a href="#" class="text-dark-gray text-dark-gray-hover text-decoration-line-bottom-medium border-1">Got a project in mind?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- end section --> 
