@@ -19232,3 +19232,24 @@ footer .footer-navbar .nav-item:last-child a {
 .footer-demo img {
   max-height: 55px !important;
 }
+
+.main-bnr-image {
+  /* Commented out the background-color property */
+  /* background-color: var(--black); */
+
+  /* Set background image dynamically using PHP */
+  background-image: url('../../assets/images/demo-it-business-banner-bg.jpg');
+
+  /* Adjust background image properties as needed */
+  background-size: cover; /* or contain */
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.main-btm-color{
+  background-color: #7CFC00	;
+}
+
+.bg-hilight-color {
+  background-color: #7CFC00	;
+}
