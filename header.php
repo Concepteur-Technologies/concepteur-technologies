@@ -41,7 +41,7 @@
                         <ul class="navbar-nav">
                             <li class="nav-item"><a href="<?php echo home_url() . '/home-page' ?>" class="nav-link">Home</a></li>
                             <li class="nav-item dropdown dropdown-with-icon-style02">
-                                <a href="#" class="nav-link"> Services</a>
+                                <a href="#" class="nav-link">Our services</a>
                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <li><a href="<?php echo home_url() . '/services' ?>"><i class="bi bi-briefcase"></i>WEB Development</a></li>
