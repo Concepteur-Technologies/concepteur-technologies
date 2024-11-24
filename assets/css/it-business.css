@@ -10,7 +10,8 @@
     --black:#05060a;
     --medium-gray:#7d8087;
     --very-light-gray: #f0f2f8;
-    --primary-font: 'Plus Jakarta Sans', sans-serif;
+    --alt-font: 'Kanit', sans-serif;
+  --primary-font: 'Kanit', sans-serif;
 }
 /* reset */
 body{

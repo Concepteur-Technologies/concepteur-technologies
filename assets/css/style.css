@@ -35,11 +35,10 @@ Table of contents
 /* ===================================
     01. Google font
 ====================================== */
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+
 :root {
-  --alt-font: "Plus Jakarta Sans", sans-serif;
-  --primary-font: "Inter", sans-serif;
+  --alt-font: 'Kanit', sans-serif;
+  --primary-font: 'Kanit', sans-serif;
 }
 
 /* ===================================
@@ -588,7 +587,8 @@ b, strong {
   color: var(--base-color);
 }
 .text-black, .btn-link.text-black, a.text-black-hover:hover {
-  color: var(--black);
+  color: #212529 !important;
+  cursor: alias;
 }
 .text-dark-gray, .btn-link.text-dark-gray, a.text-dark-gray-hover:hover {
   color: var(--dark-gray);
@@ -6623,9 +6623,7 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
 .fw-800 {
   font-weight: 800 !important;
 }
-.fw-900 {
-  font-weight: 900 !important;
-}
+
 /* Min height */
 .min-h-100px {
   min-height: 100px !important;
@@ -7111,12 +7109,11 @@ header.sticky .navbar.disable-fixed {
   line-height: 20px;
   padding: 10px 20px;
   position: relative;
-  font-weight: 500;
   opacity: 1;
   word-break: normal;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  color: var(--white);
+  color: var(--black);
 }
 .navbar .navbar-nav .nav-link .label {
   display: inline-block;
@@ -7154,7 +7151,6 @@ header.sticky .navbar.disable-fixed {
   color: var(--medium-gray);
   font-size: 15px;
   line-height: 24px;
-  font-weight: 400;
   padding-bottom: 10px;
   display: block;
 }
@@ -7176,7 +7172,6 @@ header.sticky .navbar.disable-fixed {
   margin-left: 8px;
   margin-top: 0px;
   vertical-align: middle;
-  font-weight: 700;
   text-transform: uppercase;
   white-space: nowrap;
 }
@@ -7200,7 +7195,6 @@ header.sticky .navbar.disable-fixed {
 .navbar .navbar-nav .submenu-content ul .sub-title {
   color: var(--dark-gray);
   font-size: 16px;
-  font-weight: 600;
   margin-bottom: 10px;
 }
 .navbar .navbar-nav .submenu-content ul:last-child:before {
@@ -7298,7 +7292,6 @@ header.sticky .navbar.disable-fixed {
   padding: 15px 30px 15px 0;
   font-size: 16px;
   line-height: 28px;
-  font-weight: 500;
   width: 100%;
   position: relative;
   display: -webkit-box;
@@ -7315,7 +7308,6 @@ header.sticky .navbar.disable-fixed {
 }
 .navbar .navbar-nav .dropdown.dropdown-with-icon .dropdown-menu li a span {
   color: var(--dark-gray);
-  font-weight: 600;
 }
 .navbar .navbar-nav .dropdown.dropdown-with-icon .dropdown-menu li a p {
   margin: 0;
@@ -7331,7 +7323,6 @@ header.sticky .navbar.disable-fixed {
   content: "\f135";
   color: var(--black);
   font-family: bootstrap-icons;
-  font-weight: 400;
   font-size: 23px;
   position: absolute;
   right: 6px;
@@ -7773,7 +7764,6 @@ header.sticky .navbar.disable-fixed {
   position: absolute;
   right: 15px;
   top: 15px;
-  font-weight: 400;
   color: var(--dark-gray);
 }
 .header-cart-icon .header-cart .cart-item-list .cart-item .product-image {
@@ -7831,7 +7821,6 @@ header.sticky .navbar.disable-fixed {
   right: -11px;
   width: 17px;
   height: 17px;
-  font-weight: 600;
   text-align: center;
   font-size: 10px;
   line-height: 18px;
@@ -8306,7 +8295,6 @@ header.sticky .left-sidebar-nav .navbar-nav .nav-link {
   margin-left: 8px;
   margin-top: 0px;
   vertical-align: middle;
-  font-weight: 700;
   text-transform: uppercase;
   white-space: nowrap;
 }
@@ -8922,7 +8910,6 @@ header.sticky .left-sidebar-nav .navbar-nav .nav-link {
   z-index: 1046;
   box-shadow: none;
   font-size: 40px;
-  font-weight: 300;
   width: 44px;
   height: 44px;
   line-height: 44px;
@@ -10753,7 +10740,7 @@ blockquote footer {
 }
 [class*=btn-gradient-]:hover {
   background-position: right center;
-  color: var(--black);
+  color: var(--white);
 }
 .btn-gradient-purple-pink {
   background-image: linear-gradient(to right, #8b14b1, #d53d6e, #8b14b1);
@@ -10784,6 +10771,10 @@ blockquote footer {
   background-image: linear-gradient(to right, #f5f5f5, #938a8a, #c8d1cf);
   background-size: 200% auto;
   color: #000000;
+}
+
+.color-custom {
+  color: #212529;
 }
 .btn-dual .btn {
   margin-left: 10px;
@@ -19239,7 +19230,7 @@ footer .footer-navbar .nav-item:last-child a {
   /* background-color: var(--black); */
 
   /* Set background image dynamically using PHP */
-  background-image: url('../../assets/images/demo-it-business-banner-bg.jpg');
+  background-image: url('../../assets/images/backround.jpg');
 
   /* Adjust background image properties as needed */
   background-size: cover; /* or contain */
@@ -19252,7 +19243,7 @@ footer .footer-navbar .nav-item:last-child a {
 }
 
 .bg-hilight-color {
-  background-color: #05ffd1	;
+  background-color: #c9f31d	;
 }
 
 .dev-sec-image{
@@ -19462,4 +19453,188 @@ font-size:186px;
 
 .w-120{
   width: 120% !important;
+}
+
+.floating-icons-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none; /* Prevent icons from interfering with other elements */
+}
+
+/* Styling for each icon */
+.floating-icons-container i {
+  position: absolute;
+  font-size: 40px; /* Adjust the size of icons */
+  animation: float 15s infinite ease-in-out; /* Default slower animation */
+}
+
+/* Floating animation using CSS keyframes */
+@keyframes float {
+  0% {
+      transform: translateX(0) translateY(0);
+  }
+  25% {
+      transform: translateX(100px) translateY(-50px);
+  }
+  50% {
+      transform: translateX(-100px) translateY(50px);
+  }
+  75% {
+      transform: translateX(50px) translateY(100px);
+  }
+  100% {
+      transform: translateX(0) translateY(0);
+  }
+}
+
+/* Add random positions and animation durations for each icon */
+.floating-icons-container i:nth-child(1) {
+  top: 10%;
+  left: 15%;
+  animation-duration: 18s;
+  animation-delay: 0s;
+}
+
+.floating-icons-container i:nth-child(2) {
+  top: 30%;
+  left: 35%;
+  animation-duration: 20s;
+  animation-delay: 2s;
+}
+
+.floating-icons-container i:nth-child(3) {
+  top: 60%;
+  left: 50%;
+  animation-duration: 16s;
+  animation-delay: 1s;
+}
+
+.floating-icons-container i:nth-child(4) {
+  top: 80%;
+  left: 70%;
+  animation-duration: 19s;
+  animation-delay: 0.5s;
+}
+
+.floating-icons-container i:nth-child(5) {
+  top: 20%;
+  left: 80%;
+  animation-duration: 21s;
+  animation-delay: 3s;
+}
+
+.floating-icons-container i:nth-child(6) {
+  top: 50%;
+  left: 90%;
+  animation-duration: 15s;
+  animation-delay: 2.5s;
+}
+
+.floating-icons-container i:nth-child(7) {
+  top: 40%;
+  left: 10%;
+  animation-duration: 17s;
+  animation-delay: 1.2s;
+}
+
+.floating-icons-container i:nth-child(8) {
+  top: 60%;
+  left: 40%;
+  animation-duration: 18s;
+  animation-delay: 4s;
+}
+
+.floating-icons-container i:nth-child(9) {
+  top: 70%;
+  left: 30%;
+  animation-duration: 16s;
+  animation-delay: 0s;
+}
+
+.floating-icons-container i:nth-child(10) {
+  top: 15%;
+  left: 50%;
+  animation-duration: 22s;
+  animation-delay: 5s;
+}
+
+.floating-icons-container i:nth-child(11) {
+  top: 25%;
+  left: 10%;
+  animation-duration: 14s;
+  animation-delay: 1.5s;
+}
+
+.floating-icons-container i:nth-child(12) {
+  top: 45%;
+  left: 70%;
+  animation-duration: 17s;
+  animation-delay: 2.2s;
+}
+
+.floating-icons-container i:nth-child(13) {
+  top: 55%;
+  left: 85%;
+  animation-duration: 19s;
+  animation-delay: 0.8s;
+}
+
+.floating-icons-container i:nth-child(14) {
+  top: 30%;
+  left: 60%;
+  animation-duration: 20s;
+  animation-delay: 1s;
+}
+
+.floating-icons-container i:nth-child(15) {
+  top: 75%;
+  left: 90%;
+  animation-duration: 23s;
+  animation-delay: 3.5s;
+}
+
+.floating-icons-container i:nth-child(16) {
+  top: 10%;
+  left: 80%;
+  animation-duration: 18s;
+  animation-delay: 1s;
+}
+
+.floating-icons-container i:nth-child(17) {
+  top: 60%;
+  left: 20%;
+  animation-duration: 21s;
+  animation-delay: 4s;
+}
+
+.floating-icons-container i:nth-child(18) {
+  top: 35%;
+  left: 45%;
+  animation-duration: 16s;
+  animation-delay: 2.5s;
+}
+
+.floating-icons-container i:nth-child(19) {
+  top: 50%;
+  left: 50%;
+  animation-duration: 18s;
+  animation-delay: 3s;
+}
+
+.floating-icons-container i:nth-child(20) {
+  top: 80%;
+  left: 20%;
+  animation-duration: 14s;
+  animation-delay: 2.7s;
+}
+
+.floating-icons-container i:nth-child(21) {
+  top: 25%;
+  left: 40%;
+  animation-duration: 17s;
+  animation-delay: 3s;
 }

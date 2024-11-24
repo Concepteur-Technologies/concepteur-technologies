@@ -17,35 +17,19 @@ add_action('wp_enqueue_scripts', 'enqueue_custom_styles');
 
 function enqueue_custom_scripts()
 {
-    // Enqueue jQuery (if not already enqueued by WordPress)
     wp_enqueue_script('jquery');
 }
 add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
 
 function theme_enqueue_scripts()
 {
-    // Ensure jQuery is loaded
     wp_enqueue_script('jquery');
-
-    // Other theme-specific scripts
-    // wp_enqueue_script('your-theme-script', get_template_directory_uri() . '/js/your-theme-script.js', array('jquery'), null, true);
 }
 add_action('wp_enqueue_scripts', 'theme_enqueue_scripts');
 
-// function enqueue_ninja_forms_scripts() {
-//     if (class_exists('Ninja_Forms')) {
-//         add_action('ninja_forms_display_init', function () {
-//             wp_enqueue_script('ninja-forms');
-//         });
-//     } else {
-//         error_log('Ninja Forms class does not exist.');
-//     }
-// }
-// add_action('wp_enqueue_scripts', 'enqueue_ninja_forms_scripts');
 
 function enqueue_ninja_forms_scripts()
 {
-    // Enqueue Ninja Forms scripts
     wp_enqueue_script('ninja-forms', plugins_url('/assets/js/min/ninja-forms-display.min.js', 'ninja-forms/ninja-forms.php'), array('jquery'), null, true);
 }
 add_action('wp_enqueue_scripts', 'enqueue_ninja_forms_scripts');
@@ -54,7 +38,6 @@ add_action('wp_enqueue_scripts', 'enqueue_ninja_forms_scripts');
 add_action('wp_ajax_contact_form_submit', 'handle_contact_form_submission');
 add_action('wp_ajax_nopriv_contact_form_submit', 'handle_contact_form_submission');
 
-// New 25-09-2024
 function handle_contact_form_submission()
 {
 
@@ -188,16 +171,12 @@ function my_custom_menu()
 }
 add_action('init', 'my_custom_menu');
 
-// function register_custom_menu_page()
-// {
-//     add_menu_page('custom menu title', 'Project', 'add_users', 'custompage', '_custom_menu_page', null, 6);
-// }
-// add_action('admin_menu', 'register_custom_menu_page');
+function enqueue_kanit_font()
+{
+    wp_enqueue_style('kanit-google-font', 'https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap', array(), null);
+}
+add_action('wp_enqueue_scripts', 'enqueue_kanit_font');
 
-// function _custom_menu_page()
-// {
-//     echo "Admin Page Test";
-// }
 
 function create_case_studies_post_type()
 {
