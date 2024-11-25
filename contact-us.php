@@ -102,11 +102,11 @@ get_header('header.php');
             <div class="col-lg-12 col-md-12 col-sm-12 text-center elements-social social-icon-style-06">
                 <div class="fs-22 mb-30px text-dark-gray">Connect with <span class="fw-600">social media</span></div>
                 <ul class="extra-large-icon fw-600 appear anime-child anime-complete" data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateX&quot;: [10, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 300, &quot;delay&quot;: 100, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
-                    <li style=""><a class="facebook" href="https://www.facebook.com" target="_blank"><span class="brand-label text-dark-gray">Fb</span><span class="brand-icon fa-brands fa-facebook-f"></span></a></li>
-                    <li style=""><a class="dribbble" href="http://www.dribbble.com" target="_blank"><span class="brand-label text-dark-gray">Db</span><span class="brand-icon fa-brands fa-dribbble"></span></a></li>
-                    <li style=""><a class="twitter" href="http://www.twitter.com" target="_blank"><span class="brand-label text-dark-gray">Tw</span><span class="brand-icon fa-brands fa-twitter"></span></a></li>
-                    <li style=""><a class="behance" href="http://www.behance.com" target="_blank"><span class="brand-label text-dark-gray">Be</span><span class="brand-icon fa-brands fa-behance"></span></a></li>
-                    <li style=""><a class="pinterest" href="https://in.pinterest.com" target="_blank"><span class="brand-label text-dark-gray">Pt</span><span class="brand-icon fa-brands fa-pinterest-p"></span></a></li>
+                    <li><a class="facebook" href="https://www.facebook.com" target="_blank"><span class="brand-label text-dark-gray">Fb</span><span class="brand-icon fa-brands fa-facebook-f"></span></a></li>
+                    <li><a class="dribbble" href="http://www.dribbble.com" target="_blank"><span class="brand-label text-dark-gray">Db</span><span class="brand-icon fa-brands fa-dribbble"></span></a></li>
+                    <li><a class="twitter" href="http://www.twitter.com" target="_blank"><span class="brand-label text-dark-gray">Tw</span><span class="brand-icon fa-brands fa-twitter"></span></a></li>
+                    <li><a class="behance" href="http://www.behance.com" target="_blank"><span class="brand-label text-dark-gray">Be</span><span class="brand-icon fa-brands fa-behance"></span></a></li>
+                    <li><a class="pinterest" href="https://in.pinterest.com" target="_blank"><span class="brand-label text-dark-gray">Pt</span><span class="brand-icon fa-brands fa-pinterest-p"></span></a></li>
                 </ul>
             </div>
         </div>
