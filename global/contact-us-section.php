@@ -20,6 +20,44 @@
                                           <a href="https://maps.google.com/maps?ll=-37.805688,144.962312&amp;z=17&amp;t=m&amp;hl=en-US&amp;gl=IN&amp;mapclient=embed&amp;cid=13153204942596594449" target="_blank" class="text-dark-gray fw-600">View on google map</a>
                                     </div>
                               </div>
+                              <div class="row row-cols-1 row-cols-md-3 justify-content-center mt-20" data-anime='{ "el": "childs", "translateX": [-30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                                    <!-- start process step item -->
+                                    <div class="col text-center last-paragraph-no-margin hover-box process-step-style-01 sm-mb-40px">
+                                          <div class="process-step-icon-box position-relative mb-25px">
+                                                <span class="progress-step-separator bg-black w-60 separator-line-1px opacity-2"></span>
+                                                <div class="process-step-icon d-flex justify-content-center align-items-center mx-auto rounded-circle h-80px w-80px fs-20 bg-white box-shadow-large text-dark-gray fw-500">
+                                                      <span class="fw-600 number position-relative z-index-1">01</span>
+                                                      <div class="box-overlay bg-base-color rounded-circle"></div>
+                                                </div>
+                                          </div>
+                                          <span class="d-inline-block fs-17 fw-500 text-black mb-5px">Fill up your details</span>
+                                    </div>
+                                    <!-- end process step item -->
+                                    <!-- start process step item -->
+                                    <div class="col text-center last-paragraph-no-margin hover-box process-step-style-01 sm-mb-40px">
+                                          <div class="process-step-icon-box position-relative mb-25px">
+                                                <span class="progress-step-separator bg-black w-60 separator-line-1px opacity-2"></span>
+                                                <div class="process-step-icon d-flex justify-content-center align-items-center mx-auto rounded-circle h-80px w-80px fs-20 bg-white box-shadow-large text-dark-gray fw-500">
+                                                      <span class="fw-600 number position-relative z-index-1">02</span>
+                                                      <div class="box-overlay bg-base-color rounded-circle"></div>
+                                                </div>
+                                          </div>
+                                          <span class="d-inline-block fs-17 fw-500 text-black mb-5px">Choose date & time</span>
+                                    </div>
+                                    <!-- end process step item -->
+                                    <!-- start process step item -->
+                                    <div class="col text-center last-paragraph-no-margin hover-box process-step-style-01">
+                                          <div class="process-step-icon-box position-relative mb-25px">
+                                                <span class="progress-step-separator bg-black w-60 separator-line-1px opacity-2 d-md-none"></span>
+                                                <div class="process-step-icon d-flex justify-content-center align-items-center mx-auto rounded-circle h-80px w-80px fs-20 bg-white box-shadow-large text-dark-gray fw-500">
+                                                      <span class="fw-600 number position-relative z-index-1">03</span>
+                                                      <div class="box-overlay bg-base-color rounded-circle"></div>
+                                                </div>
+                                          </div>
+                                          <span class="d-inline-block fs-17 fw-500 text-black mb-5px">Submit your query</span>
+                                    </div>
+                                    <!-- end process step item -->
+                              </div>
                         </div>
                   </div>
                   <div class="col-lg-6 offset-xl-1 md-mb-50px sm-mb-0" data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
@@ -35,10 +73,30 @@
                                     <span class="form-icon"><i class="bi bi-envelope text-dark-gray"></i></span>
                                     <input class="fs-15 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required" id="exampleInputEmail2" type="email" name="email" placeholder="Enter your email address" required>
                               </div>
+                              <label for="appointment" class="form-label fs-13 text-uppercase text-dark-gray fw-700 mb-0">Choose Appointment Date and Time*</label>
+                              <div class="position-relative form-group mb-20px">
+                                    <span class="form-icon"><i class="bi bi-calendar text-dark-gray"></i></span>
+                                    <input class="fs-15 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required"
+                                          id="appointment"
+                                          type="text"
+                                          name="appointment"
+                                          placeholder="Select a date and time"
+                                          required>
+                              </div>
                               <label for="exampleInputEmail3" class="form-label fs-13 text-uppercase text-dark-gray fw-700 mb-0">Your message</label>
                               <div class="position-relative form-group form-textarea mb-0">
                                     <textarea class="fs-15 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control" id="exampleInputEmail3" name="comment" placeholder="Describe about your project" rows="3"></textarea>
                                     <span class="form-icon"><i class="bi bi-chat-square-dots text-dark-gray"></i></span>
+                              </div>
+                              <label for="fileUpload" class="form-label fs-13 text-uppercase text-dark-gray fw-700 mb-0">Upload Your File (Max: 10MB)</label>
+                              <div class="position-relative form-group mb-20px">
+                                    <span class="form-icon"><i class="bi bi-upload text-dark-gray"></i></span>
+                                    <input class="fs-15 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required"
+                                          id="fileUpload"
+                                          type="file"
+                                          name="uploadedFile"
+                                          accept=".pdf,.doc,.docx,.jpg,.png"
+                                          required>
                               </div>
                               <div class="row mt-25px align-items-center">
                                     <div class="col-xl-5 col-lg-12 col-sm-5 text-center text-sm-end text-lg-start xs-mt-25px">
@@ -62,3 +120,14 @@
             </svg>
       </div>
 </section>
+
+<script>
+      document.addEventListener('DOMContentLoaded', function() {
+            flatpickr("#appointment", {
+                  enableTime: true, // Enable time selection
+                  dateFormat: "Y-m-d h:i K", // Format with AM/PM
+                  minDate: "today", // Disable past dates
+                  time_24hr: false // Show time in AM/PM format
+            });
+      });
+</script>
