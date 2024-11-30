@@ -44,16 +44,13 @@
                                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink5" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink5">
                                                       <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/services' ?>"></i>About Us<i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            <a href="<?php echo home_url() . '/about-us' ?>"></i>About Us<i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                       <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>">Vision & Mission <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>">Why Choose Us <i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                       <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>">Our Team <i class="bi bi-arrow-up-right-square-fill"></i></a>
-                                                      </li>
-                                                      <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>">Testimonials <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>">Events & Activities<i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                 </ul>
                                           </li>

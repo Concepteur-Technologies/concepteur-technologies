@@ -19651,3 +19651,114 @@ font-size:186px;
   animation-duration: 17s;
   animation-delay: 3s;
 }
+
+.hero-area .section-content .content-last {
+    display: grid
+;
+    gap: 20px 40px;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-top: 44px;
+}
+.hero-area .section-content .section-subtitle {
+    font-size: 40px;
+    line-height: 1;
+    display: inline-block;
+    text-transform: uppercase;
+    color: var(--primary);
+}
+
+.awards-area .section-content {
+    margin-top: 27px;
+    margin-inline-start: 438px;
+}
+
+.awards-area .section-content .awards-list ul {
+    display: flex
+;
+    gap: 20px 40px;
+    max-width: 460px;
+    justify-content: space-between;
+}
+
+.awards-area .section-title-wrapper {
+    display: grid
+;
+    align-items: flex-end;
+    gap: 50px;
+    grid-template-columns: 390px 1fr;
+}
+
+.awards-area .about-thumbs {
+    display: flex
+;
+    gap: 20px 50px;
+    justify-content: flex-end;
+    margin-top: 63px;
+}
+
+.work-area .section-title-wrapper {
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--border);
+}
+
+.work-area .section-title {
+    text-transform: uppercase;
+    line-height: .83;
+    text-align: center;
+}
+
+/* Wrapper Perspective */
+.title-wrapper {
+    perspective: 1000px; /* Adds depth for 3D effects */
+}
+
+/* Initial Animation Styling */
+.animated-text {
+    display: inline-block;
+    transform: rotateY(90deg) translate3d(0, 0, -100px); /* Start tilted and back in 3D space */
+    opacity: 0;
+    animation: text3DEnter 1.5s ease-out forwards; /* Smooth animation */
+}
+
+/* 3D Animation Keyframes */
+@keyframes text3DEnter {
+    0% {
+        transform: rotateY(90deg) translate3d(0, 0, -100px); /* Starts off-screen with a 3D tilt */
+        opacity: 0;
+    }
+    50% {
+        transform: rotateY(-10deg) translate3d(0, 0, 50px); /* Midpoint, closer and slightly tilted */
+        opacity: 0.7;
+    }
+    100% {
+        transform: rotateY(0deg) translate3d(0, 0, 0); /* Flat, in position */
+        opacity: 1;
+    }
+}
+
+/* Optional Styling for Text */
+.animated-text {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* For added depth */
+}
+
+
+.team-details-area .section-content {
+    display: grid
+;
+    gap: 40px 60px;
+    grid-template-columns: auto 1fr;
+}
+
+.team-details-area .team-thumb {
+    display: inline-block;
+    position: relative;
+    padding-top: 60px;
+    padding-inline-start: 150px;
+    z-index: 1;
+    max-width: 605px;
+}
