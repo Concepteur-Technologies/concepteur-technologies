@@ -49,11 +49,9 @@ get_header();
             <div class="row align-items-center h-100">
                   <div class="col-xl-6 col-lg-8 col-md-10 position-relative z-index-1" data-anime='{ "el": "childs", "translateY": [0, 0], "perspective": [1200,1200], "scale": [1.05, 1], "rotateX": [30, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <h1 class="fs-90 lg-fs-80 md-fs-70 fw-600 text-black  shadow-nonex">Concepteur Technologies</h1>
-                        <span class="fs-40 lg-fs-80 md-fs-20 fw-600 text-black  shadow-none" data-shadow-animation="true" data-animation-delay="500">
-                              <div class="divider-style-03 divider-style-03-01 border-color-white mb-10px mt-20px w-100"></div>Your Partner for <span class="text-highlight">Custom<span class="bg-hilight-color h-20px bottom-10px separator-animation"></span></span> Software Development
-                        </span>
-                        <div>
-                              <p class="fs-18 w-85 sm-w-95 opacity-10" style="color: grey !important;">We transformed a client's project from concept to scale through full-stack development.We transformed a client's project from concept to scale through full-stack development.We transformed a client's project from concept to scale through full-stack development.We transformed a client's project from concept to scale through full-stack development.We transformed a client's project from concept to scale through full-stack development.</p>
+                        <div class="mt-5">
+                              <p class="fs-18 w-85 sm-w-95 opacity-10" style="color: grey !important;"><strong>Heritage Pool Supply Group's </strong>vision is to grow by forming a network of the best independent distributors to provide exceptional customer service while increasing our value as a trusted growth partner to top manufacturers in the industry. Our mission is to help our family of companies achieve new heights and provide opportunities for all employees to grow, thrive, and advance with the company for decades to come.</p>
+                              <p class="fs-18 w-85 sm-w-95 opacity-10" style="color: grey !important;">As a software partner, you play a crucial role in achieving this vision. By integrating with <strong>HIPS</strong>, you can streamline operations, enhance customer experiences, and drive growth for your clients.</p>
                         </div>
                         <a href="<?php echo home_url() . '/contact-us' ?>" class="btn btn-dark-gray btn-large btn-rounded d-table d-lg-inline-block lg-mb-15px md-mx-auto me-20px">
                               <span>
@@ -633,40 +631,6 @@ get_header();
                             M 0 250 C 1200 400 1200 50 3000 250 L 3000 550 L 0 550 L 0 250" repeatCount="indefinite" />
                   </path>
             </svg>
-      </div>
-</section>
-
-<section>
-      <div class="container">
-            <div class="row justify-content-center">
-                  <div class="col-lg-12 col-md-12 col-sm-12 text-center elements-social social-icon-style-10">
-                        <ul class="fs-20">
-                              <li class="me-30px"><a class="facebook" href="https://www.facebook.com/" target="_blank">
-                                          <i class="fa-brands fa-facebook-f me-10px"></i>
-                                          <span class="fw-500">Facebook</span>
-                                    </a>
-                              </li>
-                              <li class="me-30px">
-                                    <a class="twitter" href="https://www.twitter.com" target="_blank">
-                                          <i class="fa-brands fa-twitter me-10px"></i>
-                                          <span class="fw-500">Twitter</span>
-                                    </a>
-                              </li>
-                              <li class="me-30px">
-                                    <a class="dribbble" href="http://www.dribbble.com" target="_blank">
-                                          <i class="fa-brands fa-youtube me-10px"></i>
-                                          <span class="fw-500">Youtube</span>
-                                    </a>
-                              </li>
-                              <li>
-                                    <a class="instagram" href="https://www.instagram.com" target="_blank">
-                                          <i class="fa-brands fa-instagram me-10px"></i>
-                                          <span class="fw-500">Instagram</span>
-                                    </a>
-                              </li>
-                        </ul>
-                  </div>
-            </div>
       </div>
 </section>
 

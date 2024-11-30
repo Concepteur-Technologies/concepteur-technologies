@@ -4,9 +4,9 @@
                   <!-- start footer column -->
                   <div class="col-6 col-xl-3 col-lg-12 col-sm-6 last-paragraph-no-margin text-xl-start text-lg-center order-sm-1 lg-mb-50px sm-mb-30px">
                         <a href="demo-it-business.html" class="footer-logo mb-15px d-inline-block">
-                              <!-- <img src="images/demo-it-business-logo-black.png" data-at2x="images/demo-it-business-logo-black@2x.png" alt=""> -->
+                              <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" data-at2x="images/demo-it-business-logo-black@2x.png" alt="">
                         </a>
-                        <p class="lh-28 w-90 xl-w-100 mx-lg-auto mx-xl-0">Gearing your company through an innovative strategy.</p>
+                        <p class="lh-28 w-90 xl-w-100 mx-lg-auto mx-xl-0">Driving your business forward with cutting-edge technology solutions.</p>
                         <div class="elements-social social-icon-style-02 mt-15px">
                               <ul class="medium-icon dark">
                                     <li class="my-0"><a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -19,14 +19,14 @@
                   <!-- end footer column -->
                   <!-- start footer column -->
                   <div class="col-6 col-xl-2 col-lg-3 col-sm-4 xs-mb-30px order-sm-3 order-lg-2">
-                        <span class="fw-600 d-block text-dark-gray mb-5px">Company</span>
+                        <span class="fw-600 d-block text-dark-gray mb-5px">Who we are</span>
                         <ul>
-                              <li><a href="demo-it-business-about.html">Who we are</a></li>
-                              <li><a href="demo-it-business-services.html">Our services</a>
+                              <li><a href="demo-it-business-about.html">About Us</a></li>
+                              <li><a href="demo-it-business-services.html">Vision & Mission</a>
                                     <div class="bg-dark-gray fw-600 text-white lh-22 text-uppercase border-radius-30px ps-10px pe-10px fs-10 ms-10px d-inline-block align-middle">Hot</div>
                               </li>
-                              <li><a href="demo-it-business-case-studies.html">Our clients</a></li>
-                              <li><a href="demo-it-business-contact.html">Contact us</a></li>
+                              <li><a href="demo-it-business-case-studies.html">Our Team</a></li>
+                              <li><a href="demo-it-business-contact.html">Testimonials</a></li>
                         </ul>
                   </div>
                   <!-- end footer column -->
@@ -34,26 +34,27 @@
                   <div class="col-6 col-xl-2 col-lg-3 col-md-5 col-sm-4 xs-mb-30px order-sm-4 order-lg-3">
                         <span class="fw-600 d-block text-dark-gray mb-5px">Services</span>
                         <ul>
-                              <li><a href="#">Planning</a></li>
-                              <li><a href="#">Research</a></li>
-                              <li><a href="#">Consulting</a></li>
-                              <li><a href="#">Analysis</a></li>
+                              <li><a href="#">Software Development</a></li>
+                              <li><a href="#">Web Development</a></li>
+                              <li><a href="#">App Development</a></li>
+                              <li><a href="#">IT Consulting</a></li>
+                              <li><a href="#">Website Migration</a></li>
                         </ul>
                   </div>
                   <!-- end footer column -->
                   <!-- start footer column -->
                   <div class="col-6 col-xl-2 col-lg-3 col-md-3 col-sm-4 xs-mb-30px order-sm-5 order-lg-4">
                         <span class="fw-600 d-block text-dark-gray mb-5px">Need help?</span>
-                        <span>Call us directly?</span>
-                        <span class="d-block mb-10px"><a class="text-dark-gray fw-600" href="tel:1235678901">(123) 567 8901</a></span>
+                        <span>Email us directly?</span>
+                        <span class="d-block mb-10px"><a class="text-dark-gray fw-600" href="mailto:contact@conceptepteurit.com">Cick Here</a></span>
                         <span>Need support?</span>
-                        <a href="mailto:help@domain.com" class="text-dark-gray fw-600">help@domain.com</a>
+                        <a href="mailto:support@conceptepteurit.com" class="text-dark-gray fw-600">support@conceptepteurit.com</a>
                   </div>
                   <!-- end footer column -->
                   <!-- start footer column -->
                   <div class="col-xl-3 col-lg-3 col-sm-6 md-mb-50px sm-mb-30px xs-mb-0 order-sm-2 order-lg-5">
-                        <span class="fw-600 d-block text-dark-gray mb-5px">Subscribe newsletter</span>
-                        <p class="lh-28 w-95 mb-10px xs-mb-10px">Subscribe our newsletter to get the latest news and updates!</p>
+                        <span class="fw-600 d-block text-dark-gray mb-5px">Subscribe our newsletter</span>
+                        <p class="lh-28 w-95 mb-10px xs-mb-10px">Subscribe our newsletter to get the latest company news and updates!</p>
                         <div class="d-inline-block w-100 newsletter-style-04 position-relative">
                               <form action="email-templates/subscribe-newsletter.php" method="post" class="position-relative w-100">
                                     <input class="fs-15 bg-white w-100 border-0 border-bottom border-1 border-color-dark-gray form-control required" type="email" name="email" placeholder="Enter your email address" />
@@ -63,7 +64,7 @@
                               </form>
                         </div>
                   </div>
-                  <!-- end footer column -->
+
             </div>
             <div class="row justify-content-center align-items-center pt-7">
                   <!-- start divider -->
@@ -73,7 +74,7 @@
                   <!-- end divider -->
                   <!-- start copyright -->
                   <div class="col-lg-5 pt-20px pb-20px md-pt-0 order-2 order-lg-1 text-center text-lg-start last-paragraph-no-margin fs-14">
-                        <p>&copy; 2024 Crafto is Proudly Powered by <a href="https://www.themezaa.com/" target="_blank" class="text-dark-gray fw-600 text-decoration-line-bottom">ThemeZaa</a></p>
+                        <p>&copy; Concepteur IT Solutions Pvt Ltd, All Rights Reserved. CIN: coming soon</p>
                   </div>
                   <!-- end copyright -->
                   <!-- start footer menu -->
@@ -81,7 +82,7 @@
                         <ul class="footer-navbar sm-lh-normal">
                               <li><a href="#" class="nav-link">Privacy policy</a></li>
                               <li><a href="#" class="nav-link">Terms and conditions</a></li>
-                              <li><a href="#" class="nav-link">Copyright</a></li>
+                              <li><a href="#" class="nav-link">Cookies</a></li>
                         </ul>
                   </div>
                   <!-- end footer menu -->

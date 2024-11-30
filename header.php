@@ -13,7 +13,8 @@
       <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-      <!-- <link rel="icon" href="https://res.cloudinary.com/didxyeaj1/image/upload/v1732906026/Untitled_design__1_-removebg-preview_v2mm7h.png" type="image/x-icon" /> -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+      <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
       <link rel="icon" href="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" type="image/x-icon" />
       <?php wp_head(); ?>
 </head>
@@ -43,16 +44,13 @@
                                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink5" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink5">
                                                       <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/services' ?>"></i>Our Company <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            <a href="<?php echo home_url() . '/services' ?>"></i>About Us<i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                       <li class="dropdown">
                                                             <a href="<?php echo home_url() . '/mobile-app-development' ?>">Vision & Mission <i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                       <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>">Leadership Team <i class="bi bi-arrow-up-right-square-fill"></i></a>
-                                                      </li>
-                                                      <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>">Careers <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>">Our Team <i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                       <li class="dropdown">
                                                             <a href="<?php echo home_url() . '/mobile-app-development' ?>">Testimonials <i class="bi bi-arrow-up-right-square-fill"></i></a>
@@ -69,7 +67,7 @@
                                                                         <a href="<?php echo home_url() . '/mobile-app-development' ?>">Web Development <i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                                   </li>
                                                                   <li class="dropdown">
-                                                                        <a href="<?php echo home_url() . '/mobile-app-development' ?>">Mobile App Development <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                                        <a href="<?php echo home_url() . '/mobile-app-development' ?>">Mobile App Development<i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                                   </li>
                                                             </ul>
                                                       </li>
@@ -78,9 +76,6 @@
                                                       </li>
                                                       <li class="dropdown">
                                                             <a href="<?php echo home_url() . '/mobile-app-development' ?>">Cloud Solutions<i class="bi bi-arrow-up-right-square-fill"></i></a>
-                                                      </li>
-                                                      <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>">DevOps & Automation<i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                 </ul>
                                           </li>
