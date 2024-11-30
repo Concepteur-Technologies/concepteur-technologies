@@ -795,26 +795,6 @@
      ====================================== */
 
     // Image gallery isotope filter 
-    if (typeof imagesLoaded === 'function') {
-        $('.gallery-wrapper').each(function () {
-            var _this = $(this);
-            _this.imagesLoaded(function () {
-                _this.removeClass('grid-loading');
-                if (typeof $.fn.isotope === 'function') {
-                    _this.isotope({
-                        layoutMode: 'masonry',
-                        itemSelector: '.grid-item',
-                        percentPosition: true,
-                        stagger: 0,
-                        masonry: {
-                            columnWidth: '.grid-sizer',
-                        }
-                    });
-                }
-                isotopeObjs.push(_this);
-            });
-        });
-    }
 
     // Group gallery light box
     if (typeof $.fn.magnificPopup === 'function') {
@@ -2011,97 +1991,7 @@
             }
         });
     }
-
-    /* ===================================
-     Contact form validation
-     ====================================== */
-
-    // Contact form validation on submit
-    $(document).on('click', '.submit', function () {
-        var error = false,
-                _this = $(this),
-                formObj = _this.parents('form'),
-                emailFormat = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/,
-                urlformat = /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/,
-                telFormat = /[0-9 -()+]+$/,
-                actionURL = formObj.attr('action'),
-                resultsObj = formObj.find('.form-results'),
-                grecaptchav3= _this.attr( 'data-sitekey' ) || '',
-                redirectVal = formObj.find('[name="redirect"]').val();
-        formObj.find('.required').removeClass('is-invalid');
-        formObj.find('.required').each(function () {
-            var __this = $(this),
-                    fieldVal = __this.val();
-            if (fieldVal == '' || fieldVal == undefined) {
-                error = true;
-                __this.addClass('is-invalid');
-            } else if (__this.attr('type') == 'email' && !emailFormat.test(fieldVal)) {
-                error = true;
-                __this.addClass('is-invalid');
-            } else if (__this.attr('type') == 'url' && !urlformat.test(fieldVal)) {
-                error = true;
-                __this.addClass('is-invalid');
-            } else if (__this.attr('type') == 'tel' && !telFormat.test(fieldVal)) {
-                error = true;
-                __this.addClass('is-invalid');
-            }
-        });
-        var termsObj = formObj.find('.terms-condition');
-        if (termsObj.length) {
-            if (!termsObj.is(':checked')) {
-                error = true;
-                termsObj.addClass('is-invalid');
-            }
-        }
-
-        // Google reCaptcha verify
-        if ( typeof ( grecaptcha ) !== 'undefined' && grecaptcha !== null ) {
-            if (formObj.find('.g-recaptcha').length) {
-                var gResponse = grecaptcha.getResponse();
-                if (!(gResponse.length)) {
-                    error = true;
-                    formObj.find('.g-recaptcha').addClass('is-invalid');
-                }
-            } else if( grecaptchav3 != '' && grecaptchav3 != undefined ) { // For Version 3
-                grecaptcha.ready(function() {
-                  grecaptcha.execute(grecaptchav3, {action: 'submit'}).then(function(token) {
-                  });
-                });
-            }
-        }
-
-        if (!error && actionURL != '' && actionURL != undefined) {
-            _this.addClass('loading');
-            $.ajax({
-                type: 'POST',
-                url: actionURL,
-                data: formObj.serialize(),
-                success: function (result) {
-                    _this.removeClass('loading');
-                    if (redirectVal != '' && redirectVal != undefined) {
-                        window.location.href = redirectVal;
-                    } else {
-                        if (typeof (result) !== 'undefined' && result !== null) {
-                            result = $.parseJSON(result);
-                        }
-                        formObj.find('input[type=text],input[type=url],input[type=email],input[type=tel],input[type=password],textarea').each(function () {
-                            $(this).val('');
-                            $(this).removeClass('is-invalid');
-                        });
-                        formObj.find('.g-recaptcha').removeClass('is-invalid');
-                        formObj.find('input[type=checkbox],input[type=radio]').prop('checked', false);
-                        if (formObj.find('.g-recaptcha').length) {
-                            grecaptcha.reset();
-                        }
-                        resultsObj.removeClass('alert-success').removeClass('alert-danger').hide();
-                        resultsObj.addClass(result.alert).html(result.message);
-                        resultsObj.removeClass('d-none').fadeIn('slow').delay(4000).fadeOut('slow');
-                    }
-                }
-            });
-        }
-        return false;
-    });
+    
 
     // Contact form validation on blur
     $(document).on('blur', '.required', function () {
@@ -2224,7 +2114,7 @@
         }
 
         if ($(window).width() <= 1199) {
-            destroyAtropos();
+            // destroyAtropos();
             destroySkrollr();
         } else {
             if (typeof Atropos !== 'undefined' && typeof Atropos !== null) {
