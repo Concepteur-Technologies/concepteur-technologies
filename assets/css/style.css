@@ -7228,6 +7228,7 @@ header.sticky .navbar.disable-fixed {
 }
 .navbar .navbar-nav .simple-dropdown .dropdown-menu li a {
   padding-bottom: 12px;
+  padding-top: 5px;
 }
 .navbar .navbar-nav .simple-dropdown .dropdown-menu .dropdown {
   position: relative;
@@ -7271,7 +7272,7 @@ header.sticky .navbar.disable-fixed {
   font-size: 15px;
   line-height: 26px;
   border-bottom: 1px solid rgba(23, 23, 23, 0.1);
-  padding: 17px 12px;
+  padding: 9px 11px
 }
 .navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li a i {
   font-size: 19px;
@@ -19242,7 +19243,7 @@ footer .footer-navbar .nav-item:last-child a {
   /* background-color: var(--black); */
 
   /* Set background image dynamically using PHP */
-  background-image: url('../../assets/images/backround.jpg');
+  background-image: url('https://res.cloudinary.com/didxyeaj1/image/upload/v1732903139/backround_ydeoss.jpg');
 
   /* Adjust background image properties as needed */
   background-size: cover; /* or contain */
