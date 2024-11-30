@@ -2,6 +2,18 @@
 get_header();
 ?>
 
+<style>
+      .language-icon-section {
+            max-width: 1715px;
+            margin-left: auto;
+            margin-right: auto;
+      }
+
+      .space-between {
+            justify-content: center;
+      }
+</style>
+
 <!-- start hero section -->
 <section class="cover-background bg-transparent ipad-top-space-margin position-relative section-dark md-h-auto">
       <div class="opacity-very-light main-bnr-image"></div>
@@ -311,83 +323,85 @@ get_header();
                         <p class="w-75 sm-w-85 d-inline-block ">We’ll develop and deliver your project on time and to spec.</p>
                   </div>
             </div>
-
+      </div>
+      <div class="row justify-content-center language-icon-section">
             <div class="row justify-content-center">
-                  <div class="row justify-content-center">
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-1" style="display: flex; width: 100%;">
-                              <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%;">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a>
-                              <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-1" style="display: flex; width: 100%;">
-                              <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%;">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a>
-                              <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a>
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-1" style="display: flex; width: 100%;">
-                              <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%;">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a>
-                              <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1" style="padding:10px 20px 10px 20px;width:100%">
-                                    <i class="devicon-react-original colored me-2"></i> React
-                              </a>
-                        </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-1" style="display: flex; width: 100%;">
+
+
+                        <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;">
+                              <i class="devicon-go-original-wordmark colored"></i> Go (Golang)
+                        </a>
+                        <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-rust-original colored"></i> Rust
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-nextjs-original-wordmark colored"></i> Next.js
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-phalcon-plain colored"></i> Phalcon
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-dart-plain colored"></i> Dart
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-yii-plain colored"></i> Yii
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-java-plain colored"></i> Java
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-react-original"></i> Native
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-swift-plain colored"></i> Swift
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-tensorflow-line colored"></i> TensorFlow
+                        </a>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-1" style="display: flex; width: 100%;">
+                        <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;">
+                              <i class="devicon-python-plain colored"></i> Python
+                        </a>
+                        <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-php-plain colored"></i> PHP
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-angular-plain colored"></i> Angular
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-vuejs-plain colored"></i> Vue.js
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-react-original colored me-2"></i> ASP.NET
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-express-original colored"></i> Express.js
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-symfony-original colored"></i> Symfony
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-ruby-plain colored"></i> Ruby
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-perl-plain colored"></i> Perl
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-typescript-plain colored"></i> TypeScript
+                        </a>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-1" style="display: flex; width: 100%;">
+                        <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;">
+                              <i class="devicon-react-original colored me-2"></i> React
+                        </a>
+                        <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-laravel-original colored"></i> Laravel
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-codeigniter-plain colored"></i> CodeIgniter
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-django-plain colored"></i> Django
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-spring-original colored"></i> Spring
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-flask-original colored"></i> Flask
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-wordpress-plain colored"></i> WordPress
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-drupal-plain colored"></i> Drupal
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-magento-original colored"></i> Magento
+                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
+                              <i class="devicon-javascript-plain colored"></i> JavaScript
+                        </a>
                   </div>
             </div>
+      </div>
 </section>
 
 <section class="bg-gradient-very-light-gray big-section" style="padding-bottom: 40px">
