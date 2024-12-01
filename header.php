@@ -47,10 +47,13 @@
                                                             <a href="<?php echo home_url() . '/about-us' ?>"></i>About Us<i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                       <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>">Why Choose Us <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            <a href="<?php echo home_url() . '/coming-soon' ?>">Why Choose Us <i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                       <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>">Events & Activities<i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            <a href="<?php echo home_url() . '/coming-soon' ?>">Events & Activities<i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                      </li>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/coming-soon' ?>">Success Stories<i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                 </ul>
                                           </li>
@@ -58,21 +61,21 @@
                                                 <a href="javascript:void(0);" class="nav-link">Services</a>
                                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink5" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                                 <ul class="dropdown-menu" style="width: 274px;" aria-labelledby="navbarDropdownMenuLink5">
-                                                      <li class="dropdown"><a href="<?php echo home_url() . '/mobile-app-development' ?>">Software Development<i class="bi bi-chevron-right"></i></a></i>
+                                                      <li class="dropdown"><a href="javascript:void(0);">Software Development<i class="bi bi-chevron-right"></i></a></i>
                                                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink5">
                                                                   <li class="dropdown">
                                                                         <a href="<?php echo home_url() . '/mobile-app-development' ?>">Web Development <i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                                   </li>
                                                                   <li class="dropdown">
-                                                                        <a href="<?php echo home_url() . '/mobile-app-development' ?>">Mobile App Development<i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                                        <a href="<?php echo home_url() . '/web-app-development' ?>">Mobile App Development<i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                                   </li>
                                                             </ul>
                                                       </li>
                                                       <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>">IT Consulting<i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            <a href="<?php echo home_url() . '/coming-soon' ?>">IT Consulting<i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                       <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>">Cloud Solutions<i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            <a href="<?php echo home_url() . '/coming-soon' ?>">Cloud Solutions<i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                 </ul>
                                           </li>
@@ -95,35 +98,21 @@
                                                 </ul>
                                           </li>
                                           <li class="nav-item dropdown simple-dropdown">
-                                                <a href="javascript:void(0);" class="nav-link">Portfolio</a>
-                                                <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink5" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
-                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink5">
-                                                      <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>"> Case Studies <i class="bi bi-arrow-up-right-square-fill"></i></a>
-                                                      </li>
-                                                      <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>"> Our Clients<i class="bi bi-arrow-up-right-square-fill"></i></a>
-                                                      </li>
-                                                      <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>"> Success Stories<i class="bi bi-cake2"></i></a>
-
-                                                      </li>
-                                                </ul>
+                                                <a href="<?php echo home_url() . '/coming-soon' ?>" class="nav-link">Case Study</a>
                                           </li>
+                                          <!-- <li class="nav-item dropdown simple-dropdown">
+                                                <a href="</?php echo home_url() . '/all-blogs' ?>;" class="nav-link">Blogs</a>
+                                          </li> -->
                                           <li class="nav-item dropdown simple-dropdown">
-                                                <a href="javascript:void(0);" class="nav-link">Blogs</a>
+                                                <a href="<?php echo home_url() . '/coming-soon' ?>" class="nav-link">Work with Us</a>
                                           </li>
-                                          <li class="nav-item dropdown simple-dropdown">
-                                                <a href="javascript:void(0);" class="nav-link">Contact Us</a>
-                                          </li>
+                                          <div class="header-button"><a href="<?php echo home_url() . '/contact-us' ?>" class="btn btn-large btn-gradient-fast-pink-light-yellow d-table d-lg-inline-block xl-mb-15px md-mx-auto btn-rounded">Contact us<i class="fa-solid fa-arrow-right"></i></a></div>
                                     </ul>
                               </div>
                         </div>
                   </div>
-                  <div class="col-auto col-xxl-3 col-lg-2 text-end d-none d-sm-flex">
-                        <div class="header-icon">
-                              <div class="header-button"><a href="http://company.local/contact-us/" class="btn btn-large btn-gradient-fast-pink-light-yellow d-table d-lg-inline-block xl-mb-15px md-mx-auto btn-rounded">Hire us<i class="fa-solid fa-arrow-right"></i></a></div>
-                        </div>
+                  <div class="col-auto col-xxl-2 col-lg-2 text-end d-none d-sm-flex">
+
                   </div>
             </nav>
       </header>

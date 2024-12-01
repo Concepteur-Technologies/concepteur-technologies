@@ -132,7 +132,6 @@ add_action('wp_enqueue_scripts', 'enqueue_kanit_font');
 
 
 add_filter('theme_page_templates', function ($templates) {
-      // Define folders to scan for templates
       $folders = [
             'templates/company',
             'templates/portfolio',
