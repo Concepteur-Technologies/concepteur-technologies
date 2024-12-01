@@ -69,16 +69,14 @@ get_header(); ?>
                         <h2 class="alt-font text-dark-gray fw-700 ls-plus-3px mb-0">Our Mobile App Services</h2>
                   </div>
                   <div class="col-xl-7 tab-style-04 text-center text-xl-end">
-                        <!-- filter navigation -->
                         <ul class="portfolio-filter fw-500 nav nav-tabs justify-content-center justify-content-xl-end border-0">
                               <li class="nav active"><a data-filter="*" href="#">All</a></li>
                               <li class="nav"><a data-filter=".android" href="#">Android</a></li>
                               <li class="nav"><a data-filter=".ios" href="#">IOS</a></li>
                         </ul>
-                        <!-- end filter navigation -->
                   </div>
             </div>
-            <div class="row appear anime-complete" data-anime="{ &quot;translateY&quot;: [50, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+            <div class="row appear anime-complete">
                   <div class="col-12 filter-content p-md-0">
                         <ul class="portfolio-wrapper grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-2col md-grid-2col sm-grid-1col xs-grid-1col gutter-extra-large" style="position: relative; height: 1059.31px;">
                               <li class="grid-sizer"></li>
@@ -175,7 +173,7 @@ get_header(); ?>
 
                   </div>
             </div>
-            <div class="row justify-content-center appear anime-complete" data-anime="{ &quot;opacity&quot;: [0, 1], &quot;translate&quot;: [0, 0], &quot;staggervalue&quot;: 100, &quot;easing&quot;: &quot;easeOutQuad&quot; }" style="translate: 0px;">
+            <div class="row justify-content-center appear anime-complete">
                   <div class="col-12 text-center mt-5">
                         <span class="fs-20 text-dark-gray fw-500 ls-minus-05px">We help you find the perfect tutor. It's completely free. <a href="#" class="fw-600 text-dark-gray">Explore all courses<i class="fa-solid fa-arrow-right ms-5px icon-very-small"></i></a></span>
                   </div>

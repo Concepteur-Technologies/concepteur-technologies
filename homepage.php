@@ -47,11 +47,11 @@ get_header();
       </div>
       <div class="container h-100">
             <div class="row align-items-center h-100">
-                  <div class="col-xl-6 col-lg-8 col-md-10 position-relative z-index-1" data-anime='{ "el": "childs", "translateY": [0, 0], "perspective": [1200,1200], "scale": [1.05, 1], "rotateX": [30, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                  <div class="col-xl-6 col-lg-8 col-md-10 position-relative z-index-1" data-anime="{&quot;translateX&quot;: [-50, 0], &quot;opacity&quot;: [1,1], &quot;duration&quot;: 800, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
                         <h1 class="fs-90 lg-fs-80 md-fs-70 fw-600 text-black  shadow-nonex">Concepteur Technologies</h1>
                         <div class="mt-5">
-                              <p class="fs-18 w-85 sm-w-95 opacity-10" style="color: grey !important;"><strong>Heritage Pool Supply Group's </strong>vision is to grow by forming a network of the best independent distributors to provide exceptional customer service while increasing our value as a trusted growth partner to top manufacturers in the industry. Our mission is to help our family of companies achieve new heights and provide opportunities for all employees to grow, thrive, and advance with the company for decades to come.</p>
-                              <p class="fs-18 w-85 sm-w-95 opacity-10" style="color: grey !important;">As a software partner, you play a crucial role in achieving this vision. By integrating with <strong>HIPS</strong>, you can streamline operations, enhance customer experiences, and drive growth for your clients.</p>
+                              <p class="fs-18 w-85 sm-w-95 opacity-10" style="color: grey !important;"><strong>Concepteur Technologies </strong>vision is to grow by forming a network of the best independent distributors to provide exceptional customer service while increasing our value as a trusted growth partner to top manufacturers in the industry. Our mission is to help our family of companies achieve new heights and provide opportunities for all employees to grow, thrive, and advance with the company for decades to come.</p>
+                              <p class="fs-18 w-85 sm-w-95 opacity-10" style="color: grey !important;">As a software partner, you play a crucial role in achieving this vision. By integrating with <strong>CT</strong>, you can streamline operations, enhance customer experiences, and drive growth for your clients.</p>
                         </div>
                         <a href="<?php echo home_url() . '/contact-us' ?>" class="btn btn-dark-gray btn-large btn-rounded d-table d-lg-inline-block lg-mb-15px md-mx-auto me-20px">
                               <span>

@@ -13,12 +13,12 @@ get_header();
                   <div class="section-content">
                         <div class="section-title-wrapper">
                               <div class="title-wrapper">
-                                    <h1 class="section-title large has_fade_anim text-black" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">We are ”Concepteurs” - Where Creativity Meets Code, Rooted in India.</h1>
+                                    <h1 class="section-title large has_fade_anim text-black" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">We are ”Concepteurs” - Where visions ignite, Rooted in India, crafting dreams with might.</h1>
                               </div>
                         </div>
                         <div class="content-last">
                               <div class="subtitle-wrapper has_fade_anim" data-fade-from="right" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
-                                    <span class="section-subtitle has-right-line">01. about us</span>
+                                    <span class="section-subtitle has-right-line">01. Who we are</span>
                               </div>
                               <div class="text-wrapper">
                                     <p class="text has_fade_anim text-black" data-fade-from="left" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;width: 440px">Unlocking creative horizons: the story behind
@@ -36,10 +36,10 @@ get_header();
             <div class="row g-0">
                   <div class="col-xl-4 col-lg-5 d-flex justify-content-center align-items-center ps-10 xxl-ps-6 xl-ps-4 md-ps-4 sm-ps-0 position-relative order-2 order-lg-1" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <div class="vertical-title-center align-items-center justify-content-center flex-shrink-0 w-75px sm-w-50px">
-                              <h1 class="title fs-15 alt-font text-dark-gray fw-700 text-uppercase ls-1px text-uppercase d-flex w-auto align-items-center m-0" data-fancy-text='{ "opacity": [0, 1], "translateY": [50, 0], "filter": ["blur(20px)", "blur(0px)"], "string": ["about agency"], "duration": 400, "delay": 0, "speed": 50, "easing": "easeOutQuad" }'></h1>
+                              <h1 class="title fs-15 alt-font text-dark-gray fw-700 text-uppercase ls-1px text-uppercase d-flex w-auto align-items-center m-0" data-fancy-text='{ "opacity": [0, 1], "translateY": [50, 0], "filter": ["blur(20px)", "blur(0px)"], "string": ["about concepteur"], "duration": 400, "delay": 0, "speed": 50, "easing": "easeOutQuad" }'></h1>
                         </div>
                         <div class="border-start border-color-extra-medium-gray ps-40px sm-ps-20px position-relative z-index-9">
-                              <h2 class="text-dark-gray fw-600 alt-font outside-box-right-10 xl-outside-box-right-15 lg-outside-box-right-20 md-me-0 sm-mb-0 ls-minus-3px">We are work on delivering unique visual solutions.</h2>
+                              <h2 class="text-dark-gray fw-600 alt-font outside-box-right-10 xl-outside-box-right-15 lg-outside-box-right-20 md-me-0 sm-mb-0 ls-minus-3px">We craft innovative, tailored visual solutions that inspire and engage.</h2>
                         </div>
                   </div>
                   <div class="col-xl-8 col-lg-7 position-relative one-half-screen order-1 order-lg-2 md-mb-50px">
@@ -60,7 +60,7 @@ get_header();
                   <div class="section-header">
                         <div class="section-title-wrapper">
                               <div class="subtitle-wrapper">
-                                    <span class="section-subtitle has-left-line" style="font-size: 40px;">02. Who we are</span>
+                                    <span class="section-subtitle has-left-line" style="font-size: 40px;">02. What we do</span>
                               </div>
                               <div class="title-wrapper">
                                     <h2 class="section-title has_fade_anim" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">We make storable strategy growth your company with concepteur
@@ -407,6 +407,108 @@ get_header();
       </div>
 </section>
 
+
+<section class="big-section" style="padding-top: 40px">
+      <div class="container">
+            <div class="row">
+                  <div class="col-xxl-4 col-lg-5 position-relative md-mb-25px appear anime-child anime-complete" data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateX&quot;: [-50, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+                        <h4 class="fw-400 alt-font text-dark-gray">Discover Why Concepteur Technologies is the Trusted Name in Software Development</h4>
+                        <p>At Concepteur Technologies, we pride ourselves on being at the forefront of innovation, delivering custom software solutions that are designed to drive business success. Our expert team combines deep technical expertise with a client-first approach, ensuring your goals are met with precision and excellence. Below are some frequently asked questions to help you understand why we are the trusted partner for businesses around the world.</p>
+                        <div><span class="text-dark-gray fs-30 me-5px align-middle fancy-text-style-4 ls-minus-1px">👋 Say <span class="fw-300 appear" data-fancy-text="{ &quot;effect&quot;: &quot;rotate&quot;, &quot;string&quot;: [&quot;hello!&quot;, &quot;hallå!&quot;, &quot;salve!&quot;] }">Hello!</span></div>
+                  </div>
+                  <div class="col-xxl-7 col-lg-7 offset-xxl-1">
+                        <div class="accordion accordion-style-02 appear anime-child anime-complete" id="accordion-style-02" data-active-icon="icon-feather-chevron-up" data-inactive-icon="icon-feather-chevron-down" data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateX&quot;: [50, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+                              <div class="accordion-item">
+                                    <div class="accordion-header border-bottom border-color-extra-medium-gray">
+                                          <a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-02-01" aria-expanded="false" data-bs-parent="#accordion-style-02" class="collapsed">
+                                                <div class="accordion-title mb-0 position-relative text-dark-gray pe-30px">
+                                                      <i class="feather icon-extra-medium icon-feather-chevron-down"></i><span class="fw-300 fs-18">What sets Concepteur Technologies apart from other software development companies?</span>
+                                                </div>
+                                          </a>
+                                    </div>
+                                    <div id="accordion-style-02-01" class="accordion-collapse collapse" data-bs-parent="#accordion-style-02">
+                                          <div class="accordion-body last-paragraph-no-margin border-bottom border-color-light-medium-gray">
+                                                <p>At Concepteur Technologies, we prioritize collaboration and transparency. We work closely with our clients to understand their specific needs, ensuring that each software solution is aligned with their business objectives. Our agile methodology, combined with cutting-edge technologies, allows us to deliver innovative solutions faster and with higher quality than the competition.</p>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="accordion-item">
+                                    <div class="accordion-header border-bottom border-color-extra-medium-gray">
+                                          <a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-02-02" aria-expanded="false" data-bs-parent="#accordion-style-02" class="collapsed">
+                                                <div class="accordion-title mb-0 position-relative text-dark-gray pe-30px">
+                                                      <i class="feather icon-feather-chevron-down icon-extra-medium"></i><span class="fw-300 fs-18">How does Concepteur Technologies ensure that the software meets high-quality standards?</span>
+                                                </div>
+                                          </a>
+                                    </div>
+                                    <div id="accordion-style-02-02" class="accordion-collapse collapse" data-bs-parent="#accordion-style-02">
+                                          <div class="accordion-body last-paragraph-no-margin border-bottom border-color-light-medium-gray">
+                                                <p>Our dedicated QA team ensures every project undergoes thorough testing, from code reviews to user acceptance testing. We utilize automated testing tools, combined with manual checks, to deliver highly reliable, secure, and scalable software. At Concepteur Technologies, quality is a non-negotiable part of our process.</p>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="accordion-item">
+                                    <div class="accordion-header border-bottom border-color-light-medium-gray">
+                                          <a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-02-03" aria-expanded="false" data-bs-parent="#accordion-style-02" class="collapsed">
+                                                <div class="accordion-title mb-0 position-relative text-dark-gray pe-30px">
+                                                      <i class="feather icon-extra-medium icon-feather-chevron-down"></i><span class="fw-300 fs-18">Can Concepteur Technologies help with long-term maintenance and updates?</span>
+                                                </div>
+                                          </a>
+                                    </div>
+                                    <div id="accordion-style-02-03" class="accordion-collapse collapse" data-bs-parent="#accordion-style-02">
+                                          <div class="accordion-body last-paragraph-no-margin border-bottom border-color-light-medium-gray">
+                                                <p>Absolutely. At Concepteur Technologies, we provide post-launch support and maintenance, ensuring your software evolves with your business needs. Our team is available for performance optimization, feature enhancements, and troubleshooting, ensuring that your solution remains secure and up-to-date long after launch.</p>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="accordion-item active-accordion">
+                                    <div class="accordion-header border-bottom border-color-transparent">
+                                          <a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-02-04" aria-expanded="false" data-bs-parent="#accordion-style-02">
+                                                <div class="accordion-title mb-0 position-relative text-dark-gray pe-30px">
+                                                      <i class="feather icon-extra-medium icon-feather-chevron-down"></i><span class="fw-300 fs-18">What industries has Concepteur Technologies served, and what makes you experts in those areas?</span>
+                                                </div>
+                                          </a>
+                                    </div>
+                                    <div id="accordion-style-02-04" class="accordion-collapse collapse" data-bs-parent="#accordion-style-02">
+                                          <div class="accordion-body last-paragraph-no-margin border-bottom border-color-transparent">
+                                                <p>We have worked across a variety of industries, including healthcare, finance, education, and e-commerce, delivering customized solutions that meet industry-specific requirements. Our ability to adapt our approach to the unique challenges of each sector has made us a trusted partner for companies looking for innovative, impactful software solutions.</p>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="accordion-item">
+                                    <div class="accordion-header border-bottom border-color-transparent">
+                                          <a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-02-05" aria-expanded="false" data-bs-parent="#accordion-style-02">
+                                                <div class="accordion-title mb-0 position-relative text-dark-gray pe-30px">
+                                                      <i class="feather icon-extra-medium icon-feather-chevron-down"></i><span class="fw-300 fs-18">What sets Concepteur Technologies apart from other software development companies?</span>
+                                                </div>
+                                          </a>
+                                    </div>
+                                    <div id="accordion-style-02-05" class="accordion-collapse collapse" data-bs-parent="#accordion-style-02">
+                                          <div class="accordion-body last-paragraph-no-margin border-bottom border-color-transparent">
+                                                <p>At Concepteur Technologies, we focus on delivering innovative, user-centered solutions tailored to meet our clients' specific business goals. Our experienced team of developers leverages cutting-edge technologies to create high-performance applications, while ensuring seamless user experiences. We combine technical expertise with creative problem-solving, making us a trusted partner for businesses seeking scalable software solutions.</p>
+                                          </div>
+                                    </div>
+                              </div>
+
+                              <div class="accordion-item">
+                                    <div class="accordion-header border-bottom border-color-transparent">
+                                          <a href="#" data-bs-toggle="collapse" data-bs-target="#accordion-style-02-06" aria-expanded="false" data-bs-parent="#accordion-style-02">
+                                                <div class="accordion-title mb-0 position-relative text-dark-gray pe-30px">
+                                                      <i class="feather icon-extra-medium icon-feather-chevron-down"></i><span class="fw-300 fs-18">How does Concepteur Technologies ensure the success of a software development project?</span>
+                                                </div>
+                                          </a>
+                                    </div>
+                                    <div id="accordion-style-02-06" class="accordion-collapse collapse" data-bs-parent="#accordion-style-02">
+                                          <div class="accordion-body last-paragraph-no-margin border-bottom border-color-transparent">
+                                                <p>We ensure project success by closely collaborating with our clients, understanding their goals, and setting clear expectations. Our team follows an agile development process, which allows for flexibility, regular updates, and timely adjustments. From project inception to final delivery, we prioritize quality, communication, and continuous improvement, making sure the end product exceeds client expectations.</p>
+                                          </div>
+                                    </div>
+                              </div>
+
+                        </div>
+                  </div>
+            </div>
+      </div>
+</section>
 <?php include_once(get_template_directory() . '/global/contact-us-section.php'); ?>
 
 <?php get_footer() ?>
