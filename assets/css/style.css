@@ -910,8 +910,12 @@ b, strong {
   margin-right: 9px;
   vertical-align: middle;
 }
+
+.new-class {
+      color: white !important;
+}
 /* Opacity */
-.opacity-full-dark, .opacity-full, .opacity-medium, .opacity-extra-medium, .opacity-light, .opacity-very-light {
+.opacity-full-dark, .opacity-full, .opacity-medium, .opacity-extra-medium, .opacity-light, .opacity-very-light, .opacity-all {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -935,6 +939,9 @@ b, strong {
 }
 .opacity-full-dark {
   opacity: 0.9;
+}
+.opacity-all {
+  opacity: 1;
 }
 /* Position */
 .position-inherit {
@@ -19244,6 +19251,19 @@ footer .footer-navbar .nav-item:last-child a {
 
   /* Set background image dynamically using PHP */
   background-image: url('https://res.cloudinary.com/didxyeaj1/image/upload/v1732903139/backround_ydeoss.jpg');
+
+  /* Adjust background image properties as needed */
+  background-size: cover; /* or contain */
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.main-bnr-image-two {
+  /* Commented out the background-color property */
+  /* background-color: var(--black); */
+
+  /* Set background image dynamically using PHP */
+  background-image: url('https://res.cloudinary.com/didxyeaj1/image/upload/v1733045860/non-QAF5G1_qG24-unsplash_rdx0et.jpg');
 
   /* Adjust background image properties as needed */
   background-size: cover; /* or contain */
