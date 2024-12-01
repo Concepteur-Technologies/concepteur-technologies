@@ -15,8 +15,13 @@
       <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
       <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-      <link rel="icon" href="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" type="image/x-icon" />
+      <link rel="icon" href="https://res.cloudinary.com/didxyeaj1/image/upload/v1733050188/favicon_jre5k8.ico" type="image/x-icon" />
+      <link rel="shortcut icon" href="https://res.cloudinary.com/didxyeaj1/image/upload/v1733050188/favicon_jre5k8.ico" type="image/x-icon">
       <?php wp_head(); ?>
+      <?php
+      $current_page = trim($_SERVER['REQUEST_URI'], '/');
+      $extra_class = ($current_page === 'why-choose-us') ? 'new-class' : '';
+      ?>
 </head>
 
 <body data-mobile-nav-style="full-screen-menu" data-mobile-nav-bg-color="#252840" class="custom-cursor">
@@ -40,14 +45,14 @@
                               <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                                     <ul class="navbar-nav alt-font">
                                           <li class="nav-item dropdown simple-dropdown">
-                                                <a href="javascript:void(0);" class="nav-link">Who we are</a>
+                                                <a href="javascript:void(0);" class="nav-link <?php echo esc_attr($extra_class); ?>">Who we are</a>
                                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink5" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink5">
                                                       <li class="dropdown">
                                                             <a href="<?php echo home_url() . '/about-us' ?>"></i>About Us<i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                       <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/coming-soon' ?>">Why Choose Us <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            <a href="<?php echo home_url() . '/why-choose-us' ?>">Why Choose Us <i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                       <li class="dropdown">
                                                             <a href="<?php echo home_url() . '/coming-soon' ?>">Events & Activities<i class="bi bi-arrow-up-right-square-fill"></i></a>
@@ -58,7 +63,7 @@
                                                 </ul>
                                           </li>
                                           <li class="nav-item dropdown simple-dropdown">
-                                                <a href="javascript:void(0);" class="nav-link">Services</a>
+                                                <a href="javascript:void(0);" class="nav-link <?php echo esc_attr($extra_class); ?>">Services</a>
                                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink5" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                                 <ul class="dropdown-menu" style="width: 274px;" aria-labelledby="navbarDropdownMenuLink5">
                                                       <li class="dropdown"><a href="javascript:void(0);">Software Development<i class="bi bi-chevron-right"></i></a></i>
@@ -80,7 +85,7 @@
                                                 </ul>
                                           </li>
                                           <li class="nav-item dropdown simple-dropdown">
-                                                <a href="javascript:void(0);" class="nav-link">Technologies</a>
+                                                <a href="javascript:void(0);" class="nav-link <?php echo esc_attr($extra_class); ?>">Technologies</a>
                                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink5" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink5">
                                                       <li class="dropdown">
@@ -98,13 +103,10 @@
                                                 </ul>
                                           </li>
                                           <li class="nav-item dropdown simple-dropdown">
-                                                <a href="<?php echo home_url() . '/coming-soon' ?>" class="nav-link">Case Study</a>
+                                                <a href="<?php echo home_url() . '/coming-soon' ?>" class="nav-link <?php echo esc_attr($extra_class); ?>">Case Study</a>
                                           </li>
-                                          <!-- <li class="nav-item dropdown simple-dropdown">
-                                                <a href="</?php echo home_url() . '/all-blogs' ?>;" class="nav-link">Blogs</a>
-                                          </li> -->
                                           <li class="nav-item dropdown simple-dropdown">
-                                                <a href="<?php echo home_url() . '/coming-soon' ?>" class="nav-link">Work with Us</a>
+                                                <a href="<?php echo home_url() . '/coming-soon' ?>" class="nav-link <?php echo esc_attr($extra_class); ?>">Work with Us</a>
                                           </li>
                                           <div class="header-button"><a href="<?php echo home_url() . '/contact-us' ?>" class="btn btn-large btn-gradient-fast-pink-light-yellow d-table d-lg-inline-block xl-mb-15px md-mx-auto btn-rounded">Contact us<i class="fa-solid fa-arrow-right"></i></a></div>
                                     </ul>

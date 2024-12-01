@@ -45,7 +45,7 @@ get_header();
                   <div class="col-xl-8 col-lg-7 position-relative one-half-screen order-1 order-lg-2 md-mb-50px">
                         <div class="overflow-hidden position-relative">
                               <div class="w-100" data-anime='{ "effect": "slide", "direction": "lr", "color": "#f7f7f7", "duration": 1000, "delay": 0 }'>
-                                    <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1732988266/cherrydeck-rMILC1PIwM0-unsplash_zzhqi2.jpg" alt="" class="w-100 liquid-parallax" data-parallax-liquid="true" data-parallax-position="top" data-parallax-scale="1.05">
+                                    <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733042507/marcin-jozwiak-Jmsw8wYy7Ig-unsplash_msqwcj.jpg" alt="" class="w-100 liquid-parallax" data-parallax-liquid="true" data-parallax-position="top" data-parallax-scale="1.05">
                               </div>
                         </div>
                   </div>

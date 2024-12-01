@@ -247,7 +247,7 @@ get_header();
       <div class="container">
             <div class="row justify-content-center appear anime-complete" data-anime="{ &quot;translateY&quot;: [0, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
                   <div class="col-12 skrollable skrollable-between" data-bottom-top="transform:scale(1, 1);" data-top-bottom="transform:scale(1.1, 1.1);" style="transform: scale(1.02763, 1.02763);">
-                        <div class="border-radius-6px h-450px md-h-350px sm-h-400px d-flex flex-wrap align-items-center justify-content-center overflow-hidden cover-background box-shadow-quadruple-large pt-15 md-pt-7 sm-pt-11" style="background-image: url('<?php echo get_template_directory_uri() . '/assets/images/us.jpg'; ?>')">
+                        <div class="border-radius-6px h-450px md-h-350px sm-h-400px d-flex flex-wrap align-items-center justify-content-center overflow-hidden cover-background box-shadow-quadruple-large pt-15 md-pt-7 sm-pt-11" style="background-image: url('https://res.cloudinary.com/didxyeaj1/image/upload/v1733042511/aedrian-salazar-m0yjpgy5vOE-unsplash_mdodbm.jpg')">
                               <div class="opacity-full-dark bg-gradient-dark-transparent"></div>
                               <div class="row justify-content-center align-items-center">
                                     <div class="col-xl-6 col-lg-7 col-md-8 col-sm-9 z-index-1 text-center text-lg-start md-mb-20px">
