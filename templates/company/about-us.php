@@ -53,7 +53,6 @@ get_header();
       </div>
 </section>
 
-
 <section class="awards-area">
       <div class="container">
             <div class="awards-area-inner section-spacing">

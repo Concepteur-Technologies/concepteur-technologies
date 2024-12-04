@@ -6922,7 +6922,7 @@ header.sticky.sticky-active [data-header-hover=dark] .header-language-icon .head
   opacity: 1;
 }
 header.sticky.sticky-active [data-header-hover=light] {
-  background-color: var(--white) !important;
+  background-color: var(--white) ;
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
 }
 header.sticky.sticky-active [data-header-hover=light] .navbar-nav .nav-link {
@@ -19781,4 +19781,8 @@ font-size:186px;
     padding-inline-start: 150px;
     z-index: 1;
     max-width: 605px;
+}
+
+.new-class-new {
+      background-color: black !important;
 }
