@@ -21,12 +21,13 @@
       <?php
       $current_page = trim($_SERVER['REQUEST_URI'], '/');
       $extra_class = ($current_page === 'why-choose-us') ? 'new-class' : '';
+      $extra_class_2 = ($current_page === 'why-choose-us') ? 'new-class-new' : '';
       ?>
 </head>
 
 <body data-mobile-nav-style="full-screen-menu" data-mobile-nav-bg-color="#252840" class="custom-cursor">
       <header>
-            <nav class="navbar navbar-expand-lg header-light header-reverse header-demo" data-header-hover="light">
+            <nav class="navbar navbar-expand-lg header-light header-reverse header-demo <?php echo esc_attr($extra_class_2); ?>" data-header-hover="light">
                   <div class="container-fluid">
                         <div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
                               <a class="navbar-brand" href="<?php echo home_url() . '/home-page' ?>">
@@ -106,7 +107,7 @@
                                                 <a href="<?php echo home_url() . '/coming-soon' ?>" class="nav-link <?php echo esc_attr($extra_class); ?>">Case Study</a>
                                           </li>
                                           <li class="nav-item dropdown simple-dropdown">
-                                                <a href="<?php echo home_url() . '/coming-soon' ?>" class="nav-link <?php echo esc_attr($extra_class); ?>">Work with Us</a>
+                                                <a href="<?php echo home_url() . '/coming-soon' ?>" class="nav-link <?php echo esc_attr($extra_class); ?>">Work with us</a>
                                           </li>
                                           <div class="header-button"><a href="<?php echo home_url() . '/contact-us' ?>" class="btn btn-large btn-gradient-fast-pink-light-yellow d-table d-lg-inline-block xl-mb-15px md-mx-auto btn-rounded">Contact us<i class="fa-solid fa-arrow-right"></i></a></div>
                                     </ul>
