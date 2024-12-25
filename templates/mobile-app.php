@@ -221,14 +221,14 @@ get_header(); ?>
                                                                   <h3 class="ls-minus-1px fw-700 word-break-normal mb-40px sm-mb-20px"><a href="#" class="text-dark-gray text-dark-gray-hover">I love seeing fashion from the past making a comeback.</a></h3>
                                                             </div>
                                                             <div>
-                                                                  <img src="https://via.placeholder.com/148x148" class="rounded-circle w-70px me-15px" alt="">
+
                                                                   <div class="d-inline-block align-middle">
                                                                         <a href="#" class="text-dark-gray fs-18 fw-600 text-decoration-line-bottom">Walton smith</a>
                                                                   </div>
                                                             </div>
                                                       </div>
                                                       <div class="col-12 col-lg-8 order-lg-2 order-1">
-                                                            <a href="#"><img src="https://via.placeholder.com/825x630" class="border-radius-6px" alt="" /></a>
+                                                            <a href="#"><img src="" class="border-radius-6px" alt="" /></a>
                                                       </div>
                                                 </div>
                                           </div>
@@ -254,14 +254,14 @@ get_header(); ?>
                                                                   <h3 class="ls-minus-1px fw-700 word-break-normal mb-40px sm-mb-20px"><a href="#" class="text-dark-gray text-dark-gray-hover">Fashion is the most beautiful illusion you can have.</a></h3>
                                                             </div>
                                                             <div>
-                                                                  <img src="https://via.placeholder.com/148x148" class="rounded-circle w-70px me-15px" alt="">
+                                                                  <img src="" class="rounded-circle w-70px me-15px" alt="">
                                                                   <div class="d-inline-block align-middle">
                                                                         <a href="#" class="text-dark-gray fs-18 fw-600 text-decoration-line-bottom">Herman miller</a>
                                                                   </div>
                                                             </div>
                                                       </div>
                                                       <div class="col-12 col-lg-8 order-lg-2 order-1">
-                                                            <a href="#"><img src="https://via.placeholder.com/825x630" class="border-radius-6px" alt="" /></a>
+                                                            <a href="#"><img src="" class="border-radius-6px" alt="" /></a>
                                                       </div>
                                                 </div>
                                           </div>
@@ -287,14 +287,14 @@ get_header(); ?>
                                                                   <h3 class="ls-minus-1px fw-700 word-break-normal mb-40px sm-mb-20px"><a href="#" class="text-dark-gray text-dark-gray-hover">Fashion is the armor to survive the reality of everyday life.</a></h3>
                                                             </div>
                                                             <div>
-                                                                  <img src="https://via.placeholder.com/148x148" class="rounded-circle w-70px me-15px" alt="">
+                                                                  <img src="" class="rounded-circle w-70px me-15px" alt="">
                                                                   <div class="d-inline-block align-middle">
                                                                         <a href="#" class="text-dark-gray fs-18 fw-600 text-decoration-line-bottom">Jessica dover</a>
                                                                   </div>
                                                             </div>
                                                       </div>
                                                       <div class="col-12 col-lg-8 order-lg-2 order-1">
-                                                            <a href="#"><img src="https://via.placeholder.com/825x630" class="border-radius-6px" alt="" /></a>
+                                                            <a href="#"><img src="" class="border-radius-6px" alt="" /></a>
                                                       </div>
                                                 </div>
                                           </div>
@@ -320,14 +320,14 @@ get_header(); ?>
                                                                   <h3 class="ls-minus-1px fw-700 word-break-normal mb-40px sm-mb-20px"><a href="#" class="text-dark-gray text-dark-gray-hover">Fashion is the most beautiful illusion you can have.</a></h3>
                                                             </div>
                                                             <div>
-                                                                  <img src="https://via.placeholder.com/148x148" class="rounded-circle w-70px me-15px" alt="">
+                                                                  <img src="" class="rounded-circle w-70px me-15px" alt="">
                                                                   <div class="d-inline-block align-middle">
                                                                         <a href="#" class="text-dark-gray fs-18 fw-600 text-decoration-line-bottom">Herman miller</a>
                                                                   </div>
                                                             </div>
                                                       </div>
                                                       <div class="col-12 col-lg-8 order-lg-2 order-1">
-                                                            <a href="#"><img src="https://via.placeholder.com/825x630" class="border-radius-6px" alt="" /></a>
+                                                            <a href="#"><img src="" class="border-radius-6px" alt="" /></a>
                                                       </div>
                                                 </div>
                                           </div>

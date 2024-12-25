@@ -39,7 +39,7 @@ get_header();
                               <h1 class="title fs-15 alt-font text-dark-gray fw-700 text-uppercase ls-1px text-uppercase d-flex w-auto align-items-center m-0" data-fancy-text='{ "opacity": [0, 1], "translateY": [50, 0], "filter": ["blur(20px)", "blur(0px)"], "string": ["about concepteur"], "duration": 400, "delay": 0, "speed": 50, "easing": "easeOutQuad" }'></h1>
                         </div>
                         <div class="border-start border-color-extra-medium-gray ps-40px sm-ps-20px position-relative z-index-9">
-                              <h2 class="text-dark-gray fw-600 alt-font outside-box-right-10 xl-outside-box-right-15 lg-outside-box-right-20 md-me-0 sm-mb-0 ls-minus-3px">We craft innovative, tailored visual solutions that inspire and engage.</h2>
+                              <h2 class="text-dark-gray fw-600 alt-font outside-box-right-10 xl-outside-box-right-15 lg-outside-box-right-20 md-me-0 sm-mb-0 ls-minus-3px">We craft <span class="text-concep">Innovate</span> tailored <span class="text-concep">visual</span> solutions that <span class="text-concep">inspire</span> and <span class="text-concep">engage.</span></h2>
                         </div>
                   </div>
                   <div class="col-xl-8 col-lg-7 position-relative one-half-screen order-1 order-lg-2 md-mb-50px">
