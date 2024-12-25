@@ -128,88 +128,7 @@ get_header();
                   </div>
             </div>
 
-            <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 appear anime-child anime-complete" data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateX&quot;: [-50, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
-                  <!-- start team member item -->
-                  <div class="col text-center team-style-01 md-mb-30px">
-                        <figure class="mb-0 hover-box box-hover position-relative" style="padding-bottom: 116px;">
-                              <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1732995564/D904DFA0-4CBC-4C8E-A719-43092E601BC0_plcsod.jpg" alt="" class="border-radius-6px" data-no-retina="">
-                              <figcaption class="w-100 p-30px lg-p-20px bg-white">
-                                    <div class="position-relative z-index-1 overflow-hidden lg-pb-5px">
-                                          <span class="fs-18 d-block fw-600 text-dark-gray lh-26 ls-minus-05px">Proparna Das</span>
-                                          <p class="m-0">Co Founder & Senior Developer</p>
-                                          <div class="social-icon hover-text mt-20px lg-mt-10px social-icon-style-05" style="display: none;">
-                                                <a href="https://www.facebook.com/" target="_blank" class="fw-600 text-dark-gray">Fb.</a>
-                                                <a href="https://www.instagram.com/" target="_blank" class="fw-600 text-dark-gray">In.</a>
-                                                <a href="https://www.twitter.com/" target="_blank" class="fw-600 text-dark-gray">Tw.</a>
-                                                <a href="https://dribbble.com/" target="_blank" class="fw-600 text-dark-gray">Li.</a>
-                                          </div>
-                                    </div>
-                                    <div class="box-overlay bg-white box-shadow-quadruple-large border-radius-6px"></div>
-                              </figcaption>
-                        </figure>
-                  </div>
-                  <!-- end team member item -->
-                  <!-- start team member item -->
-                  <div class="col text-center team-style-01 md-mb-30px">
-                        <figure class="mb-0 hover-box box-hover position-relative" style="padding-bottom: 116px;">
-                              <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1732903140/section_d8d8si.jpg" alt="" class="border-radius-6px" data-no-retina="">
-                              <figcaption class="w-100 p-30px lg-p-20px bg-white">
-                                    <div class="position-relative z-index-1 overflow-hidden lg-pb-5px">
-                                          <span class="fs-18 d-block fw-600 text-dark-gray lh-26 ls-minus-05px">Jessica dover</span>
-                                          <p class="m-0">Vice president</p>
-                                          <div class="social-icon hover-text mt-20px lg-mt-10px" style="display: none;">
-                                                <a href="https://www.facebook.com/" target="_blank" class="fw-600 text-dark-gray">Fb.</a>
-                                                <a href="https://www.instagram.com/" target="_blank" class="fw-600 text-dark-gray">In.</a>
-                                                <a href="https://www.twitter.com/" target="_blank" class="fw-600 text-dark-gray">Tw.</a>
-                                                <a href="https://dribbble.com/" target="_blank" class="fw-600 text-dark-gray">Dr.</a>
-                                          </div>
-                                    </div>
-                                    <div class="box-overlay bg-white box-shadow-quadruple-large border-radius-6px"></div>
-                              </figcaption>
-                        </figure>
-                  </div>
-                  <!-- end team member item -->
-                  <!-- start team member item -->
-                  <div class="col text-center team-style-01 xs-mb-30px">
-                        <figure class="mb-0 hover-box box-hover position-relative" style="padding-bottom: 116px;">
-                              <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1732903140/section_d8d8si.jpg" alt="" class="border-radius-6px" data-no-retina="">
-                              <figcaption class="w-100 p-30px lg-p-20px bg-white">
-                                    <div class="position-relative z-index-1 overflow-hidden lg-pb-5px">
-                                          <span class="fs-18 d-block fw-600 text-dark-gray lh-26 ls-minus-05px">Matthew taylor</span>
-                                          <p class="m-0">Financial officer</p>
-                                          <div class="social-icon hover-text mt-20px lg-mt-10px" style="display: none;">
-                                                <a href="https://www.facebook.com/" target="_blank" class="fw-600 text-dark-gray">Fb.</a>
-                                                <a href="https://www.instagram.com/" target="_blank" class="fw-600 text-dark-gray">In.</a>
-                                                <a href="https://www.twitter.com/" target="_blank" class="fw-600 text-dark-gray">Tw.</a>
-                                                <a href="https://dribbble.com/" target="_blank" class="fw-600 text-dark-gray">Dr.</a>
-                                          </div>
-                                    </div>
-                                    <div class="box-overlay bg-white box-shadow-quadruple-large border-radius-6px"></div>
-                              </figcaption>
-                        </figure>
-                  </div>
-                  <!-- end team member item -->
-                  <!-- start team member item -->
-                  <div class="col text-center team-style-01">
-                        <figure class="mb-0 hover-box box-hover position-relative" style="padding-bottom: 116px;">
-                              <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1732903140/section_d8d8si.jpg" alt="" class="border-radius-6px" data-no-retina="">
-                              <figcaption class="w-100 p-30px lg-p-20px bg-white">
-                                    <div class="position-relative z-index-1 overflow-hidden lg-pb-5px">
-                                          <span class="fs-18 d-block fw-600 text-dark-gray lh-26 ls-minus-05px">Daniel james</span>
-                                          <p class="m-0">People officer</p>
-                                          <div class="social-icon hover-text mt-20px lg-mt-10px" style="display: none;">
-                                                <a href="https://www.facebook.com/" target="_blank" class="fw-600 text-dark-gray">Fb.</a>
-                                                <a href="https://www.instagram.com/" target="_blank" class="fw-600 text-dark-gray">In.</a>
-                                                <a href="https://www.twitter.com/" target="_blank" class="fw-600 text-dark-gray">Tw.</a>
-                                                <a href="https://dribbble.com/" target="_blank" class="fw-600 text-dark-gray">Dr.</a>
-                                          </div>
-                                    </div>
-                                    <div class="box-overlay bg-white box-shadow-quadruple-large border-radius-6px"></div>
-                              </figcaption>
-                        </figure>
-                  </div>
-                  <!-- end team member item -->
-            </div>
+
       </div>
 </section>
 
@@ -288,12 +207,12 @@ get_header();
                   <!-- start process step item -->
                   <div class="col text-center process-step-style-02 hover-box last-paragraph-no-margin md-mb-50px">
                         <i class="line-icon-Idea-5 text-red icon-double-large mb-20px"></i>
-                        <span class="d-block text-dark-gray mb-5px fs-20 fw-600">2018: We Started Taking Projects</span>
+                        <span class="d-block text-dark-gray mb-5px fs-20 fw-600">We Started Taking New Projects</span>
                         <p class="d-inline-block w-70 lg-w-85">In 2018, Concepteur Technologies started taking on small projects that helped us hone our skills and set the stage for future growth.</p>
                         <div class="process-step-icon-box position-relative mt-30px">
                               <span class="progress-step-separator bg-dark-gray opacity-1 w-55 separator-line-1px"></span>
                               <div class="process-step-icon d-flex justify-content-center align-items-center mx-auto bg-white h-80px w-80px fs-18 rounded-circle text-dark-gray box-shadow-double-large fw-500">
-                                    <span class="number position-relative z-index-1 fw-600">01</span>
+                                    <span class="number position-relative z-index-1 fw-600">2018</span>
                                     <div class="box-overlay bg-white rounded-circle"></div>
                               </div>
                         </div>
@@ -302,12 +221,12 @@ get_header();
                   <!-- start process step item -->
                   <div class="col text-center process-step-style-02 hover-box last-paragraph-no-margin md-mb-50px">
                         <i class="line-icon-Fountain-Pen text-red icon-double-large mb-20px"></i>
-                        <span class="d-block text-dark-gray mb-5px fs-20 fw-600">2019: Connecting with Big Companies</span>
+                        <span class="d-block text-dark-gray mb-5px fs-20 fw-600">Connecting with Big Companies</span>
                         <p class="d-inline-block w-70 lg-w-85">In 2019, we expanded our network and established strong relationships with major companies, opening doors to more complex projects.</p>
                         <div class="process-step-icon-box position-relative mt-30px">
                               <span class="progress-step-separator bg-dark-gray opacity-1 w-55 separator-line-1px"></span>
                               <div class="process-step-icon d-flex justify-content-center align-items-center mx-auto bg-white h-80px w-80px fs-18 rounded-circle text-dark-gray box-shadow-double-large fw-500">
-                                    <span class="number position-relative z-index-1 fw-600">02</span>
+                                    <span class="number position-relative z-index-1 fw-600">2019</span>
                                     <div class="box-overlay bg-white rounded-circle"></div>
                               </div>
                         </div>
@@ -316,12 +235,12 @@ get_header();
                   <!-- start process step item -->
                   <div class="col text-center process-step-style-02 hover-box last-paragraph-no-margin xs-mb-50px">
                         <i class="line-icon-Loading-2 text-red icon-double-large mb-20px"></i>
-                        <span class="d-block text-dark-gray mb-5px fs-20 fw-600">2021: Collaborating on Major Projects</span>
+                        <span class="d-block text-dark-gray mb-5px fs-20 fw-600">Collaborating on Major Projects</span>
                         <p class="d-inline-block w-70 lg-w-85">By 2021, we were collaborating on large-scale projects, cementing our position as a trusted partner for industry leaders.</p>
                         <div class="process-step-icon-box position-relative mt-30px">
                               <span class="progress-step-separator bg-dark-gray opacity-1 w-55 separator-line-1px"></span>
                               <div class="process-step-icon d-flex justify-content-center align-items-center mx-auto bg-white h-80px w-80px fs-18 rounded-circle text-dark-gray box-shadow-double-large fw-500">
-                                    <span class="number position-relative z-index-1 fw-600">03</span>
+                                    <span class="number position-relative z-index-1 fw-600">2021</span>
                                     <div class="box-overlay bg-white rounded-circle"></div>
                               </div>
                         </div>
@@ -330,11 +249,11 @@ get_header();
                   <!-- start process step item -->
                   <div class="col text-center process-step-style-02 hover-box last-paragraph-no-margin">
                         <i class="line-icon-Juice text-red icon-double-large mb-20px"></i>
-                        <span class="d-block text-dark-gray mb-5px fs-20 fw-600">2024: Opening Our Own Office</span>
+                        <span class="d-block text-dark-gray mb-5px fs-20 fw-600">Opening Our Own Office</span>
                         <p class="d-inline-block w-70 lg-w-85">In 2024, we celebrated a significant milestone by opening our own office, marking a new chapter in our growth journey. Lot of things to do. in our future.Let's go</p>
                         <div class="process-step-icon-box position-relative mt-30px">
                               <div class="process-step-icon d-flex justify-content-center align-items-center mx-auto bg-white h-80px w-80px fs-18 rounded-circle text-dark-gray box-shadow-double-large fw-500">
-                                    <span class="number position-relative z-index-1 fw-600">04</span>
+                                    <span class="number position-relative z-index-1 fw-600">2024</span>
                                     <div class="box-overlay bg-white rounded-circle"></div>
                               </div>
                         </div>

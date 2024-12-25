@@ -160,3 +160,31 @@ add_filter('theme_page_templates', function ($templates) {
 
       return $templates;
 });
+
+
+function custom_post_types()
+{
+      // Register "Language" Post Type
+      register_post_type('language', [
+            'labels' => [
+                  'name' => 'Languages',
+                  'singular_name' => 'Language',
+                  'add_new' => 'Add New Language',
+                  'add_new_item' => 'Add New Language',
+                  'edit_item' => 'Edit Language',
+                  'new_item' => 'New Language',
+                  'view_item' => 'View Language',
+                  'search_items' => 'Search Languages',
+                  'not_found' => 'No languages found',
+                  'not_found_in_trash' => 'No languages found in trash',
+                  'all_items' => 'All Languages',
+            ],
+            'public' => true,               // Make the post type visible on the front end
+            'has_archive' => true,          // Enable archive pages (e.g., example.com/languages)
+            'rewrite' => ['slug' => 'languages'], // URL slug
+            'supports' => ['title', 'editor', 'thumbnail', 'excerpt', 'comments'],
+            'show_in_rest' => true,         // Enables support for the block editor and REST API
+            'menu_icon' => 'dashicons-translation',
+      ]);
+}
+add_action('init', 'custom_post_types');

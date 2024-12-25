@@ -19794,3 +19794,16 @@ font-size:186px;
 .text-concep-2 {
       color: #146d14;
 }
+
+.swiper {
+    max-height: 100% !important; /* Restrict height to the viewport height */
+    overflow: hidden; /* Prevent overflowing content */
+}
+
+.swiper-slide {
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Align content vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: auto; /* Allow content to adjust naturally */
+}
