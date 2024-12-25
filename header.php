@@ -105,7 +105,7 @@
                                           <li class="nav-item dropdown simple-dropdown">
                                                 <a href="<?php echo home_url() . '/coming-soon' ?>" class="nav-link <?php echo esc_attr($extra_class); ?>">Work with us</a>
                                           </li>
-                                          <div class="header-button"><a href="<?php echo home_url() . '/contact-us' ?>" class="btn btn-large btn-gradient-fast-pink-light-yellow d-table d-lg-inline-block xl-mb-15px md-mx-auto btn-rounded">Contact us<i class="fa-solid fa-arrow-right"></i></a></div>
+                                          <div class="header-button"><a href="<?php echo home_url() . '/contact-us' ?>" class="btn btn-large d-table d-lg-inline-block xl-mb-15px md-mx-auto btn-rounded text-concep-back">Contact us<i class="fa-solid fa-arrow-right"></i></a></div>
                                     </ul>
                               </div>
                         </div>
