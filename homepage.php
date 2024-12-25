@@ -45,7 +45,7 @@ get_header();
             <i class="devicon-sqlite-plain"></i>
 
       </div>
-      <div class="container h-100">
+      <div class="container h-100" style="max-width: 90% !important;">
             <div class="row align-items-center h-100">
                   <div class="col-xl-6 col-lg-8 col-md-10 position-relative z-index-1" data-anime="{&quot;translateX&quot;: [-50, 0], &quot;opacity&quot;: [1,1], &quot;duration&quot;: 800, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
                         <h1 class="fs-90 lg-fs-80 md-fs-70 fw-600 text-black  shadow-nonex">Concepteur Technologies</h1>
@@ -66,46 +66,79 @@ get_header();
                               </span>
                         </a>
                   </div>
+                  <!-- { "delay": 4000, "disableOnInteraction": false } -->
                   <div class="col-xl-6 col-lg-8 col-md-10 position-relative z-index-1" data-anime='{ "el": "childs", "translateY": [0, 0], "perspective": [1200,1200], "scale": [1.05, 1], "rotateX": [30, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <div class="row row-cols-auto row-cols-sm-2 appear anime-child anime-complete" data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateX&quot;: [30, 0], &quot;translateY&quot;: [30, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;:100, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
-                              <div class="col align-self-start">
-                                    <div class="feature-box text-start ps-30px pe-30px xl-pe-5px sm-pe-0">
-                                          <div class="feature-box-icon position-absolute left-0px top-0px">
-                                                <h2 class="alt-font fs-100 fw-700 ls-minus-1px opacity-1 mb-0">01</h2>
+                        <div class="row-cols-auto row-cols-sm-2 appear anime-child anime-complete">
+                              <div class="position-relative" style="width: 100% !important;">
+                                    <div class="swiper position-relative text-slider-style-04" data-slider-options='{ "autoHeight": true, "loop": true, "allowTouchMove": true, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "effect": "fade" }'>
+                                          <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735158327/pexels-fauxels-3184436_svib6i.jpg" alt="" />
+                                                      <div class="container position-absolute sm-position-relative bottom-0 right-0px z-index-1 swiper-slide-content">
+                                                            <div class="row justify-content-end align-items-end h-100">
+                                                                  <div class="col-lg-6 col-md-8 p-0">
+                                                                        <div class="bg-white p-16 lg-p-12">
+                                                                              <h3 class="text-dark-gray fw-600 mb-20px ls-minus-2px">Understanding Requirements</h3>
+                                                                              <p class="w-90 mb-20px">We start by learning about your business and project needs to ensure we're aligned with your goals.</p>
+                                                                              <a href="#" class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-800">
+                                                                                    <span>
+                                                                                          <span class="btn-text">Explore project</span>
+                                                                                          <span class="btn-icon"><i class="fa-solid fa-arrow-right fs-14"></i></span>
+                                                                                          <span class="btn-icon"><i class="fa-solid fa-arrow-right fs-14"></i></span>
+                                                                                    </span>
+                                                                              </a>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735158332/pexels-fauxels-3182762_fggvfm.jpg" alt="" />
+                                                      <div class="container position-absolute sm-position-relative bottom-0 right-0px z-index-1 swiper-slide-content">
+                                                            <div class="row justify-content-end align-items-end h-100">
+                                                                  <div class="col-lg-6 col-md-8 p-0">
+                                                                        <div class="bg-white p-16 lg-p-12">
+                                                                              <h3 class="text-dark-gray fw-600 mb-20px ls-minus-2px">Project Planning & Development</h3>
+                                                                              <p class="w-90 mb-20px">We create a detailed plan and develop the project, keeping you updated throughout the process.</p>
+                                                                              <a href="#" class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-800">
+                                                                                    <span>
+                                                                                          <span class="btn-text">Explore project</span>
+                                                                                          <span class="btn-icon"><i class="fa-solid fa-arrow-right fs-14"></i></span>
+                                                                                          <span class="btn-icon"><i class="fa-solid fa-arrow-right fs-14"></i></span>
+                                                                                    </span>
+                                                                              </a>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735158326/pexels-pixabay-269077_mxmsiu.jpg" alt="" />
+                                                      <div class="container position-absolute sm-position-relative bottom-0 right-0px z-index-1 swiper-slide-content">
+                                                            <div class="row justify-content-end align-items-end h-100">
+                                                                  <div class="col-lg-6 col-md-8 p-0">
+                                                                        <div class="bg-white p-16 lg-p-12">
+                                                                              <h3 class="text-dark-gray fw-600 mb-20px ls-minus-2px">Quality Assurance & Delivery</h3>
+                                                                              <p class="w-90 mb-20px">After thorough testing, we deliver the final product, ensuring it meets your expectations.</p>
+                                                                              <a href="#" class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-800">
+                                                                                    <span>
+                                                                                          <span class="btn-text">Explore project</span>
+                                                                                          <span class="btn-icon"><i class="fa-solid fa-arrow-right fs-14"></i></span>
+                                                                                          <span class="btn-icon"><i class="fa-solid fa-arrow-right fs-14"></i></span>
+                                                                                    </span>
+                                                                              </a>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+                                                      </div>
+                                                </div>
                                           </div>
-                                          <div class="feature-box-content last-paragraph-no-margin pt-30 md-pt-21 sm-pt-40px">
-                                                <span class="text-dark-gray fs-20 d-inline-block fw-600 mb-5px">Understanding Your Requirements</span>
-                                                <p>We start by learning about your business and project needs to ensure we're aligned with your goals.</p>
-                                                <span class="w-60px h-3px bg-hilight-color d-inline-block"></span>
-                                          </div>
-                                    </div>
-                              </div>
-                              <div class="col align-self-end mt-25 xs-mt-30px">
-                                    <div class="feature-box text-start ps-30px pe-30px xl-pe-5px sm-pe-0">
-                                          <div class="feature-box-icon position-absolute left-0px top-0px">
-                                                <h2 class="alt-font fs-100 fw-700 ls-minus-1px opacity-1 mb-0">02</h2>
-                                          </div>
-                                          <div class="feature-box-content last-paragraph-no-margin pt-30 md-pt-21 sm-pt-40px">
-                                                <span class="text-dark-gray fs-20 d-inline-block fw-600 mb-5px">Project Planning & Development</span>
-                                                <p>We create a detailed plan and develop the project, keeping you updated throughout the process.</p>
-                                                <span class="w-60px h-3px bg-hilight-color d-inline-block"></span>
-                                          </div>
-                                    </div>
-                              </div>
-                              <div class="col align-self-start mt-minus-12 xs-mt-30px">
-                                    <div class="feature-box text-start ps-30px pe-30px xl-pe-5px sm-pe-0">
-                                          <div class="feature-box-icon position-absolute left-0px top-0px">
-                                                <h2 class="alt-font fs-100 fw-700 ls-minus-1px opacity-1 mb-0">03</h2>
-                                          </div>
-                                          <div class="feature-box-content last-paragraph-no-margin pt-30 md-pt-21 sm-pt-40px">
-                                                <span class="text-dark-gray fs-20 d-inline-block fw-600 mb-5px">Quality Assurance & Delivery</span>
-                                                <p>After thorough testing, we deliver the final product, ensuring it meets your expectations.</p>
-                                                <span class="w-60px h-3px bg-hilight-color d-inline-block"></span>
-                                          </div>
+
+                                          <div class="slider-one-slide-prev-1 icon-small swiper-button-prev slider-navigation-style-07 bg-dark-gray text-white box-shadow-small"><i class="bi bi-arrow-down-left"></i></div>
+                                          <div class="slider-one-slide-next-1 icon-small swiper-button-next slider-navigation-style-07 bg-dark-gray text-white box-shadow-small"><i class="bi bi-arrow-up-right"></i></div>
                                     </div>
                               </div>
                         </div>
-
                   </div>
             </div>
 

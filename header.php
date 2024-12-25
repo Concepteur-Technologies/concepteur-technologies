@@ -67,18 +67,14 @@
                                                 <a href="javascript:void(0);" class="nav-link <?php echo esc_attr($extra_class); ?>">Services</a>
                                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink5" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                                 <ul class="dropdown-menu" style="width: 274px;" aria-labelledby="navbarDropdownMenuLink5">
-                                                      <li class="dropdown"><a href="javascript:void(0);">Software Development<i class="bi bi-chevron-right"></i></a></i>
-                                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink5">
-                                                                  <li class="dropdown">
-                                                                        <a href="<?php echo home_url() . '/web-app-development' ?>">Web Development <i class="bi bi-arrow-up-right-square-fill"></i></a>
-                                                                  </li>
-                                                                  <li class="dropdown">
-                                                                        <a href="<?php echo home_url() . '/mobile-app-development' ?>">Mobile App Development<i class="bi bi-arrow-up-right-square-fill"></i></a>
-                                                                  </li>
-                                                            </ul>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/web-app-development' ?>">Web Development<i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                       <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/coming-soon' ?>">IT Consulting<i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>">App Development<i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                      </li>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/coming-soon' ?>">Api Development<i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                       <li class="dropdown">
                                                             <a href="<?php echo home_url() . '/coming-soon' ?>">Cloud Solutions<i class="bi bi-arrow-up-right-square-fill"></i></a>
