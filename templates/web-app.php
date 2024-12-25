@@ -27,15 +27,15 @@ get_header(); ?>
                         <div class="cart-box">
                               <ul class="cart-items">
                                     <li class="cart-item">
-                                          <h4 class="item-title">iOS App Development</h4>
+                                          <h4 class="item-title">iOS App </h4>
                                           <p class="item-description">Custom mobile apps tailored for iOS devices with seamless performance.</p>
                                     </li>
                                     <li class="cart-item">
-                                          <h4 class="item-title">Android App Development</h4>
+                                          <h4 class="item-title">Android App </h4>
                                           <p class="item-description">Building intuitive and high-performance apps for Android users.</p>
                                     </li>
                                     <li class="cart-item">
-                                          <h4 class="item-title">Cross-platform Development</h4>
+                                          <h4 class="item-title">Cross-platform </h4>
                                           <p class="item-description">Reach both iOS and Android with a unified solution.</p>
                                     </li>
                                     <a href="#" class="btn btn-link-gradient btn-medium text-gradient-fast-blue-purple d-table d-lg-inline-block xl-mb-15px md-mx-auto">Get Started<span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span><span class="bg-gradient-fast-blue-purple"></span></a>
@@ -86,7 +86,7 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733046824/HTML-Blog-Cover_pncieu.svg" alt="" data-no-retina="">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138963/CSS_3_u3d2mb.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
@@ -100,34 +100,16 @@ get_header(); ?>
                                     </div>
                               </li>
 
-                              <li class="grid-item Frontend transition-inner-all">
-                                    <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
-                                          <div class="image">
-                                                <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733046783/CSS_20Blog_20Cover_m7g9xy.svg" alt="" data-no-retina="">
-                                                </a>
-                                          </div>
-                                          <div class="bg-white position-relative">
-                                                <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
-                                                      <span class="d-block mb-10px"><a href="#" class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block mr-10">Frontend</a><span class="fs-16">CSS</span></span>
-                                                      <div class="d-flex align-items-center mb-5px">
-                                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Styles and designs for web pages. <i class="fa-solid fa-arrow-right"></i></a>
-                                                      </div>
-                                                </div>
-                                          </div>
-                                    </div>
-                              </li>
-
                               <li class="grid-item backend transition-inner-all">
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733046733/phplogo-1617378886_cxlabt.jpg" alt="" data-no-retina="">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138963/CSS_2_i0uhid.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
                                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
-                                                      <span class="d-block mb-10px"><a href="#" class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block mr-10">Backend</a><span class="fs-16">PHP</span></span>
+                                                      <span class="d-block mb-10px"><a href="#" class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block mr-10">Backend</a><span class="fs-16"> PHP</span></span>
                                                       <div class="d-flex align-items-center mb-5px">
                                                             <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Server-side scripting for dynamic websites. <i class="fa-solid fa-arrow-right"></i></a>
                                                       </div>
@@ -140,7 +122,7 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733046284/laravel-featured_hwzedm.png" alt="" data-no-retina="">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138961/CSS_4_tqulht.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
@@ -154,11 +136,29 @@ get_header(); ?>
                                     </div>
                               </li>
 
+                              <li class="grid-item backend transition-inner-all">
+                                    <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
+                                          <div class="image">
+                                                <a href="#">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735139454/CSS_14_k8hzej.jpg">
+                                                </a>
+                                          </div>
+                                          <div class="bg-white position-relative">
+                                                <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
+                                                      <span class="d-block mb-10px"><a href="#" class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block mr-10">Backend</a><span class="fs-16">CodeIgniter</span></span>
+                                                      <div class="d-flex align-items-center mb-5px">
+                                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">PHP framework for expressive backend applications <i class="fa-solid fa-arrow-right"></i></a>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </li>
+
                               <li class="grid-item Frontend transition-inner-all">
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733046883/Free-Courses-to-learn-JavaScript-1024x576_djxoat.jpg" alt="" data-no-retina="">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138960/CSS_5_h2yb1e.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
@@ -176,7 +176,7 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733001490/wp4923992-react-js-wallpapers.png" alt="" data-no-retina="">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733001490/wp4923992-react-js-wallpapers.png">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
@@ -194,7 +194,7 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733046945/1721976726113_tovzt9.png" alt="" data-no-retina="">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138960/CSS_6_w13973.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
@@ -212,7 +212,7 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733046987/1_OrjCKmou1jT4It5so5gvOA_dw4hro.jpg" alt="" data-no-retina="">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138960/CSS_9_eqhfvj.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
@@ -230,7 +230,7 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733047371/desktop-wallpaper-js-node-js_wnhzgx.jpg" alt="" data-no-retina="">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138959/CSS_7_uvp3v7.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
@@ -248,7 +248,7 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733047039/02yVL9f8Jw1atwoG6sgFZDH-7.fit_scale.size_760x427.v1569482492_gtgp1a.jpg" alt="" data-no-retina="">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138960/CSS_8_q4xg71.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
@@ -266,7 +266,7 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733047349/1_zwbpI_WsKDzEjyqoUkwHSQ_j1hfsh.png" alt="" data-no-retina="">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138959/CSS_11_ysgczg.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
@@ -284,7 +284,7 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733047525/0_3vxwGtPKV44S6EW2_jja5no.jpg" alt="" data-no-retina="">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138959/CSS_10_ixmnlt.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
@@ -302,7 +302,7 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733047173/0_BmLKgrU_qFtakYsB_ehdpvs.png" alt="" data-no-retina="">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733047173/0_BmLKgrU_qFtakYsB_ehdpvs.png">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
@@ -320,7 +320,7 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733047233/Comparing-Kubernetes-operators-for-PostgreSQL_mvklyd.png" alt="" data-no-retina="">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138958/CSS_13_uqpr1k.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
@@ -338,7 +338,7 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733047260/top-aws-service-list-2023-scaled_nu3pti.webp" alt="" data-no-retina="">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138959/CSS_12_uefbju.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
@@ -404,14 +404,14 @@ get_header(); ?>
                                                                   <h3 class="ls-minus-1px fw-700 word-break-normal mb-40px sm-mb-20px"><a href="#" class="text-dark-gray text-dark-gray-hover">I love seeing fashion from the past making a comeback.</a></h3>
                                                             </div>
                                                             <div>
-                                                                  <img src="https://via.placeholder.com/148x148" class="rounded-circle w-70px me-15px" alt="">
+                                                                  <img src="" class="rounded-circle w-70px me-15px" alt="">
                                                                   <div class="d-inline-block align-middle">
                                                                         <a href="#" class="text-dark-gray fs-18 fw-600 text-decoration-line-bottom">Walton smith</a>
                                                                   </div>
                                                             </div>
                                                       </div>
                                                       <div class="col-12 col-lg-8 order-lg-2 order-1">
-                                                            <a href="#"><img src="https://via.placeholder.com/825x630" class="border-radius-6px" alt="" /></a>
+                                                            <a href="#"><img src="" class="border-radius-6px" alt="" /></a>
                                                       </div>
                                                 </div>
                                           </div>
@@ -437,14 +437,14 @@ get_header(); ?>
                                                                   <h3 class="ls-minus-1px fw-700 word-break-normal mb-40px sm-mb-20px"><a href="#" class="text-dark-gray text-dark-gray-hover">Fashion is the most beautiful illusion you can have.</a></h3>
                                                             </div>
                                                             <div>
-                                                                  <img src="https://via.placeholder.com/148x148" class="rounded-circle w-70px me-15px" alt="">
+                                                                  <img src="" class="rounded-circle w-70px me-15px" alt="">
                                                                   <div class="d-inline-block align-middle">
                                                                         <a href="#" class="text-dark-gray fs-18 fw-600 text-decoration-line-bottom">Herman miller</a>
                                                                   </div>
                                                             </div>
                                                       </div>
                                                       <div class="col-12 col-lg-8 order-lg-2 order-1">
-                                                            <a href="#"><img src="https://via.placeholder.com/825x630" class="border-radius-6px" alt="" /></a>
+                                                            <a href="#"><img src="" class="border-radius-6px" alt="" /></a>
                                                       </div>
                                                 </div>
                                           </div>
@@ -470,14 +470,14 @@ get_header(); ?>
                                                                   <h3 class="ls-minus-1px fw-700 word-break-normal mb-40px sm-mb-20px"><a href="#" class="text-dark-gray text-dark-gray-hover">Fashion is the armor to survive the reality of everyday life.</a></h3>
                                                             </div>
                                                             <div>
-                                                                  <img src="https://via.placeholder.com/148x148" class="rounded-circle w-70px me-15px" alt="">
+                                                                  <img src="" class="rounded-circle w-70px me-15px" alt="">
                                                                   <div class="d-inline-block align-middle">
                                                                         <a href="#" class="text-dark-gray fs-18 fw-600 text-decoration-line-bottom">Jessica dover</a>
                                                                   </div>
                                                             </div>
                                                       </div>
                                                       <div class="col-12 col-lg-8 order-lg-2 order-1">
-                                                            <a href="#"><img src="https://via.placeholder.com/825x630" class="border-radius-6px" alt="" /></a>
+                                                            <a href="#"><img src="" class="border-radius-6px" alt="" /></a>
                                                       </div>
                                                 </div>
                                           </div>
@@ -503,14 +503,14 @@ get_header(); ?>
                                                                   <h3 class="ls-minus-1px fw-700 word-break-normal mb-40px sm-mb-20px"><a href="#" class="text-dark-gray text-dark-gray-hover">Fashion is the most beautiful illusion you can have.</a></h3>
                                                             </div>
                                                             <div>
-                                                                  <img src="https://via.placeholder.com/148x148" class="rounded-circle w-70px me-15px" alt="">
+                                                                  <img src="" class="rounded-circle w-70px me-15px" alt="">
                                                                   <div class="d-inline-block align-middle">
                                                                         <a href="#" class="text-dark-gray fs-18 fw-600 text-decoration-line-bottom">Herman miller</a>
                                                                   </div>
                                                             </div>
                                                       </div>
                                                       <div class="col-12 col-lg-8 order-lg-2 order-1">
-                                                            <a href="#"><img src="https://via.placeholder.com/825x630" class="border-radius-6px" alt="" /></a>
+                                                            <a href="#"><img src="" class="border-radius-6px" alt="" /></a>
                                                       </div>
                                                 </div>
                                           </div>

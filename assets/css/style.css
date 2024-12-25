@@ -9061,7 +9061,7 @@ button:focus {
   color: var(--dark-gray);
 }
 .header-demo.navbar .navbar-nav .nav-link {
-  font-weight: 600;
+  font-weight: 100;
 }
 .header-demo.navbar .navbar-nav .dropdown .dropdown-menu a {
   font-weight: 500;
@@ -19785,4 +19785,12 @@ font-size:186px;
 
 .new-class-new {
       background-color: black !important;
+}
+
+.text-concep {
+      color: #3ee423;
+}
+
+.text-concep-2 {
+      color: #146d14;
 }

@@ -21,7 +21,7 @@ get_header();
                         </div>
                         <h1 class="text-white w-60 lg-w-80 md-w-70 sm-w-100 fw-500 ls-minus-2px text-white alt-font mb-30px overflow-hidden mb-0">Some people just try to celebrate the joys of life.</h1>
                         <div class="text-white fs-18 mt-40px">
-                              <img class="w-80px h-80px rounded-circle me-15px" src="https://via.placeholder.com/148x148" alt="" data-no-retina="">
+                              <img class="w-80px h-80px rounded-circle me-15px" src="" alt="" data-no-retina="">
                               <a href="demo-elearning-blog.html" class="text-white text-decoration-line-bottom">Shane smith</a>
                         </div>
                   </div>
@@ -66,7 +66,7 @@ get_header();
                         </div>
                   </div>
                   <div class="col-lg-10 mb-6 sm-mb-35px last-paragraph-no-margin text-center">
-                        <img src="https://via.placeholder.com/987x550" class="mb-20px" alt="" data-no-retina="">
+                        <img src="" class="mb-20px" alt="" data-no-retina="">
                         <p class="pb-20px alt-font fs-14 text-uppercase">Photography by Richard winters</p>
                         <div class="h-1px w-100 bg-extra-medium-gray"></div>
                   </div>
@@ -74,16 +74,7 @@ get_header();
                         <h5 class="alt-font text-dark-gray fw-600 ls-minus-1px w-95 md-w-100">Fashion you can buy but style you possess. The key to style is learning who you are which takes years.</h5>
                         <p class="w-90 lg-w-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut nim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis.</p>
                   </div>
-                  <!-- <div class="col-lg-10 mb-6 sm-mb-35px">
-                <div class="row">
-                    <div class="col-md-6 sm-mb-30px">
-                        <img src="https://via.placeholder.com/800x1030" alt="" data-no-retina="">
-                    </div>
-                    <div class="col-md-6">
-                        <img src="https://via.placeholder.com/800x1030" alt="" data-no-retina="">
-                    </div>
-                </div>
-            </div> -->
+
                   <div class="col-lg-10 last-paragraph-no-margin">
                         <h5 class="alt-font text-dark-gray fw-600 ls-minus-1px w-90 md-w-100">We finished our first sensor sweep of the neutral zone</h5>
                         <p class="mb-6 w-90 lg-w-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error.</p>

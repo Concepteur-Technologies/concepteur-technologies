@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 
 <head>
-      <title>Concepteur Technologies| Empowering Your Digital Journey</title>
+      <title>Concepteur Technologies | Empowering Your Digital Journey</title>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="author" content="Proparna">
@@ -15,8 +15,8 @@
       <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
       <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-      <link rel="icon" href="https://res.cloudinary.com/didxyeaj1/image/upload/v1733050188/favicon_jre5k8.ico" type="image/x-icon" />
-      <link rel="shortcut icon" href="https://res.cloudinary.com/didxyeaj1/image/upload/v1733050188/favicon_jre5k8.ico" type="image/x-icon">
+      <link rel="icon" href="https://res.cloudinary.com/didxyeaj1/image/upload/v1735134659/C_TEC_2_mrxjep.png" type="image/x-icon" />
+      <link rel="shortcut icon" href="https://res.cloudinary.com/didxyeaj1/image/upload/v1735134659/C_TEC_2_mrxjep.png" type="image/x-icon">
       <?php wp_head(); ?>
       <?php
       $current_page = trim($_SERVER['REQUEST_URI'], '/');
@@ -31,9 +31,9 @@
                   <div class="container-fluid">
                         <div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
                               <a class="navbar-brand" href="<?php echo home_url() . '/home-page' ?>">
-                                    <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="default-logo">
-                                    <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="alt-logo">
-                                    <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="mobile-logo">
+                                    <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735134518/asterisk_media_inc._1_emvx0w.png" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="default-logo">
+                                    <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735134518/asterisk_media_inc._1_emvx0w.png" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="alt-logo">
+                                    <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735134518/asterisk_media_inc._1_emvx0w.png" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="mobile-logo">
                               </a>
                         </div>
                         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -70,10 +70,10 @@
                                                       <li class="dropdown"><a href="javascript:void(0);">Software Development<i class="bi bi-chevron-right"></i></a></i>
                                                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink5">
                                                                   <li class="dropdown">
-                                                                        <a href="<?php echo home_url() . '/mobile-app-development' ?>">Web Development <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                                        <a href="<?php echo home_url() . '/web-app-development' ?>">Web Development <i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                                   </li>
                                                                   <li class="dropdown">
-                                                                        <a href="<?php echo home_url() . '/web-app-development' ?>">Mobile App Development<i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                                        <a href="<?php echo home_url() . '/mobile-app-development' ?>">Mobile App Development<i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                                   </li>
                                                             </ul>
                                                       </li>

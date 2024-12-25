@@ -34,7 +34,6 @@
                   <div class="col-6 col-xl-2 col-lg-3 col-md-5 col-sm-4 xs-mb-30px order-sm-4 order-lg-3">
                         <span class="fw-600 d-block text-dark-gray mb-5px">Services</span>
                         <ul>
-                              <li><a href="#">Software Development</a></li>
                               <li><a href="#">Web Development</a></li>
                               <li><a href="#">App Development</a></li>
                               <li><a href="#">IT Consulting</a></li>

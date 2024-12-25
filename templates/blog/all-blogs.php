@@ -40,7 +40,7 @@ get_header();
                         <div class="col-12 mb-40px">
                               <div class="card border-0 no-border-radius box-shadow-extra-large">
                                     <div class="blog-image">
-                                          <a href="demo-elearning-blog-single-simple.html"><img src="https://via.placeholder.com/800x570" alt="" /></a>
+                                          <a href="demo-elearning-blog-single-simple.html"><img src="0" alt="" /></a>
                                           <div class="blog-categories">
                                                 <a href="blog-grid.html" class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase alt-font fw-600">Agency</a>
                                           </div>
@@ -62,7 +62,7 @@ get_header();
                         <div class="col-12 mb-40px">
                               <div class="card border-0 no-border-radius box-shadow-extra-large">
                                     <div class="blog-image">
-                                          <a href="demo-elearning-blog-single-simple.html"><img src="https://via.placeholder.com/800x570" alt="" /></a>
+                                          <a href="demo-elearning-blog-single-simple.html"><img src="0" alt="" /></a>
                                           <div class="blog-categories">
                                                 <a href="blog-grid.html" class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase alt-font fw-600">Agency</a>
                                           </div>
@@ -84,7 +84,7 @@ get_header();
                         <div class="col-12 mb-40px">
                               <div class="card border-0 no-border-radius box-shadow-extra-large">
                                     <div class="blog-image">
-                                          <a href="demo-elearning-blog-single-simple.html"><img src="https://via.placeholder.com/800x570" alt="" /></a>
+                                          <a href="demo-elearning-blog-single-simple.html"><img src="0" alt="" /></a>
                                           <div class="blog-categories">
                                                 <a href="blog-grid.html" class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase alt-font fw-600">Fashion</a>
                                           </div>
@@ -106,7 +106,7 @@ get_header();
                         <div class="col-12 mb-40px">
                               <div class="card border-0 no-border-radius box-shadow-extra-large">
                                     <div class="blog-image">
-                                          <a href="demo-elearning-blog-single-simple.html"><img src="https://via.placeholder.com/800x570" alt="" /></a>
+                                          <a href="demo-elearning-blog-single-simple.html"><img src="0" alt="" /></a>
                                           <div class="blog-categories">
                                                 <a href="blog-grid.html" class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase alt-font fw-600">Agency</a>
                                           </div>
@@ -128,7 +128,7 @@ get_header();
                         <div class="col-12">
                               <div class="card border-0 no-border-radius box-shadow-extra-large">
                                     <div class="blog-image">
-                                          <a href="demo-elearning-blog-single-simple.html"><img src="https://via.placeholder.com/800x570" alt="" /></a>
+                                          <a href="demo-elearning-blog-single-simple.html"><img src="0" alt="" /></a>
                                           <div class="blog-categories">
                                                 <a href="blog-grid.html" class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase alt-font fw-600">Development</a>
                                           </div>
@@ -164,7 +164,7 @@ get_header();
                               <ul class="popular-post-sidebar position-relative">
                                     <li class="d-flex align-items-center">
                                           <figure>
-                                                <a href="demo-elearning-blog-single-simple.html"><img src="https://via.placeholder.com/600x600" alt=""></a>
+                                                <a href="demo-elearning-blog-single-simple.html"><img src="" alt=""></a>
                                           </figure>
                                           <div class="col media-body">
                                                 <a href="demo-elearning-blog-single-simple.html" class="fw-600 fs-17 text-dark-gray d-inline-block mb-10px">Trendy is the last stage before tacky.</a>
@@ -173,7 +173,7 @@ get_header();
                                     </li>
                                     <li class="d-flex align-items-center">
                                           <figure>
-                                                <a href="demo-elearning-blog-single-simple.html"><img src="https://via.placeholder.com/600x600" alt=""></a>
+                                                <a href="demo-elearning-blog-single-simple.html"><img src="" alt=""></a>
                                           </figure>
                                           <div class="col media-body">
                                                 <a href="demo-elearning-blog-single-simple.html" class="fw-600 fs-17 text-dark-gray d-inline-block mb-10px">Believe you can and you're halfway there.</a>
@@ -182,7 +182,7 @@ get_header();
                                     </li>
                                     <li class="d-flex align-items-center">
                                           <figure>
-                                                <a href="demo-elearning-blog-single-simple.html"><img src="https://via.placeholder.com/600x600" alt=""></a>
+                                                <a href="demo-elearning-blog-single-simple.html"><img src="" alt=""></a>
                                           </figure>
                                           <div class="col media-body">
                                                 <a href="demo-elearning-blog-single-simple.html" class="fw-600 fs-17 text-dark-gray d-inline-block mb-10px">In a gentle way, you can shake the world.</a>
@@ -194,28 +194,28 @@ get_header();
                         <div class="mb-15 md-mb-50px xs-mb-35px">
                               <div class="fw-600 fs-19 lh-22 ls-minus-05px text-dark-gray border-bottom border-color-dark-gray border-2 d-block mb-30px pb-15px position-relative">Explore category</div>
                               <ul class="category-list-sidebar position-relative">
-                                    <li class="d-flex align-items-center h-80px cover-background ps-35px pe-35px" style="background-image: url('https://via.placeholder.com/600x144')">
+                                    <li class="d-flex align-items-center h-80px cover-background ps-35px pe-35px" style="background-image: url('')">
                                           <div class="opacity-medium bg-gradient-dark-transparent"></div>
                                           <a href="blog-grid.html" class="d-flex align-items-center position-relative w-100 h-100">
                                                 <span class="text-white mb-0 fs-20 fw-500 fancy-text-style-4">Fashion</span>
                                                 <span class="btn text-white position-absolute"><i class="bi bi-arrow-right ms-0 fs-24"></i></span>
                                           </a>
                                     </li>
-                                    <li class="d-flex align-items-center h-80px cover-background ps-35px pe-35px" style="background-image: url('https://via.placeholder.com/600x144')">
+                                    <li class="d-flex align-items-center h-80px cover-background ps-35px pe-35px" style="background-image: url('')">
                                           <div class="opacity-medium bg-gradient-dark-transparent"></div>
                                           <a href="blog-grid.html" class="d-flex align-items-center position-relative w-100 h-100">
                                                 <span class="text-white mb-0 fs-20 fw-500 fancy-text-style-4">Creative</span>
                                                 <span class="btn text-white position-absolute"><i class="bi bi-arrow-right ms-0 fs-24"></i></span>
                                           </a>
                                     </li>
-                                    <li class="d-flex align-items-center h-80px cover-background ps-35px pe-35px" style="background-image: url('https://via.placeholder.com/600x144')">
+                                    <li class="d-flex align-items-center h-80px cover-background ps-35px pe-35px" style="background-image: url('')">
                                           <div class="opacity-medium bg-gradient-dark-transparent"></div>
                                           <a href="blog-grid.html" class="d-flex align-items-center position-relative w-100 h-100">
                                                 <span class="text-white mb-0 fs-20 fw-500 fancy-text-style-4">Business</span>
                                                 <span class="btn text-white position-absolute"><i class="bi bi-arrow-right ms-0 fs-24"></i></span>
                                           </a>
                                     </li>
-                                    <li class="d-flex align-items-center h-80px cover-background ps-35px pe-35px" style="background-image: url('https://via.placeholder.com/600x144')">
+                                    <li class="d-flex align-items-center h-80px cover-background ps-35px pe-35px" style="background-image: url('')">
                                           <div class="opacity-medium bg-gradient-dark-transparent"></div>
                                           <a href="blog-grid.html" class="d-flex align-items-center position-relative w-100 h-100">
                                                 <span class="text-white mb-0 fs-20 fw-500 fancy-text-style-4">Lifestyle</span>
