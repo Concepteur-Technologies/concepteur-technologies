@@ -139,6 +139,61 @@ get_header();
 
 </section>
 
+<section class="bg-very-light-gray big-section">
+      <div class="container">
+            <div class="row justify-content-center text-center text-lg-start" data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
+                  <div class="col-xl-6 col-lg-7 md-mb-25px">
+                        <h2 class="fw-600 text-dark-gray mb-0 ls-minus-1px lg-w-90 md-w-100">Perfect solutions for your business.</h2>
+                  </div>
+                  <div class="col-lg-5 offset-xl-1 last-paragraph-no-margin">
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore magna ut enim ad minim veniam nostrud exercitation.</p>
+                  </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 mt-6 justify-content-center" data-anime='{ "el": "childs", "translateX": [-50, 0], "opacity": [0,1], "duration": 600, "delay": 100, "staggervalue": 100, "easing": "easeOutQuad" }'>
+                  <!-- start pie chart item -->
+                  <div class="col md-mb-45px">
+                        <div class="chart-percent mb-20px">
+                              <span class="pie-chart-style-01 d-flex align-items-center justify-content-center" data-line-width="4" data-percent="90" data-track-color="#cccfe3" data-start-color="#3ee423" data-end-color="red">
+                                    <span class="percent d-flex align-items-center justify-content-center fs-22 ls-minus-1px fw-600 text-dark-gray bg-gradient-extra-midium-gray-transparent box-shadow-double-large w-100px h-100px rounded-circle"></span>
+                              </span>
+                        </div>
+                        <div class="chart-text text-center text-dark-gray fw-600 fs-19">Finance issues</div>
+                  </div>
+                  <!-- end pie chart item -->
+                  <!-- start pie chart item -->
+                  <div class="col md-mb-45px">
+                        <div class="chart-percent mb-20px">
+                              <span class="pie-chart-style-01 d-flex align-items-center justify-content-center" data-line-width="4" data-percent="92" data-track-color="#cccfe3" data-start-color="#3ee423" data-end-color="red">
+                                    <span class="percent d-flex align-items-center justify-content-center fs-22 ls-minus-1px fw-600 text-dark-gray bg-gradient-extra-midium-gray-transparent box-shadow-double-large w-100px h-100px rounded-circle"></span>
+                              </span>
+                        </div>
+                        <div class="chart-text text-center text-dark-gray fw-600 fs-19">Cost analysis</div>
+                  </div>
+                  <!-- end pie chart item -->
+                  <!-- start pie chart item -->
+                  <div class="col xs-mb-45px">
+                        <div class="chart-percent mb-20px">
+                              <span class="pie-chart-style-01 d-flex align-items-center justify-content-center" data-line-width="4" data-percent="94" data-track-color="#cccfe3" data-start-color="#3ee423" data-end-color="red">
+                                    <span class="percent d-flex align-items-center justify-content-center fs-22 ls-minus-1px fw-600 text-dark-gray bg-gradient-extra-midium-gray-transparent box-shadow-double-large w-100px h-100px rounded-circle"></span>
+                              </span>
+                        </div>
+                        <div class="chart-text text-center text-dark-gray fw-600 fs-19">Profit calculation</div>
+                  </div>
+                  <!-- end pie chart item -->
+                  <!-- start pie chart item -->
+                  <div class="col">
+                        <div class="chart-percent mb-20px">
+                              <span class="pie-chart-style-01 d-flex align-items-center justify-content-center" data-line-width="4" data-percent="90" data-track-color="#cccfe3" data-start-color="#3ee423" data-end-color="red">
+                                    <span class="percent d-flex align-items-center justify-content-center fs-22 ls-minus-1px fw-600 text-dark-gray bg-gradient-extra-midium-gray-transparent box-shadow-double-large w-100px h-100px rounded-circle"></span>
+                              </span>
+                        </div>
+                        <div class="chart-text text-center text-dark-gray fw-600 fs-19">Growth ratio</div>
+                  </div>
+                  <!-- end pie chart item -->
+            </div>
+      </div>
+</section>
+
 <?php include_once(get_template_directory() . '/global/contact-us-section.php'); ?>
 
 <?php get_footer() ?>
