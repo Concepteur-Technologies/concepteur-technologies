@@ -70,10 +70,10 @@ get_header();
                         </a>
                   </div>
                   <!-- { "delay": 4000, "disableOnInteraction": false } -->
-                  <div class="col-xl-6 col-lg-8 col-md-10 position-relative z-index-1" data-anime='{ "el": "childs", "translateY": [0, 0], "perspective": [1200,1200], "scale": [1.05, 1], "rotateX": [30, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                  <div class="col-xl-6 col-lg-8 col-md-10 position-relative z-index-1">
                         <div class="row-cols-auto row-cols-sm-2 appear anime-child anime-complete">
                               <div class="position-relative" style="width: 100% !important;">
-                                    <div class="swiper position-relative text-slider-style-04" data-slider-options='{ "autoHeight": true, "loop": true, "allowTouchMove": true, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "effect": "fade" }'>
+                                    <div class="swiper position-relative text-slider-style-04" data-slider-options='{ "autoHeight": true, "loop": true, "allowTouchMove": true, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }}'>
                                           <div class="swiper-wrapper">
                                                 <div class="swiper-slide">
                                                       <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735158327/pexels-fauxels-3184436_svib6i.jpg" alt="" />
@@ -367,8 +367,6 @@ get_header();
                               <i class="devicon-go-original-wordmark colored"></i> Go (Golang)
                         </a>
                         <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-rust-original colored"></i> Rust
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
                               <i class="devicon-nextjs-original-wordmark colored"></i> Next.js
                         </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
                               <i class="devicon-phalcon-plain colored"></i> Phalcon
@@ -380,10 +378,6 @@ get_header();
                               <i class="devicon-java-plain colored"></i> Java
                         </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
                               <i class="devicon-react-original"></i> Native
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-swift-plain colored"></i> Swift
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-tensorflow-line colored"></i> TensorFlow
                         </a>
                   </div>
                   <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-1" style="display: flex; width: 100%;">
@@ -397,15 +391,9 @@ get_header();
                         </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
                               <i class="devicon-vuejs-plain colored"></i> Vue.js
                         </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-react-original colored me-2"></i> ASP.NET
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
                               <i class="devicon-express-original colored"></i> Express.js
                         </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
                               <i class="devicon-symfony-original colored"></i> Symfony
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-ruby-plain colored"></i> Ruby
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-perl-plain colored"></i> Perl
                         </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
                               <i class="devicon-typescript-plain colored"></i> TypeScript
                         </a>
@@ -418,12 +406,6 @@ get_header();
                               <i class="devicon-laravel-original colored"></i> Laravel
                         </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
                               <i class="devicon-codeigniter-plain colored"></i> CodeIgniter
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-django-plain colored"></i> Django
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-spring-original colored"></i> Spring
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-flask-original colored"></i> Flask
                         </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
                               <i class="devicon-wordpress-plain colored"></i> WordPress
                         </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
@@ -600,6 +582,8 @@ get_header();
             </div>
       </div>
 </section>
+
+<?php include_once(get_template_directory() . '/pages/services-price.php'); ?>
 <?php include_once(get_template_directory() . '/global/contact-us-section.php'); ?>
 
 <?php
