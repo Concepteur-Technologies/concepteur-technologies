@@ -19807,3 +19807,11 @@ font-size:186px;
     justify-content: center; /* Center vertically */
     height: auto; /* Allow content to adjust naturally */
 }
+
+.text-concep-back {
+      background-color: #3ee423 !important;
+}
+
+.text-concep-back-bor {
+      border-color: #3ee423 !important;
+}

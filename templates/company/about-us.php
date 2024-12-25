@@ -182,7 +182,7 @@ get_header();
             <div class="row">
                   <div class="col-12">
                         <span class="text-dark-gray fs-50 lg-fs-40 lh-60 lg-lh-60 shadow-none ls-minus-2px shadow-in" data-shadow-animation="true" data-animation-delay="500">
-                              Innovation is the heart of progress at <span class="text-highlight">Concepteur Technologies.</span><span class="bg-dark-gray h-3px bottom-0px separator-animation"></span> We strive to create solutions that drive the future of technology. <span class="text-highlight">Through our expertise in design, development, and technology,<span class="bg-dark-gray h-3px bottom-0px separator-animation"></span></span> we turn complex challenges into opportunities. <span class="text-highlight">We believe in continuous learning and adapting to change,<span class="bg-dark-gray h-3px bottom-0px separator-animation"></span></span> ensuring we always deliver the best for our clients and the world.
+                              Innovation is the heart of progress at <span class="text-highlight text-concep">Concepteur Technologies.</span><span class="bg-dark-gray h-3px bottom-0px separator-animation"></span> We strive to create solutions that drive the future of technology. <span class="text-highlight text-concep">Through our expertise in design, development, and technology,<span class="bg-dark-gray h-3px bottom-0px separator-animation"></span></span> we turn complex challenges into opportunities. <span class="text-highlight">We believe in continuous learning and adapting to change,<span class="bg-dark-gray h-3px bottom-0px separator-animation"></span></span> ensuring we always deliver the <span class="text-concep">best for our clients</span> and the world.
                         </span>
                   </div>
             </div>
@@ -193,10 +193,10 @@ get_header();
       <div class="container">
             <div class="row align-items-center justify-content-center text-center text-lg-start appear anime-child anime-complete" data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateX&quot;: [50, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 100, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
                   <div class="col-xxl-5 col-lg-6 col-md-10 md-mb-50px xs-mb-30px">
-                        <h2 class="fw-600 text-dark-gray ls-minus-2px mb-0">Our Journey: Milestones in Business Growth</h2>
+                        <h2 class="fw-600 text-dark-gray ls-minus-2px mb-0"><span class="text-concep">Our Journey</span> Milestones in Business Growth</h2>
                   </div>
                   <div class="col-xxl-2 offset-xxl-2 col-md-3 col-sm-4 text-center xs-mb-30px">
-                        <span class="text-dark-gray fw-600 fs-130 ls-minus-2px text-highlight">32<span class="bg-red start-0 w-50 h-10px bottom-10px"></span></span>
+                        <span class="text-dark-gray fw-600 fs-130 ls-minus-2px text-highlight">32<span class="text-concep-back start-0 w-50 h-10px bottom-10px"></span></span>
                   </div>
                   <div class="col-lg-3 col-md-5 col-sm-6 last-paragraph-no-margin text-center text-sm-start">
                         <span class="text-dark-gray fs-20 fw-600 d-inline-block mb-5px">Projects Delivered</span>
@@ -206,7 +206,7 @@ get_header();
             <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 mt-6 md-mt-50px appear anime-child anime-complete" data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateX&quot;: [-50, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 100, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
                   <!-- start process step item -->
                   <div class="col text-center process-step-style-02 hover-box last-paragraph-no-margin md-mb-50px">
-                        <i class="line-icon-Idea-5 text-red icon-double-large mb-20px"></i>
+                        <i class="line-icon-Idea-5 text-concep icon-double-large mb-20px"></i>
                         <span class="d-block text-dark-gray mb-5px fs-20 fw-600">We Started Taking New Projects</span>
                         <p class="d-inline-block w-70 lg-w-85">In 2018, Concepteur Technologies started taking on small projects that helped us hone our skills and set the stage for future growth.</p>
                         <div class="process-step-icon-box position-relative mt-30px">
@@ -220,7 +220,7 @@ get_header();
                   <!-- end process step item -->
                   <!-- start process step item -->
                   <div class="col text-center process-step-style-02 hover-box last-paragraph-no-margin md-mb-50px">
-                        <i class="line-icon-Fountain-Pen text-red icon-double-large mb-20px"></i>
+                        <i class="line-icon-Fountain-Pen text-concep icon-double-large mb-20px"></i>
                         <span class="d-block text-dark-gray mb-5px fs-20 fw-600">Connecting with Big Companies</span>
                         <p class="d-inline-block w-70 lg-w-85">In 2019, we expanded our network and established strong relationships with major companies, opening doors to more complex projects.</p>
                         <div class="process-step-icon-box position-relative mt-30px">
@@ -234,7 +234,7 @@ get_header();
                   <!-- end process step item -->
                   <!-- start process step item -->
                   <div class="col text-center process-step-style-02 hover-box last-paragraph-no-margin xs-mb-50px">
-                        <i class="line-icon-Loading-2 text-red icon-double-large mb-20px"></i>
+                        <i class="line-icon-Loading-2 text-concep icon-double-large mb-20px"></i>
                         <span class="d-block text-dark-gray mb-5px fs-20 fw-600">Collaborating on Major Projects</span>
                         <p class="d-inline-block w-70 lg-w-85">By 2021, we were collaborating on large-scale projects, cementing our position as a trusted partner for industry leaders.</p>
                         <div class="process-step-icon-box position-relative mt-30px">
@@ -248,7 +248,7 @@ get_header();
                   <!-- end process step item -->
                   <!-- start process step item -->
                   <div class="col text-center process-step-style-02 hover-box last-paragraph-no-margin">
-                        <i class="line-icon-Juice text-red icon-double-large mb-20px"></i>
+                        <i class="line-icon-Juice text-concep icon-double-large mb-20px"></i>
                         <span class="d-block text-dark-gray mb-5px fs-20 fw-600">Opening Our Own Office</span>
                         <p class="d-inline-block w-70 lg-w-85">In 2024, we celebrated a significant milestone by opening our own office, marking a new chapter in our growth journey. Lot of things to do. in our future.Let's go</p>
                         <div class="process-step-icon-box position-relative mt-30px">

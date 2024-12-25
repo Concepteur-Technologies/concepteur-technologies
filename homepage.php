@@ -48,7 +48,7 @@ get_header();
       <div class="container h-100" style="max-width: 90% !important;">
             <div class="row align-items-center h-100">
                   <div class="col-xl-6 col-lg-8 col-md-10 position-relative z-index-1" data-anime="{&quot;translateX&quot;: [-50, 0], &quot;opacity&quot;: [1,1], &quot;duration&quot;: 800, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
-                        <h1 class="fs-90 lg-fs-80 md-fs-70 fw-600 text-black  shadow-nonex">Concepteur Technologies</h1>
+                        <h1 class="fs-90 lg-fs-80 md-fs-70 fw-600 text-black  shadow-nonex"><span class="text-concep">Concepteur</span> Technologies</h1>
                         <div class="mt-5">
                               <p class="fs-18 w-85 sm-w-95 opacity-10" style="color: grey !important;"><strong>Concepteur Technologies </strong>vision is to grow by forming a network of the best independent distributors to provide exceptional customer service while increasing our value as a trusted growth partner to top manufacturers in the industry. Our mission is to help our family of companies achieve new heights and provide opportunities for all employees to grow, thrive, and advance with the company for decades to come.</p>
                               <p class="fs-18 w-85 sm-w-95 opacity-10" style="color: grey !important;">As a software partner, you play a crucial role in achieving this vision. By integrating with <strong>CT</strong>, you can streamline operations, enhance customer experiences, and drive growth for your clients.</p>
@@ -59,7 +59,7 @@ get_header();
                                     <span><i class="fa-regular fa-envelope"></i></span>
                               </span>
                         </a>
-                        <a href="<?php echo home_url() . '/contact-us' ?>" class="btn btn-dark-gray btn-large btn-rounded  btn-transparent-dark-gray d-table d-lg-inline-block lg-mb-15px md-mx-auto">
+                        <a href="<?php echo home_url() . '/contact-us' ?>" class="btn btn-dark-gray btn-large btn-rounded  btn-transparent-dark-gray d-table d-lg-inline-block lg-mb-15px md-mx-auto text-concep-back-bor">
                               <span>
                                     <span class="btn-double-text" data-text="Contact us">Our Process</span>
                                     <span><i class="fa-solid fa-arrow-right"></i></span>
@@ -197,7 +197,7 @@ get_header();
       <div class="container">
             <div class="row justify-content-center align-items-end">
                   <div class="col-xl-6 col-lg-7 md-mb-20px appear anime-child anime-complete" data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateY&quot;: [30, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
-                        <div class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block">Welcome to Our Development Hub</div>
+                        <div class="text-concep-back fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block">Welcome to Our Development Hub</div>
                         <h3 class="fw-700 color-custom ls-minus-1px mb-0 w-90 md-w-100">Empowering Your Business to Achieve New Heights.</h3>
                   </div>
                   <div class="col-lg-5 offset-xl-1 last-paragraph-no-margin appear words lines splitting anime-child anime-complete" data-anime="{ &quot;el&quot;: &quot;lines&quot;, &quot;translateY&quot;: [30, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }" style="--word-total: 22; --line-total: 3;">
