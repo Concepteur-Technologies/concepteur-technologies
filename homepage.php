@@ -76,13 +76,13 @@ get_header();
                                     <div class="swiper position-relative text-slider-style-04" data-slider-options='{ "autoHeight": true, "loop": true, "allowTouchMove": true, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }}'>
                                           <div class="swiper-wrapper">
                                                 <div class="swiper-slide">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735158327/pexels-fauxels-3184436_svib6i.jpg" alt="" />
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735385015/ngderqzoujt04acp533y.webp" alt="" />
                                                       <div class="container position-absolute sm-position-relative bottom-0 right-0px z-index-1 swiper-slide-content">
                                                             <div class="row justify-content-end align-items-end h-100">
                                                                   <div class="col-lg-6 col-md-8 p-0">
                                                                         <div class="bg-white p-16 lg-p-12">
-                                                                              <h3 class="text-dark-gray fw-600 mb-20px ls-minus-2px">Understanding Requirements</h3>
-                                                                              <p class="w-90 mb-20px">We start by learning about your business and project needs to ensure we're aligned with your goals.</p>
+                                                                              <h3 class="text-dark-gray fw-600 mb-20px ls-minus-2px">Quality Assurance & Delivery</h3>
+                                                                              <p class="w-90 mb-20px">After thorough testing, we deliver the final product, ensuring it meets your expectations.</p>
                                                                               <a href="#" class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-800">
                                                                                     <span>
                                                                                           <span class="btn-text">Explore project</span>
@@ -96,7 +96,7 @@ get_header();
                                                       </div>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735158332/pexels-fauxels-3182762_fggvfm.jpg" alt="" />
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735385015/vdo4jk8tko6zlwrgzvqu.webp" alt="" />
                                                       <div class="container position-absolute sm-position-relative bottom-0 right-0px z-index-1 swiper-slide-content">
                                                             <div class="row justify-content-end align-items-end h-100">
                                                                   <div class="col-lg-6 col-md-8 p-0">
@@ -115,14 +115,15 @@ get_header();
                                                             </div>
                                                       </div>
                                                 </div>
+
                                                 <div class="swiper-slide">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735158326/pexels-pixabay-269077_mxmsiu.jpg" alt="" />
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735385015/zecve87x1hqzfgpaay4w.webp" alt="" />
                                                       <div class="container position-absolute sm-position-relative bottom-0 right-0px z-index-1 swiper-slide-content">
                                                             <div class="row justify-content-end align-items-end h-100">
                                                                   <div class="col-lg-6 col-md-8 p-0">
                                                                         <div class="bg-white p-16 lg-p-12">
-                                                                              <h3 class="text-dark-gray fw-600 mb-20px ls-minus-2px">Quality Assurance & Delivery</h3>
-                                                                              <p class="w-90 mb-20px">After thorough testing, we deliver the final product, ensuring it meets your expectations.</p>
+                                                                              <h3 class="text-dark-gray fw-600 mb-20px ls-minus-2px">Understanding Requirements</h3>
+                                                                              <p class="w-90 mb-20px">We start by learning about your business and project needs to ensure we're aligned with your goals.</p>
                                                                               <a href="#" class="btn btn-link btn-hover-animation-switch btn-large text-dark-gray fw-800">
                                                                                     <span>
                                                                                           <span class="btn-text">Explore project</span>
@@ -200,7 +201,7 @@ get_header();
       <div class="container">
             <div class="row justify-content-center align-items-end">
                   <div class="col-xl-6 col-lg-7 md-mb-20px appear anime-child anime-complete" data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateY&quot;: [30, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
-                        <div class="text-concep-back fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block">Welcome to Our Development Hub</div>
+                        <div class="text-concep-back fw-600 lh-30 text-white text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block">Welcome to Our Development Hub</div>
                         <h3 class="fw-700 color-custom ls-minus-1px mb-0 w-90 md-w-100">Empowering Your Business to Achieve New Heights.</h3>
                   </div>
                   <div class="col-lg-5 offset-xl-1 last-paragraph-no-margin appear words lines splitting anime-child anime-complete" data-anime="{ &quot;el&quot;: &quot;lines&quot;, &quot;translateY&quot;: [30, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }" style="--word-total: 22; --line-total: 3;">
@@ -283,7 +284,7 @@ get_header();
       <div class="container">
             <div class="row justify-content-center appear anime-complete" data-anime="{ &quot;translateY&quot;: [0, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
                   <div class="col-12 skrollable skrollable-between" data-bottom-top="transform:scale(1, 1);" data-top-bottom="transform:scale(1.1, 1.1);" style="transform: scale(1.02763, 1.02763);">
-                        <div class="border-radius-6px h-450px md-h-350px sm-h-400px d-flex flex-wrap align-items-center justify-content-center overflow-hidden cover-background box-shadow-quadruple-large pt-15 md-pt-7 sm-pt-11" style="background-image: url('https://res.cloudinary.com/didxyeaj1/image/upload/v1733042511/aedrian-salazar-m0yjpgy5vOE-unsplash_mdodbm.jpg')">
+                        <div class="border-radius-6px h-450px md-h-350px sm-h-400px d-flex flex-wrap align-items-center justify-content-center overflow-hidden cover-background box-shadow-quadruple-large pt-15 md-pt-7 sm-pt-11" style="background-image: url('https://res.cloudinary.com/didxyeaj1/image/upload/v1735385187/aedrian-salazar-m0yjpgy5vOE-unsplash_mdodbm_optimized_100_d6q0ty.webp')">
                               <div class="opacity-full-dark bg-gradient-dark-transparent"></div>
                               <div class="row justify-content-center align-items-center">
                                     <div class="col-xl-6 col-lg-7 col-md-8 col-sm-9 z-index-1 text-center text-lg-start md-mb-20px">
@@ -361,8 +362,6 @@ get_header();
       <div class="row justify-content-center language-icon-section">
             <div class="row justify-content-center">
                   <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-1" style="display: flex; width: 100%;">
-
-
                         <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
                               <i class="devicon-go-original-wordmark colored"></i> Go (Golang)
                         </a>
