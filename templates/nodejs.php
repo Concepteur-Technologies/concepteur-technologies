@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Angular
+Template Name: Node Js
 */
 get_header(); ?>
 <section class="page-title-big-typography cover-background" style="background-color: white; padding-bottom: 304px">
@@ -12,31 +12,36 @@ get_header(); ?>
                   <div class="col-lg-5 col-sm-8 position-relative page-title-extra-small appear anime-child anime-complete" data-anime='{ "el": "childs", "opacity": [0, 1], "translateX": [-30, 0], "duration": 800, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <div class="cd-headline slide">
                               <div class="fs-90 lg-fs-100 text-dark-gray lh-100 fw-500 mb-10 alt-font ls-minus-5px fancy-text-style-4" data-anime='{ "el": "childs", "opacity": [0, 1], "translateX": [-100, 0], "staggervalue": 300, "duration": 1000, "easing": "easeOutCubic" }'>
-                                    <span class="fw-200 d-inline-block" data-fancy-text='{ "effect": "wave", "string": ["Frontend", "Angular"], "duration": 4000 }' data-bottom-top="transform: translateX(-70px)" data-top-bottom="transform: translateX(70px)"></span>
-                                    <span class="d-inline-block fs-80" data-bottom-top="transform: translateX(70px)" data-top-bottom="transform: translateX(-70px)">Development</span>
+                                    <span class="fw-200 d-inline-block" data-fancy-text='{ "effect": "wave", "string": ["Node.js", "Development"], "duration": 4000 }' data-bottom-top="transform: translateX(-70px)" data-top-bottom="transform: translateX(70px)"></span>
+                                    <span class="d-inline-block fs-80" data-bottom-top="transform: translateX(70px)" data-top-bottom="transform: translateX(-70px)">Solutions</span>
                               </div>
                         </div>
                         <div class="col-auto col-xxl-5 col-lg-7 col-sm-9 d-flex align-items-center justify-content-center" style="width: 100% !important;">
-                              <span class="fs-150 text-majorelle-blue flex-shrink-0 fw-800 me-35px ls-minus-10px sm-ls-minus-5px skrollable skrollable-between" data-bottom-top="transform:scale(1.3, 1.3);" data-top-bottom="transform:scale(1, 1);" style="transform: scale(1.21926, 1.21926);">8+</span>
-                              <h3 class="text-dark-gray fw-700 ls-minus-2px m-0">Angular Projects Delivered.</h3>
+                              <span class="fs-150 text-majorelle-blue flex-shrink-0 fw-800 me-35px ls-minus-10px sm-ls-minus-5px skrollable skrollable-between">5 +</span>
+                              <h3 class="text-dark-gray fw-700 ls-minus-2px m-0"><i class="devicon-nodejs-plain colored"></i> Projects Completed.</h3>
                         </div>
                   </div>
 
-                  <!-- Web Services Section -->
+                  <!-- Node.js Services Section -->
                   <div class="col-lg-5 col-sm-8 position-relative page-title-extra-small appear anime-child anime-complete" data-anime='{ "el": "childs", "opacity": [0, 1], "translateX": [-30, 0], "duration": 800, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <h1 class="mb-20px xs-mb-20px text-black text-shadow-medium">
-                              <span class="w-30px h-2px bg-yellow d-inline-block align-middle position-relative top-minus-2px me-10px"></span>Angular Web Services
+                              <span class="w-30px h-2px bg-yellow d-inline-block align-middle position-relative top-minus-2px me-10px"></span>Node.js Development Services <i class="devicon-nodejs-plain colored"></i>
                         </h1>
                         <div class="cart-box">
                               <ul class="cart-items">
                                     <li class="cart-item">
-                                          <h4 class="item-title">Angular Web Application Development</h4>
-                                          <p class="item-description">We specialize in building fast, responsive, and dynamic web applications using Angular, ensuring seamless user interactions and optimized performance for all kinds of businesses.</p>
+                                          <h4 class="item-title">Custom Node.js Development</h4>
+                                          <p class="item-description">We build fast, scalable, and highly efficient Node.js applications tailored to meet your business demands with a focus on performance and real-time processing.</p>
                                     </li>
                                     <li class="cart-item">
-                                          <h4 class="item-title">Angular SPA (Single Page Application) Development</h4>
-                                          <p class="item-description">Our team excels in creating feature-rich, interactive Single Page Applications (SPAs) with Angular, providing users with smooth, app-like experiences on the web.</p>
+                                          <h4 class="item-title">API Development & Integration</h4>
+                                          <p class="item-description">Develop secure and robust APIs with Node.js, ensuring seamless integration with other platforms and services, optimized for performance and scalability.</p>
                                     </li>
+                                    <li class="cart-item">
+                                          <h4 class="item-title">Real-Time Applications</h4>
+                                          <p class="item-description">Leverage Node.js for real-time applications like chat systems, live updates, and collaborative platforms, providing seamless, low-latency experiences.</p>
+                                    </li>
+
                                     <a href="#" class="btn btn-link-gradient btn-medium text-gradient-fast-blue-purple d-table d-lg-inline-block xl-mb-15px md-mx-auto">Get Started<span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span><span class="bg-gradient-fast-blue-purple"></span></a>
                               </ul>
                         </div>
@@ -45,42 +50,37 @@ get_header(); ?>
             </div>
       </div>
 </section>
+
 <section class="big-section">
       <div class="container">
             <div class="row">
                   <div class="col-12">
                         <span class="text-dark-gray fs-50 lg-fs-40 lh-60 lg-lh-60 shadow-none ls-minus-2px shadow-in" data-shadow-animation="true" data-animation-delay="500">
-                              Transforming your ideas into dynamic Angular web applications.
-                              <span class="text-highlight">With the power of Angular framework,</span>
-                              we create scalable, fast, and secure solutions
+                              Building fast, scalable, and real-time Node.js applications.
+                              <span class="text-highlight">From web apps</span>
+                              to enterprise solutions,
                               <span class="bg-dark-gray h-3px bottom-0px separator-animation"></span>
-                              that elevate your business performance.
-                              <span class="text-highlight">Your goals, our Angular expertise.</span>
-                              <span class="bg-dark-gray h-3px bottom-0px separator-animation"></span>
-                              Our team builds custom Angular applications,
-                              <span class="text-highlight">optimized for speed</span>,
-                              ensuring robust user interfaces and smooth integrations.
+                              our Node.js experts deliver solutions that grow with your business.
+                              <span class="text-highlight">Your business, powered by Node.js expertise.</span>
                               <span class="bg-dark-gray h-3px bottom-0px separator-animation"></span>
                         </span>
                   </div>
             </div>
             <div class="row justify-content-center mt-2">
                   <div class="col-12 col-xl-6 col-lg-8 col-md-10 text-center">
-                        <a href="#" class="btn btn-link-gradient expand btn-extra-large text-gradient-fast-blue-purple d-table d-lg-inline-block xl-mb-15px md-mx-auto fs-1">Get Started Now<span class="bg-dark-gray"></span><span class="bg-dark-gray"></span></a>
+                        <a href="#" class="btn btn-link-gradient expand btn-extra-large text-gradient-fast-blue-purple d-table d-lg-inline-block xl-mb-15px md-mx-auto fs-1">Let’s Collaborate<span class="bg-dark-gray"></span><span class="bg-dark-gray"></span></a>
                   </div>
             </div>
       </div>
 </section>
-
 <section class="overflow-hidden big-section position-relative">
       <div class="container overlap-gap-section">
             <div class="row mb-3">
                   <div class="col-12 col-xl-10 appear anime-child anime-complete" data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                        <h2 class="text-dark-gray fw-600 alt-font ls-minus-3px w-95 sm-w-100"><span class="text-concep">Empowering Your Web Presence</span> with Cutting-Edge Angular Development</h2>
+                        <h2 class="text-dark-gray fw-600 alt-font ls-minus-3px w-95 sm-w-100"><span class="text-concep">Empowering Your Business</span> with Expert Node.js Development</h2>
                   </div>
             </div>
       </div>
-
       <div class="container">
             <div class="row align-items-center">
                   <div class="col-12">
@@ -93,13 +93,13 @@ get_header(); ?>
                                                       <div class="col-12 col-lg-4 pt-2 order-lg-1 order-2">
                                                             <div class="outside-box-right-10 xl-outside-box-right-15 lg-outside-box-right-30 md-me-0 position-relative">
                                                                   <h3 class="ls-minus-1px fw-700 word-break-normal mb-40px sm-mb-20px">
-                                                                        <a href="#" class="text-concep text-dark-gray-hover">Custom Angular Web Solutions</a>
+                                                                        <a href="#" class="text-concep text-dark-gray-hover">Custom Node.js Application Development</a>
                                                                   </h3>
-                                                                  <p class="text-black" style="width: 300px;">We specialize in building dynamic, high-performance, and scalable web applications using Angular. Whether it's a complex dashboard, business application, or custom solution, we create tailored Angular apps to meet your business needs.</p>
+                                                                  <p class="text-black" style="width: 300px;">We design and develop tailor-made Node.js applications that are fast, scalable, and optimized to meet your business needs and goals.</p>
                                                             </div>
                                                       </div>
                                                       <div class="col-12 col-lg-8 order-lg-2 order-1">
-                                                            <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735139454/CSS_14_k8hzej.jpg" class="border-radius-6px" alt="Angular Service Placeholder" />
+                                                            <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735139454/node_custom_app.jpg" class="border-radius-6px" alt="Custom Node.js Application Development" />
                                                       </div>
                                                 </div>
                                           </div>
@@ -110,13 +110,13 @@ get_header(); ?>
                                                       <div class="col-12 col-lg-4 pt-2 order-lg-1 order-2">
                                                             <div class="outside-box-right-10 xl-outside-box-right-15 lg-outside-box-right-30 md-me-0 position-relative">
                                                                   <h3 class="ls-minus-1px fw-700 word-break-normal mb-40px sm-mb-20px">
-                                                                        <a href="#" class="text-concep text-dark-gray-hover">Angular SPA (Single Page Application) Development</a>
+                                                                        <a href="#" class="text-concep text-dark-gray-hover">Node.js Performance Optimization</a>
                                                                   </h3>
-                                                                  <p class="text-black" style="width: 300px;">Our team creates fast, seamless, and highly interactive Single Page Applications (SPAs) using Angular. We ensure optimal user experiences with quick load times, fluid transitions, and robust client-side functionality.</p>
+                                                                  <p class="text-black" style="width: 300px;">Our experts fine-tune your Node.js applications for speed, ensuring faster load times and better performance.</p>
                                                             </div>
                                                       </div>
                                                       <div class="col-12 col-lg-8 order-lg-2 order-1">
-                                                            <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735139454/CSS_14_k8hzej.jpg" class="border-radius-6px" alt="Angular SPA Service Placeholder" />
+                                                            <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735139454/node_optimization.jpg" class="border-radius-6px" alt="Node.js Performance Optimization" />
                                                       </div>
                                                 </div>
                                           </div>
@@ -127,13 +127,13 @@ get_header(); ?>
                                                       <div class="col-12 col-lg-4 pt-2 order-lg-1 order-2">
                                                             <div class="outside-box-right-10 xl-outside-box-right-15 lg-outside-box-right-30 md-me-0 position-relative">
                                                                   <h3 class="ls-minus-1px fw-700 word-break-normal mb-40px sm-mb-20px">
-                                                                        <a href="#" class="text-concep text-dark-gray-hover">Angular Application Maintenance & Support</a>
+                                                                        <a href="#" class="text-concep text-dark-gray-hover">Node.js Maintenance & Support</a>
                                                                   </h3>
-                                                                  <p class="text-black" style="width: 300px;">We provide end-to-end maintenance and support services for your Angular applications. From fixing bugs to optimizing performance, our team ensures your applications stay up-to-date and continue to deliver high-quality user experiences.</p>
+                                                                  <p class="text-black" style="width: 300px;">We provide comprehensive maintenance and support services to ensure your Node.js applications are secure, updated, and error-free.</p>
                                                             </div>
                                                       </div>
                                                       <div class="col-12 col-lg-8 order-lg-2 order-1">
-                                                            <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735139454/CSS_14_k8hzej.jpg" class="border-radius-6px" alt="Angular Maintenance & Support Placeholder" />
+                                                            <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735139454/node_maintenance.jpg" class="border-radius-6px" alt="Node.js Maintenance & Support" />
                                                       </div>
                                                 </div>
                                           </div>
@@ -144,16 +144,14 @@ get_header(); ?>
                   </div>
             </div>
       </div>
-
 </section>
-
 
 <section>
       <div class="container">
             <div class="row justify-content-center mb-3">
                   <div class="col-xl-7 col-lg-6 col-md-7 text-center" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <span class="ps-25px pe-25px mb-20px text-uppercase text-base-color fs-14 lh-34 fw-600 border-radius-100px bg-solitude-blue d-inline-block">Flexible Hiring</span>
-                        <h2 class="text-dark-gray alt-font fw-700 ls-minus-1px">Find the Perfect Hiring Plan for Your Angular Project</h2>
+                        <h2 class="text-dark-gray alt-font fw-700 ls-minus-1px">Find the Perfect Hiring Plan for Your Yii <i class="devicon-yii-plain colored"></i> Project</h2>
                   </div>
             </div>
             <div class="row align-items-end pricing-table-style-05 g-0 mb-5 background-position-center background-no-repeat justify-content-center" style="background-image: url('https://res.cloudinary.com/didxyeaj1/image/upload/v1735165891/demo-corporate-bg-03_jtxrrj.png')">
