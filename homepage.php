@@ -137,9 +137,6 @@ get_header();
                                                       </div>
                                                 </div>
                                           </div>
-
-                                          <div class="slider-one-slide-prev-1 icon-small swiper-button-prev slider-navigation-style-07 bg-dark-gray text-white box-shadow-small"><i class="bi bi-arrow-down-left"></i></div>
-                                          <div class="slider-one-slide-next-1 icon-small swiper-button-next slider-navigation-style-07 bg-dark-gray text-white box-shadow-small"><i class="bi bi-arrow-up-right"></i></div>
                                     </div>
                               </div>
                         </div>
