@@ -65,6 +65,7 @@ get_header(); ?>
                   <div class="col-xl-7 tab-style-04 text-center text-xl-end">
                         <ul class="portfolio-filter fw-500 nav nav-tabs justify-content-center justify-content-xl-end border-0">
                               <li class="nav active"><a data-filter="*" href="#">All</a></li>
+                              <li class="nav"><a data-filter=".cms" href="#">CMS</a></li>
                               <li class="nav"><a data-filter=".Frontend" href="#">Frontend</a></li>
                               <li class="nav"><a data-filter=".backend" href="#">Backend</a></li>
                               <li class="nav"><a data-filter=".db" href="#">Database</a></li>
@@ -76,16 +77,53 @@ get_header(); ?>
                   <div class="col-12 filter-content p-md-0">
                         <ul class="portfolio-wrapper grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-2col md-grid-2col sm-grid-1col xs-grid-1col gutter-extra-large" style="position: relative; height: 1059.31px;">
                               <li class="grid-sizer"></li>
-                              <li class="grid-item Frontend transition-inner-all">
+
+                              <li class="grid-item cms backend Frontend transition-inner-all">
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138963/CSS_3_u3d2mb.jpg">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392190/CSS_38_wc6fly.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
                                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
-                                                      <span class="d-block mb-10px"><a href="#" class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block mr-10">Frontend</a><span class="fs-16">HTML</span></span>
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">CMS</a><span class="fs-16"> WordPress</span></span>
+                                                      <div class="d-flex align-items-center mb-5px">
+                                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">CMS for expressive backend and frontend applications <i class="fa-solid fa-arrow-right"></i></a>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </li>
+
+                              <li class="grid-item cms backend transition-inner-all">
+                                    <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
+                                          <div class="image">
+                                                <a href="#">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735752911/CSS_39__1_11zon_hqz1y5.jpg">
+                                                </a>
+                                          </div>
+                                          <div class="bg-white position-relative">
+                                                <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">E-Commerce</a><span class="fs-16"> WooCommerce</span></span>
+                                                      <div class="d-flex align-items-center mb-5px">
+                                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">WordPress Plugin for custom E-commerce Development <i class="fa-solid fa-arrow-right"></i></a>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </li>
+
+                              <li class="grid-item Frontend transition-inner-all">
+                                    <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
+                                          <div class="image">
+                                                <a href="#">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392192/CSS_18_qih8yj.jpg">
+                                                </a>
+                                          </div>
+                                          <div class="bg-white position-relative">
+                                                <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Frontend</a><span class="fs-16">HTML</span></span>
                                                       <div class="d-flex align-items-center mb-5px">
                                                             <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">The backbone of web structure and content.<i class="fa-solid fa-arrow-right"></i></a>
                                                       </div>
@@ -98,12 +136,48 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138963/CSS_2_i0uhid.jpg">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392191/CSS_28_ot28i4.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
                                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
-                                                      <span class="d-block mb-10px"><a href="#" class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block mr-10">Backend</a><span class="fs-16"> PHP</span></span>
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Backend</a><span class="fs-16"> PHP</span></span>
+                                                      <div class="d-flex align-items-center mb-5px">
+                                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Server-side scripting for dynamic websites. <i class="fa-solid fa-arrow-right"></i></a>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </li>
+
+                              <li class="grid-item cms backend Frontend transition-inner-all">
+                                    <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
+                                          <div class="image">
+                                                <a href="#">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735753400/CSS_40_sbcs92.jpg">
+                                                </a>
+                                          </div>
+                                          <div class="bg-white position-relative">
+                                                <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">CMS</a><span class="fs-16"> Drupal</span></span>
+                                                      <div class="d-flex align-items-center mb-5px">
+                                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">CMS for expressive backend and frontend applications <i class="fa-solid fa-arrow-right"></i></a>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </li>
+
+                              <li class="grid-item backend transition-inner-all">
+                                    <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
+                                          <div class="image">
+                                                <a href="#">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392190/CSS_35_p5vlr0.jpg">
+                                                </a>
+                                          </div>
+                                          <div class="bg-white position-relative">
+                                                <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Backend</a><span class="fs-16"> Symfony</span></span>
                                                       <div class="d-flex align-items-center mb-5px">
                                                             <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Server-side scripting for dynamic websites. <i class="fa-solid fa-arrow-right"></i></a>
                                                       </div>
@@ -116,12 +190,30 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138961/CSS_4_tqulht.jpg">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735758086/CSS_42_xcpaj6.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
                                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
-                                                      <span class="d-block mb-10px"><a href="#" class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block mr-10">Backend</a><span class="fs-16">Laravel</span></span>
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Backend</a><span class="fs-16"> Phalcon</span></span>
+                                                      <div class="d-flex align-items-center mb-5px">
+                                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Server-side scripting for dynamic websites. <i class="fa-solid fa-arrow-right"></i></a>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </li>
+
+                              <li class="grid-item backend transition-inner-all">
+                                    <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
+                                          <div class="image">
+                                                <a href="#">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392191/CSS_24_okj2oj.jpg">
+                                                </a>
+                                          </div>
+                                          <div class="bg-white position-relative">
+                                                <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Backend</a><span class="fs-16">Laravel</span></span>
                                                       <div class="d-flex align-items-center mb-5px">
                                                             <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">PHP framework for expressive backend applications <i class="fa-solid fa-arrow-right"></i></a>
                                                       </div>
@@ -134,12 +226,12 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735139454/CSS_14_k8hzej.jpg">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392196/CSS_15_vak66h.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
                                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
-                                                      <span class="d-block mb-10px"><a href="#" class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block mr-10">Backend</a><span class="fs-16">CodeIgniter</span></span>
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Backend</a><span class="fs-16"> CodeIgniter</span></span>
                                                       <div class="d-flex align-items-center mb-5px">
                                                             <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">PHP framework for expressive backend applications <i class="fa-solid fa-arrow-right"></i></a>
                                                       </div>
@@ -152,12 +244,12 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138960/CSS_5_h2yb1e.jpg">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392191/CSS_27_ou4nie.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
                                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
-                                                      <span class="d-block mb-10px"><a href="#" class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block mr-10">Frontend</a><span class="fs-16">Javascript</span></span>
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Frontend</a><span class="fs-16">Javascript</span></span>
                                                       <div class="d-flex align-items-center mb-5px">
                                                             <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Interactive and dynamic web functionality. <i class="fa-solid fa-arrow-right"></i></a>
                                                       </div>
@@ -170,12 +262,12 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733001490/wp4923992-react-js-wallpapers.png">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392191/CSS_30_ecejad.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
                                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
-                                                      <span class="d-block mb-10px"><a href="#" class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block mr-10">Frontend</a><span class="fs-16">React.js</span></span>
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Frontend</a><span class="fs-16">React.js</span></span>
                                                       <div class="d-flex align-items-center mb-5px">
                                                             <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Component-based UI library for dynamic web apps. <i class="fa-solid fa-arrow-right"></i></a>
                                                       </div>
@@ -188,12 +280,12 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138960/CSS_6_w13973.jpg">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392192/CSS_17_weybtk.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
                                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
-                                                      <span class="d-block mb-10px"><a href="#" class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block mr-10">Frontend</a><span class="fs-16">Angular</span></span>
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Frontend</a><span class="fs-16">Angular</span></span>
                                                       <div class="d-flex align-items-center mb-5px">
                                                             <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Framework for building modern, scalable SPAs.<i class="fa-solid fa-arrow-right"></i></a>
                                                       </div>
@@ -206,12 +298,48 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138960/CSS_9_eqhfvj.jpg">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392191/CSS_26_hxuncs.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
                                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
-                                                      <span class="d-block mb-10px"><a href="#" class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block mr-10">Frontend</a><span class="fs-16">Vue.js</span></span>
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Frontend</a><span class="fs-16">Vue.js</span></span>
+                                                      <div class="d-flex align-items-center mb-5px">
+                                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Progressive JavaScript framework for UIs. <i class="fa-solid fa-arrow-right"></i></a>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </li>
+
+                              <li class="grid-item Frontend transition-inner-all">
+                                    <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
+                                          <div class="image">
+                                                <a href="#">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392190/CSS_37_pgwnmk.jpg">
+                                                </a>
+                                          </div>
+                                          <div class="bg-white position-relative">
+                                                <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Frontend</a><span class="fs-16"> Next Js</span></span>
+                                                      <div class="d-flex align-items-center mb-5px">
+                                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Progressive JavaScript framework for UIs. <i class="fa-solid fa-arrow-right"></i></a>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </li>
+
+                              <li class="grid-item Frontend transition-inner-all">
+                                    <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
+                                          <div class="image">
+                                                <a href="#">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392191/CSS_32_bleffl.jpg">
+                                                </a>
+                                          </div>
+                                          <div class="bg-white position-relative">
+                                                <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Frontend</a><span class="fs-16"> NativeScript</span></span>
                                                       <div class="d-flex align-items-center mb-5px">
                                                             <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Progressive JavaScript framework for UIs. <i class="fa-solid fa-arrow-right"></i></a>
                                                       </div>
@@ -224,12 +352,30 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138959/CSS_7_uvp3v7.jpg">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392194/CSS_16_ejy6hd.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
                                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
-                                                      <span class="d-block mb-10px"><a href="#" class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block mr-10">Backend</a><span class="fs-16">Node.js</span></span>
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Backend</a><span class="fs-16">Node.js</span></span>
+                                                      <div class="d-flex align-items-center mb-5px">
+                                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90"> JavaScript runtime for fast server-side applications. <i class="fa-solid fa-arrow-right"></i></a>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </li>
+
+                              <li class="grid-item backend transition-inner-all">
+                                    <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
+                                          <div class="image">
+                                                <a href="#">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392190/CSS_36_ypidsz.jpg">
+                                                </a>
+                                          </div>
+                                          <div class="bg-white position-relative">
+                                                <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Backend</a><span class="fs-16">Yii</span></span>
                                                       <div class="d-flex align-items-center mb-5px">
                                                             <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90"> JavaScript runtime for fast server-side applications. <i class="fa-solid fa-arrow-right"></i></a>
                                                       </div>
@@ -242,12 +388,12 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138960/CSS_8_q4xg71.jpg">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392192/CSS_23_ykvboo.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
                                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
-                                                      <span class="d-block mb-10px"><a href="#" class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block mr-10">Cloud</a><span class="fs-16">Google Cloud</span></span>
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Cloud</a><span class="fs-16">Google Cloud</span></span>
                                                       <div class="d-flex align-items-center mb-5px">
                                                             <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Innovative cloud solutions for modern business needs. <i class="fa-solid fa-arrow-right"></i></a>
                                                       </div>
@@ -260,12 +406,12 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138959/CSS_11_ysgczg.jpg">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392192/CSS_21_kcpd6s.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
                                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
-                                                      <span class="d-block mb-10px"><a href="#" class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block mr-10">Backend</a><span class="fs-16">Express.js</span></span>
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Backend</a><span class="fs-16">Express.js</span></span>
                                                       <div class="d-flex align-items-center mb-5px">
                                                             <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Lightweight framework for scalable APIs. <i class="fa-solid fa-arrow-right"></i></a>
                                                       </div>
@@ -278,12 +424,12 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138959/CSS_10_ixmnlt.jpg">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392191/CSS_25_v01imv.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
                                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
-                                                      <span class="d-block mb-10px"><a href="#" class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block mr-10">Database</a><span class="fs-16">MySql</span></span>
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Database</a><span class="fs-16">MySql</span></span>
                                                       <div class="d-flex align-items-center mb-5px">
                                                             <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90"> Reliable database for structured data. <i class="fa-solid fa-arrow-right"></i></a>
                                                       </div>
@@ -296,12 +442,12 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733047173/0_BmLKgrU_qFtakYsB_ehdpvs.png">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392191/CSS_29_wsrg7i.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
                                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
-                                                      <span class="d-block mb-10px"><a href="#" class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block mr-10">Database</a><span class="fs-16">MongoDB</span></span>
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Database</a><span class="fs-16">MongoDB</span></span>
                                                       <div class="d-flex align-items-center mb-5px">
                                                             <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">NoSQL database for flexible, document-based storage. <i class="fa-solid fa-arrow-right"></i></a>
                                                       </div>
@@ -314,12 +460,12 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138958/CSS_13_uqpr1k.jpg">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392192/CSS_19_sa2i3h.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
                                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
-                                                      <span class="d-block mb-10px"><a href="#" class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block mr-10">Database</a><span class="fs-16">PostgreSQL</span></span>
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Database</a><span class="fs-16">PostgreSQL</span></span>
                                                       <div class="d-flex align-items-center mb-5px">
                                                             <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Advanced database with powerful features. <i class="fa-solid fa-arrow-right"></i></a>
                                                       </div>
@@ -332,12 +478,12 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735138959/CSS_12_uefbju.jpg">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392192/CSS_20_mj7jlv.jpg">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
                                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
-                                                      <span class="d-block mb-10px"><a href="#" class="bg-hilight-color fw-600 lh-30 color-custom text-uppercase border-radius-30px ps-20px pe-20px fs-11 mb-25px d-inline-block mr-10">Cloud</a><span class="fs-16">AWS</span></span>
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Cloud</a><span class="fs-16">AWS</span></span>
                                                       <div class="d-flex align-items-center mb-5px">
                                                             <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Comprehensive cloud platform for secure services. <i class="fa-solid fa-arrow-right"></i></a>
                                                       </div>

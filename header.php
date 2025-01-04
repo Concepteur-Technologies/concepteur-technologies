@@ -74,10 +74,7 @@
                                                             <a href="<?php echo home_url() . '/mobile-app-development' ?>">App Development<i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                       <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/coming-soon' ?>">Api Development<i class="bi bi-arrow-up-right-square-fill"></i></a>
-                                                      </li>
-                                                      <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/coming-soon' ?>">Cloud Solutions<i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            <a href="<?php echo home_url() . '/coming-soon' ?>">Enterprises we worked with</a>
                                                       </li>
                                                 </ul>
                                           </li>

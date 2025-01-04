@@ -80,34 +80,17 @@ get_header(); ?>
                   <div class="col-12 filter-content p-md-0">
                         <ul class="portfolio-wrapper grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-2col md-grid-2col sm-grid-1col xs-grid-1col gutter-extra-large" style="position: relative; height: 1059.31px;">
                               <li class="grid-sizer"></li>
-                              <li class="grid-item android transition-inner-all">
-                                    <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
-                                          <div class="image">
-                                                <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733000965/wp2465923-javascript-wallpapers.jpg" alt="" data-no-retina="">
-                                                </a>
-                                          </div>
-                                          <div class="bg-white position-relative">
-                                                <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
-                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Android</a><span class="fs-16">React Native</span></span>
-                                                      <div class="d-flex align-items-center mb-5px">
-                                                            <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Business accounting and taxation fundamental <i class="fa-solid fa-arrow-right"></i></a>
-                                                      </div>
-                                                </div>
-                                          </div>
-                                    </div>
-                              </li>
 
-                              <li class="grid-item ios transition-inner-all">
+                              <li class="grid-item android ios transition-inner-all">
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733001490/wp4923992-react-js-wallpapers.png" alt="" data-no-retina="">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392191/CSS_31_tvhidu.jpg" alt="" data-no-retina="">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
                                                 <div class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light">
-                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">IOS</a><span class="fs-16">React Native</span></span>
+                                                      <span class="d-block mb-10px"><a href="#" class="text-dark-gray text-uppercase fs-15 fw-600 services-text">Android & IOS</a><span class="fs-16">React Native</span></span>
                                                       <div class="d-flex align-items-center mb-5px">
                                                             <a href="#" class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90">Finance fundamentals of management and planning <i class="fa-solid fa-arrow-right"></i></a>
                                                       </div>
@@ -120,7 +103,7 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733000965/peakpx.jpg" alt="" data-no-retina="">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392190/CSS_34_vtq5oq.jpg" alt="" data-no-retina="">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
@@ -138,7 +121,7 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733001170/ionic-framework-og.png" alt="" data-no-retina="">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392190/CSS_33_wfwwef.jpg" alt="" data-no-retina="">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
@@ -156,7 +139,7 @@ get_header(); ?>
                                     <div class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large">
                                           <div class="image">
                                                 <a href="#">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733001369/1_UWCZmBJBUU6pOW4TSuEnqQ.png" alt="" data-no-retina="">
+                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735392191/CSS_32_bleffl.jpg" alt="" data-no-retina="">
                                                 </a>
                                           </div>
                                           <div class="bg-white position-relative">
