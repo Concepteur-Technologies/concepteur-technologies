@@ -356,64 +356,181 @@ get_header();
                   </div>
             </div>
       </div>
+
       <div class="row justify-content-center language-icon-section">
-            <div class="row justify-content-center">
-                  <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-1" style="display: flex; width: 100%;">
-                        <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-go-original-wordmark colored"></i> Go (Golang)
-                        </a>
-                        <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-nextjs-original-wordmark colored"></i> Next.js
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-phalcon-plain colored"></i> Phalcon
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-dart-plain colored"></i> Dart
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-yii-plain colored"></i> Yii
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-java-plain colored"></i> Java
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-react-original"></i> Native
-                        </a>
-                  </div>
-                  <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-1" style="display: flex; width: 100%;">
-                        <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-python-plain colored"></i> Python
-                        </a>
-                        <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-php-plain colored"></i> PHP
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-angular-plain colored"></i> Angular
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-vuejs-plain colored"></i> Vue.js
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-express-original colored"></i> Express.js
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-symfony-original colored"></i> Symfony
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-typescript-plain colored"></i> TypeScript
-                        </a>
-                  </div>
-                  <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-1" style="display: flex; width: 100%;">
-                        <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-react-original colored me-2"></i> React
-                        </a>
-                        <a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-laravel-original colored"></i> Laravel
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-codeigniter-plain colored"></i> CodeIgniter
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-wordpress-plain colored"></i> WordPress
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%">
-                              <i class="devicon-drupal-plain colored"></i> Drupal
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-magento-original colored"></i> Magento
-                        </a><a href="#" class="text-decoration-none align-items-center border rounded  bg-white shadow-sm d-flex me-1 space-between" style="padding:10px 20px 10px 20px;width:100%;gap: 5px;">
-                              <i class="devicon-javascript-plain colored"></i> JavaScript
-                        </a>
-                  </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/wordpress" class="language-card">
+                        <i class="devicon-wordpress-plain colored"></i>
+                        <span>WordPress</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/mobile-app-development" class="language-card">
+                        <i class="devicon-android-plain colored"></i>
+                        <span>Android App</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/mobile-app-development" class="language-card">
+                        <i class="devicon-apple-original colored"></i>
+                        <span>IOS App</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/next-js" class="language-card">
+                        <i class="devicon-nextjs-original-wordmark colored"></i>
+                        <span>Next.js</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/phalcon" class="language-card">
+                        <i class="devicon-phalcon-plain colored"></i>
+                        <span>Phalcon</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/yii" class="language-card">
+                        <i class="devicon-yii-plain colored"></i>
+                        <span>Yii</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/react" class="language-card">
+                        <i class="devicon-react-original"></i>
+                        <span>React</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/google-cloud" class="language-card">
+                        <i class="devicon-googlecloud-plain colored"></i>
+                        <span>Goole Cloud</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/mongo-db" class="language-card">
+                        <i class="devicon-mongodb-plain colored"></i>
+                        <span>Mongo DB</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/woocommerce" class="language-card">
+                        <i class="devicon-woocommerce-plain colored"></i>
+                        <span>Woocommerce</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/yii" class="language-card">
+                        <i class="devicon-yii-plain-wordmark colored"></i>
+                        <span>Yii</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/mysql" class="language-card">
+                        <i class="devicon-mysql-plain-wordmark colored"></i>
+                        <span>MySql</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/postgre-sql" class="language-card">
+                        <i class="devicon-postgresql-plain-wordmark colored"></i>
+                        <span>PostgreSQL</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/flutter" class="language-card">
+                        <i class="devicon-flutter-plain colored"></i>
+                        <span>Flutter</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/aws" class="language-card">
+                        <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+                        <span>AWS</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/node-js" class="language-card">
+                        <i class="devicon-nodejs-plain-wordmark colored"></i>
+                        <span>Node JS</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/htmlcss" class="language-card">
+                        <i class="devicon-html5-plain-wordmark colored">
+                              <i class="devicon-css3-plain-wordmark colored"></i>
+                        </i>
+                        <span>Html/Css</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/php" class="language-card">
+                        <i class="devicon-php-plain colored"></i>
+                        <span>PHP</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/angular" class="language-card">
+                        <i class="devicon-angularjs-plain colored"></i>
+                        <span>Angular</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/vue" class="language-card">
+                        <i class="devicon-vuejs-plain colored"></i>
+                        <span>Vue.js</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/express-js" class="language-card">
+                        <i class="devicon-express-original colored"></i>
+                        <span>Express.js</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/symfony" class="language-card">
+                        <i class="devicon-symfony-original colored"></i>
+                        <span>Symfony</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/typescript" class="language-card">
+                        <i class="devicon-typescript-plain colored"></i>
+                        <span>TypeScript</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/laravel" class="language-card">
+                        <i class="devicon-laravel-original colored"></i>
+                        <span>Laravel</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/codeigniter" class="language-card">
+                        <i class="devicon-codeigniter-plain colored"></i>
+                        <span>CodeIgniter</span>
+                  </a>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/drupal" class="language-card">
+                        <i class="devicon-drupal-plain colored"></i>
+                        <span>Drupal</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/magento" class="language-card">
+                        <i class="devicon-magento-original colored"></i>
+                        <span>Magento</span>
+                  </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+                  <a href="/javascrpit" class="language-card">
+                        <i class="devicon-javascript-plain colored"></i>
+                        <span>JavaScript</span>
+                  </a>
             </div>
       </div>
+
 </section>
 
 <section class="bg-gradient-very-light-gray big-section" style="padding-bottom: 40px">

@@ -19815,3 +19815,63 @@ font-size:186px;
 .text-concep-back-bor {
       border-color: #3ee423 !important;
 }
+
+
+
+/* General Card Styles */
+.language-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  gap: 5px;
+  width: 100%;
+}
+
+.language-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-color: #007bff; 
+}
+
+.language-card i {
+  font-size: 2.5rem;
+  color: #007bff; 
+}
+
+.language-card span {
+  font-size: 1rem;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .language-icon-section .col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .language-card {
+    padding: 15px;
+    gap: 8px;
+  }
+
+  .language-card i {
+    font-size: 2rem;
+  }
+
+  .language-card span {
+    font-size: 0.9rem;
+  }
+}
+
