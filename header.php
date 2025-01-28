@@ -81,18 +81,69 @@
                                           <li class="nav-item dropdown simple-dropdown">
                                                 <a href="javascript:void(0);" class="nav-link <?php echo esc_attr($extra_class); ?>">Technologies</a>
                                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink5" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
-                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink5">
+                                                <ul class="dropdown-menu col" aria-labelledby="navbarDropdownMenuLink5">
                                                       <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>">Frontend Stack <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            <a href="<?php echo home_url() . '/react' ?>">React <i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                       <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>">Backend Stack <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            <a href="<?php echo home_url() . '/react-native' ?>">React Native <i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                       <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>">Cloud Platforms <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            <a href="<?php echo home_url() . '/wordpress' ?>">Wordpress <i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                       <li class="dropdown">
-                                                            <a href="<?php echo home_url() . '/mobile-app-development' ?>">Database Solutions <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            <a href="<?php echo home_url() . '/php' ?>">PHP <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                      </li>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/woocommerce' ?>">Woocommerce <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                      </li>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/laravel' ?>">Laravel <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                      </li>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/symfony' ?>">Symfony <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                      </li>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/angular' ?>">Angular <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                      </li>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/next-js' ?>">Next Js <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                      </li>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/yii' ?>">Yii <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                      </li>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/node-js' ?>">Node Js <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                      </li>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/postgre-sql' ?>">PostgreSQL <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                      </li>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/mongo-db' ?>">MongoDB <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                      </li>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/google-cloud' ?>">Google Cloud <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                      </li>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/express-js' ?>">Express Js <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                      </li>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/drupal' ?>">Drupal<i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                      </li>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/codeigniter' ?>">Codeigniter<i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                      </li>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/vue' ?>">Vue<i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                      </li>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/vue' ?>">Vue<i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                      </li>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/aws' ?>">AWS<i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                      </li>
+                                                      <li class="dropdown">
+                                                            <a href="<?php echo home_url() . '/flutter' ?>">Flutter<i class="bi bi-arrow-up-right-square-fill"></i></a>
                                                       </li>
                                                 </ul>
                                           </li>
