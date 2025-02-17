@@ -30,3 +30,12 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 /* Additional global styles and custom styles for your theme */
+@media (max-width: 991px) {
+    header .navbar-expand-lg {
+        padding-left: 37px;
+        padding-right: 35px;
+    }
+}
+.header-button{
+    padding-top: 14px;
+}
