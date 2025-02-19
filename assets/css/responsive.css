@@ -21643,14 +21643,44 @@
     padding-top: 50px;
   }
 }
-@media (max-width: 768px) {
-  .header-button  {
-      width: 100%;
-      text-align: center;
-      padding-top: 100px;
+.lg-fs-80 {
+  width: 120%;
+  font-size: 43px;
+}
+@media (max-width: 991px) {
+  .md-fs-70 {
+      font-size: 4.375rem;
+      line-height: 4.375rem;
   }
 }
-.col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto{
-  margin-left: 0px !important;
-  padding:0 0px !important;
+  .md-fs-70{
+  font-size: 43px;
+}
+@media (max-width: 991px) {
+  .ipad-top-space-margin{
+      margin-top: 0px !important;
+  }
+} 
+ @media (max-width: 1024px) {
+  .align-items-center{
+    display: block;
+  }
+} 
+.mt-5 {
+  width: 100%; 
+ }
+@media (min-width: 768px){
+  .col-md-10{
+    width: 50%;
+  }
+}
+@media (max-width: 1024px){
+  .col-md-10{
+    width: 100%;
+  }
+} 
+@media(max-width: 425px){
+  .md-fs-70{
+    margin-top: 13px;
+  }
 }
