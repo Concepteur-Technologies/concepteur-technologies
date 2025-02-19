@@ -281,15 +281,7 @@
                                                                                     <td class="v-container-padding-padding" style="overflow-wrap:break-word;word-break:break-word;padding:20px 10px 10px;font-family:arial,helvetica,sans-serif;" align="left">
 
                                                                                           <!--[if mso]><table width="100%"><tr><td><![endif]-->
-                                                                                          <h1 class="v-font-size" style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 25px; font-weight: 400;">
-                                                                                                <?php if (!empty($type)) { ?>
-                                                                                                      <span>New Service Form Submission From <?php echo $type; ?>!</span>
-                                                                                                <?php } else {
-                                                                                                ?>
-                                                                                                      <span>New Contact Form Submission!</span>
-                                                                                                <?php }
-                                                                                                ?>
-                                                                                          </h1>
+                                                                                          <h1 class="v-font-size" style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 25px; font-weight: 400;"><span>Thank you for reaching out to <br />Concepteur Technologies!</span></h1>
                                                                                           <!--[if mso]></td></tr></table><![endif]-->
 
                                                                                     </td>
@@ -323,19 +315,7 @@
                                                                                     <td class="v-container-padding-padding" style="overflow-wrap:break-word;word-break:break-word;padding:10px 60px;font-family:arial,helvetica,sans-serif;" align="left">
 
                                                                                           <div class="v-font-size" style="font-size: 14px; color: #616161; line-height: 140%; text-align: center; word-wrap: break-word;">
-                                                                                                <p style="line-height: 1.6; margin: 0; font-family: Raleway, sans-serif; font-size: 16px; color: #333;">
-                                                                                                      <strong>Client's Name:</strong> <?php echo $name; ?>
-                                                                                                </p>
-                                                                                                <p style="line-height: 1.6; margin: 0; font-family: Raleway, sans-serif; font-size: 16px; color: #333;">
-                                                                                                      <strong>Client's Email:</strong> <?php echo $email; ?>
-                                                                                                </p>
-                                                                                                <p style="line-height: 1.6; margin: 0; font-family: Raleway, sans-serif; font-size: 16px; color: #333;">
-                                                                                                      <strong>Client's Message:</strong> <?php echo $comment; ?>
-                                                                                                </p>
-                                                                                                <p style="line-height: 1.6; margin: 0; font-family: Raleway, sans-serif; font-size: 16px; color: #333;">
-                                                                                                      <strong>Appointment Date & Time:</strong> <?php echo $appointment; ?>
-                                                                                                </p>
-
+                                                                                                <p style="line-height: 140%; margin: 0px;"><span style="font-family: Raleway, sans-serif; line-height: 19.6px;">Our team will review your message and get back to you as soon as possible. If your request is urgent, feel free to reach us directly at <span style="font-weight: 700;">Info@concepteurit.com</span> </span></p>
                                                                                           </div>
 
                                                                                     </td>
@@ -351,7 +331,7 @@
                                                                                           <!--[if mso]><style>.v-button {background: transparent !important;}</style><![endif]-->
                                                                                           <div align="center">
                                                                                                 <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://unlayer.com" style="height:37px; v-text-anchor:middle; width:180px;" arcsize="11%"  stroke="f" fillcolor="#0202aa"><w:anchorlock/><center style="color:#FFFFFF;"><![endif]-->
-                                                                                                <!-- <a href="https://concepteurit.com/why-choose-us/" target="_blank" class="v-button v-size-width v-font-size" style="box-sizing: border-box; display: inline-block; text-decoration: none; text-size-adjust: none; text-align: center; color: rgb(255, 255, 255); background: rgb(2, 2, 170); border-radius: 4px; width: 31%; max-width: 100%; word-break: break-word; overflow-wrap: break-word; font-size: 14px; line-height: inherit;"><span class="v-padding" style="display:block;padding:10px 20px;line-height:120%;"><span style="font-size: 14px; line-height: 16.8px;">Read More</span></span> -->
+                                                                                                <a href="https://concepteurit.com/why-choose-us/" target="_blank" class="v-button v-size-width v-font-size" style="box-sizing: border-box; display: inline-block; text-decoration: none; text-size-adjust: none; text-align: center; color: rgb(255, 255, 255); background: rgb(2, 2, 170); border-radius: 4px; width: 31%; max-width: 100%; word-break: break-word; overflow-wrap: break-word; font-size: 14px; line-height: inherit;"><span class="v-padding" style="display:block;padding:10px 20px;line-height:120%;"><span style="font-size: 14px; line-height: 16.8px;">Read More</span></span>
                                                                                                 </a>
                                                                                                 <!--[if mso]></center></v:roundrect><![endif]-->
                                                                                           </div>
@@ -511,8 +491,6 @@
                                                             </div><!--<![endif]-->
                                                       </div>
                                                 </div>
-                                                <!--[if (mso)|(IE)]></td><![endif]-->
-                                                <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
                                           </div>
                                     </div>
                               </div>

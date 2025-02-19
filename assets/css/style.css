@@ -189,7 +189,8 @@ video {
 }
 .row > * {
   padding-right: 15px;
-  padding-left: 48px;
+  /* padding-left: 48px; */
+  padding-left: 15px;
 }
 .row.g-0 {
   margin-right: 0;
@@ -3826,7 +3827,7 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
   width: 80px !important;
 }
 .w-85px {
-  width: 98px !important;
+    width: 85px !important;
 }
 .w-90px {
   width: 90px !important;
@@ -19874,7 +19875,7 @@ font-size:186px;
     font-size: 0.9rem;
   }
 }
-@media(max-width: 320px){
+/* @media(max-width: 320px){
   .row > * {
     padding-right: 15px;
     padding-left: 15px;
@@ -19894,4 +19895,4 @@ font-size:186px;
   .w-85{
     width: 98% !important;
   }
-}
+} */
