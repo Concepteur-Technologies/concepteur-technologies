@@ -49,17 +49,17 @@ function handle_form_submission()
                   move_uploaded_file($uploaded_file['tmp_name'], $upload_path);
             }
 
-            $to = 'your-email@example.com';
-            $subject = 'New Contact Form Submission';
-            $message = "Name: $name\nEmail: $email\nAppointment: $appointment\nMessage: $comment";
-            send_company_mail($name, $email, $comment);
-            $headers = array('Content-Type: text/plain; charset=UTF-8');
             if (isset($upload_path)) {
                   $attachments = array($upload_path);
             } else {
                   $attachments = array();
             }
-            wp_mail($to, $subject, $message, $headers, $attachments);
+
+            //our company received this mail when someone submit contact form
+            send_company_mail($name, $email, $comment, $attachments, $appointment);
+            //this mail for users
+            send_user_mail($name, $email, $comment);
+
             wp_send_json_success('Message sent successfully');
       } else {
             wp_send_json_error('Missing required fields');
@@ -69,7 +69,7 @@ add_action('wp_ajax_handle_form_submission', 'handle_form_submission');
 add_action('wp_ajax_nopriv_handle_form_submission', 'handle_form_submission');
 
 
-function send_company_mail($name, $email, $comment)
+function send_company_mail($name, $email, $comment, $attachments, $appointment)
 {
       if (empty($email)) {
             echo "Email Required !";
@@ -85,7 +85,7 @@ function send_company_mail($name, $email, $comment)
       $subject = 'New Contact Form Submission';
 
       $headers = array('Content-Type: text/html; charset=UTF-8', 'From: ' . $name . ' <' . $email . '>');
-      $mail = wp_mail($to, $subject, $message, $headers);
+      $mail = wp_mail($to, $subject, $message, $headers, $attachments);
       if ($mail) {
             return true;
       } else {
@@ -104,10 +104,11 @@ function send_user_mail($name, $email, $comment)
             wp_send_json_error(array('message' => 'Invalid email address.'));
       }
       ob_start();
-      include(get_template_directory() . '/mail-structure/email-structure.php');
+      include(get_template_directory() . '/mail-structure/new-mail.php');
+
       $to = $email;
       $subject = 'Thank You for Your Message – We Appreciate Your Inquiry!';
-      $headers = array('Content-Type: text/html; charset=UTF-8', 'From: letsampit@gmail.com');
+      $headers = array('Content-Type: text/html; charset=UTF-8', 'From: Info@concepteurit.com');
       $message = ob_get_clean();
       $mail = wp_mail($to, $subject, $message, $headers);
       if ($mail) {
