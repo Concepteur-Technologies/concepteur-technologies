@@ -30,3 +30,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 /* Additional global styles and custom styles for your theme */
+
+.blog-image img {
+      width: -webkit-fill-available;
+}
