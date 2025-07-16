@@ -189,3 +189,4 @@ function custom_post_types()
       ]);
 }
 add_action('init', 'custom_post_types');
+add_theme_support('post-thumbnails');

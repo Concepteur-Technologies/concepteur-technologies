@@ -37,207 +37,137 @@ get_header();
             <div class="row justify-content-center">
                   <div class="col-12 col-lg-8 blog-standard md-mb-50px sm-mb-40px">
                         <!-- start blog item -->
-                        <div class="col-12 mb-40px">
-                              <div class="card border-0 no-border-radius box-shadow-extra-large">
-                                    <div class="blog-image">
-                                          <a href="demo-elearning-blog-single-simple.html"><img src="0" alt="" /></a>
-                                          <div class="blog-categories">
-                                                <a href="blog-grid.html" class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase alt-font fw-600">Agency</a>
+                        <?php
+                        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; // Get current page number
+                        $newest_posts = new WP_Query([
+                              'posts_per_page' => 1,
+                              'post_status'    => 'publish',
+                              'orderby'        => 'date',
+                              'order'          => 'DESC',
+                              'paged'          => $paged // Add pagination parameter
+                        ]);
+
+                        if ($newest_posts->have_posts()):
+                              while ($newest_posts->have_posts()): $newest_posts->the_post(); ?>
+                                    <div class="col-12 mb-40px">
+                                          <div class="card border-0 no-border-radius box-shadow-extra-large">
+                                                <div class="blog-image position-relative">
+                                                      <a href="<?php the_permalink(); ?>">
+                                                            <?php if (has_post_thumbnail()) {
+                                                                  the_post_thumbnail('large');
+                                                            } else { ?>
+                                                                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/default-thumb.jpg" alt="Default Image" />
+                                                            <?php } ?>
+                                                      </a>
+
+                                                      <?php if (has_tag('trending')): ?>
+                                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fire.png" alt="Trending" style="position: absolute; bottom: 0px; right: 15px; width: 70px; height: auto;" />
+                                                      <?php endif; ?>
+
+                                                      <div class="blog-categories">
+                                                            <?php
+                                                            $categories = get_the_category();
+                                                            if (!empty($categories)) {
+                                                                  echo '<a href="' . esc_url(get_category_link($categories[0]->term_id)) . '" class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase alt-font fw-600">' . esc_html($categories[0]->name) . '</a>';
+                                                            }
+                                                            ?>
+                                                      </div>
+                                                </div>
+                                                <div class="card-body p-9 bg-white">
+                                                      <div class="entry-meta mb-20px fs-15">
+                                                            <span><i class="feather icon-feather-calendar"></i><a href="<?php the_permalink(); ?>"><?php echo get_the_date(); ?></a></span>
+                                                            <span><i class="feather icon-feather-user"></i><a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php the_author(); ?></a></span>
+                                                      </div>
+                                                      <a href="<?php the_permalink(); ?>" class="text-dark-gray card-title mb-20px fw-600 fs-24 d-block"><?php the_title(); ?></a>
+                                                      <p class="text-medium-gray mb-20px"><?php echo wp_trim_words(get_the_excerpt(), 30); ?></p>
+                                                      <a href="<?php the_permalink(); ?>" class="btn btn-link btn-large text-base-color fw-600">Continue reading<span class="bg-base-color"></span></a>
+                                                </div>
                                           </div>
                                     </div>
-                                    <div class="card-body p-9 bg-white">
-                                          <div class="entry-meta mb-20px fs-15">
-                                                <span><i class="feather icon-feather-calendar"></i><a href="blog-grid.html">26 August 2023</a></span>
-                                                <span><i class="feather icon-feather-user"></i><a href="blog-grid.html">Jonse robbert</a></span>
-                                                <span><i class="feather icon-feather-message-square"></i><a href="demo-elearning-blog-single-simple.html">3 Comments</a></span>
-                                          </div>
-                                          <a href="demo-elearning-blog-single-simple.html" class="text-dark-gray card-title mb-20px fw-600 fs-24 d-block">Work while you work, play while you play - this is a basic rule of repressive self-discipline.</a>
-                                          <p class="text-medium-gray mb-20px">Lorem ipsum is simply dummy text of the printing and typesetting industry ipsum has been the industry standard dummy text ever since the unknown printer took a galley of typesetting industry standard...</p>
-                                          <a href="demo-elearning-blog-single-simple.html" class="btn btn-link btn-large text-base-color fw-600">Continue reading<span class="bg-base-color"></span></a>
-                                    </div>
+                              <?php endwhile; ?>
+
+                              <!-- Pagination -->
+                              <div class="col-12 mt-8 d-flex justify-content-center">
+                                    <ul class="pagination pagination-style-01 fs-13 fw-500 mb-0">
+                                          <?php
+                                          echo paginate_links([
+                                                'total'        => $newest_posts->max_num_pages,
+                                                'current'      => max(1, $paged),
+                                                'prev_text'    => '<i class="feather icon-feather-arrow-left fs-18 d-xs-none"></i>',
+                                                'next_text'    => '<i class="feather icon-feather-arrow-right fs-18 d-xs-none"></i>',
+                                                'type'         => 'list',
+                                                'add_args'     => false,
+                                                'add_fragment' => '',
+                                                'before_page_number' => '',
+                                                'after_page_number'  => ''
+                                          ]);
+                                          ?>
+                                    </ul>
                               </div>
-                        </div>
+
+                        <?php wp_reset_postdata();
+                        else: ?>
+                              <p>No posts found.</p>
+                        <?php endif; ?>
                         <!-- end blog item -->
-                        <!-- start blog item -->
-                        <div class="col-12 mb-40px">
-                              <div class="card border-0 no-border-radius box-shadow-extra-large">
-                                    <div class="blog-image">
-                                          <a href="demo-elearning-blog-single-simple.html"><img src="0" alt="" /></a>
-                                          <div class="blog-categories">
-                                                <a href="blog-grid.html" class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase alt-font fw-600">Agency</a>
-                                          </div>
-                                    </div>
-                                    <div class="card-body p-9 bg-white">
-                                          <div class="entry-meta mb-20px fs-15">
-                                                <span><i class="feather icon-feather-calendar"></i><a href="blog-grid.html">24 August 2023</a></span>
-                                                <span><i class="feather icon-feather-user"></i><a href="blog-grid.html">Den viliamson</a></span>
-                                                <span><i class="feather icon-feather-message-square"></i><a href="demo-elearning-blog-single-simple.html">3 Comments</a></span>
-                                          </div>
-                                          <a href="demo-elearning-blog-single-simple.html" class="text-dark-gray card-title mb-20px fw-600 fs-24 d-block">I think of discipline as the continual everyday process of helping a child learn self-discipline.</a>
-                                          <p class="text-medium-gray mb-20px">Lorem ipsum is simply dummy text of the printing and typesetting industry ipsum has been the industry standard dummy text ever since the unknown printer took a galley of typesetting industry standard...</p>
-                                          <a href="demo-elearning-blog-single-simple.html" class="btn btn-link btn-large text-base-color fw-600">Continue reading<span class="bg-base-color"></span></a>
-                                    </div>
-                              </div>
-                        </div>
-                        <!-- end blog item -->
-                        <!-- start blog item -->
-                        <div class="col-12 mb-40px">
-                              <div class="card border-0 no-border-radius box-shadow-extra-large">
-                                    <div class="blog-image">
-                                          <a href="demo-elearning-blog-single-simple.html"><img src="0" alt="" /></a>
-                                          <div class="blog-categories">
-                                                <a href="blog-grid.html" class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase alt-font fw-600">Fashion</a>
-                                          </div>
-                                    </div>
-                                    <div class="card-body p-9 bg-white">
-                                          <div class="entry-meta mb-20px fs-15">
-                                                <span><i class="feather icon-feather-calendar"></i><a href="blog-grid.html">22 August 2023</a></span>
-                                                <span><i class="feather icon-feather-user"></i><a href="blog-grid.html">Jonse robbert</a></span>
-                                                <span><i class="feather icon-feather-message-square"></i><a href="demo-elearning-blog-single-simple.html">3 Comments</a></span>
-                                          </div>
-                                          <a href="demo-elearning-blog-single-simple.html" class="text-dark-gray card-title mb-20px fw-600 fs-24 d-block">One of our problems is our sense of discipline - dancers have an extraordinary sense of self-discipline.</a>
-                                          <p class="text-medium-gray mb-20px">Lorem ipsum is simply dummy text of the printing and typesetting industry ipsum has been the industry standard dummy text ever since the unknown printer took a galley of typesetting industry standard...</p>
-                                          <a href="demo-elearning-blog-single-simple.html" class="btn btn-link btn-large text-base-color fw-600">Continue reading<span class="bg-base-color"></span></a>
-                                    </div>
-                              </div>
-                        </div>
-                        <!-- end blog item -->
-                        <!-- start blog item -->
-                        <div class="col-12 mb-40px">
-                              <div class="card border-0 no-border-radius box-shadow-extra-large">
-                                    <div class="blog-image">
-                                          <a href="demo-elearning-blog-single-simple.html"><img src="0" alt="" /></a>
-                                          <div class="blog-categories">
-                                                <a href="blog-grid.html" class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase alt-font fw-600">Agency</a>
-                                          </div>
-                                    </div>
-                                    <div class="card-body p-9 bg-white">
-                                          <div class="entry-meta mb-20px fs-15">
-                                                <span><i class="feather icon-feather-calendar"></i><a href="blog-grid.html">20 August 2023</a></span>
-                                                <span><i class="feather icon-feather-user"></i><a href="blog-grid.html">Maya angelou</a></span>
-                                                <span><i class="feather icon-feather-message-square"></i><a href="demo-elearning-blog-single-simple.html">3 Comments</a></span>
-                                          </div>
-                                          <a href="demo-elearning-blog-single-simple.html" class="text-dark-gray card-title mb-20px fw-600 fs-24 d-block">The Olympic Games showed us that with self-discipline and dedication we can be champions.</a>
-                                          <p class="text-medium-gray mb-20px">Lorem ipsum is simply dummy text of the printing and typesetting industry ipsum has been the industry standard dummy text ever since the unknown printer took a galley of typesetting industry standard...</p>
-                                          <a href="demo-elearning-blog-single-simple.html" class="btn btn-link btn-large text-base-color fw-600">Continue reading<span class="bg-base-color"></span></a>
-                                    </div>
-                              </div>
-                        </div>
-                        <!-- end blog item -->
-                        <!-- start blog item -->
-                        <div class="col-12">
-                              <div class="card border-0 no-border-radius box-shadow-extra-large">
-                                    <div class="blog-image">
-                                          <a href="demo-elearning-blog-single-simple.html"><img src="0" alt="" /></a>
-                                          <div class="blog-categories">
-                                                <a href="blog-grid.html" class="categories-btn bg-white text-dark-gray text-dark-gray-hover text-uppercase alt-font fw-600">Development</a>
-                                          </div>
-                                    </div>
-                                    <div class="card-body p-9 bg-white">
-                                          <div class="entry-meta mb-20px fs-15">
-                                                <span><i class="feather icon-feather-calendar"></i><a href="blog-grid.html">18 August 2023</a></span>
-                                                <span><i class="feather icon-feather-user"></i><a href="blog-grid.html">Hugh macleod</a></span>
-                                                <span><i class="feather icon-feather-message-square"></i><a href="demo-elearning-blog-single-simple.html">3 Comments</a></span>
-                                          </div>
-                                          <a href="demo-elearning-blog-single-simple.html" class="text-dark-gray card-title mb-20px fw-600 fs-24 d-block">Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.</a>
-                                          <p class="text-medium-gray mb-20px">Lorem ipsum is simply dummy text of the printing and typesetting industry ipsum has been the industry standard dummy text ever since the unknown printer took a galley of typesetting industry standard...</p>
-                                          <a href="demo-elearning-blog-single-simple.html" class="btn btn-link btn-large text-base-color fw-600">Continue reading<span class="bg-base-color"></span></a>
-                                    </div>
-                              </div>
-                        </div>
-                        <!-- end blog item -->
-                        <div class="col-12 mt-8 d-flex justify-content-center">
-                              <ul class="pagination pagination-style-01 fs-13 fw-500 mb-0">
-                                    <li class="page-item"><a class="page-link" href="#"><i class="feather icon-feather-arrow-left fs-18 d-xs-none"></i></a></li>
-                                    <li class="page-item"><a class="page-link" href="#">01</a></li>
-                                    <li class="page-item active"><a class="page-link" href="#">02</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">03</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">04</a></li>
-                                    <li class="page-item"><a class="page-link" href="#"><i class="feather icon-feather-arrow-right fs-18 d-xs-none"></i></a></li>
-                              </ul>
-                        </div>
                   </div>
                   <!-- start sidebar -->
                   <aside class="col-12 col-xl-4 col-lg-4 col-md-7 ps-55px xl-ps-50px lg-ps-15px sidebar">
                         <div class="mb-15 md-mb-50px xs-mb-35px">
                               <div class="fw-600 fs-19 lh-22 ls-minus-05px text-dark-gray border-bottom border-color-dark-gray border-2 d-block mb-30px pb-15px position-relative">Popular posts</div>
                               <ul class="popular-post-sidebar position-relative">
-                                    <li class="d-flex align-items-center">
-                                          <figure>
-                                                <a href="demo-elearning-blog-single-simple.html"><img src="" alt=""></a>
-                                          </figure>
-                                          <div class="col media-body">
-                                                <a href="demo-elearning-blog-single-simple.html" class="fw-600 fs-17 text-dark-gray d-inline-block mb-10px">Trendy is the last stage before tacky.</a>
-                                                <div><a href="blog-grid.html" class="d-inline-block fs-15">20 February 2023</a></div>
-                                          </div>
-                                    </li>
-                                    <li class="d-flex align-items-center">
-                                          <figure>
-                                                <a href="demo-elearning-blog-single-simple.html"><img src="" alt=""></a>
-                                          </figure>
-                                          <div class="col media-body">
-                                                <a href="demo-elearning-blog-single-simple.html" class="fw-600 fs-17 text-dark-gray d-inline-block mb-10px">Believe you can and you're halfway there.</a>
-                                                <div><a href="blog-grid.html" class="d-inline-block fs-15">18 February 2023</a></div>
-                                          </div>
-                                    </li>
-                                    <li class="d-flex align-items-center">
-                                          <figure>
-                                                <a href="demo-elearning-blog-single-simple.html"><img src="" alt=""></a>
-                                          </figure>
-                                          <div class="col media-body">
-                                                <a href="demo-elearning-blog-single-simple.html" class="fw-600 fs-17 text-dark-gray d-inline-block mb-10px">In a gentle way, you can shake the world.</a>
-                                                <div><a href="blog-grid.html" class="d-inline-block fs-15">16 February 2023</a></div>
-                                          </div>
-                                    </li>
+                                    <?php
+                                    $popular_posts = new WP_Query([
+                                          'tag' => 'popular_post',
+                                          'posts_per_page' => 3,
+                                          'post_status' => 'publish',
+                                    ]);
+
+                                    if ($popular_posts->have_posts()):
+                                          while ($popular_posts->have_posts()): $popular_posts->the_post(); ?>
+                                                <li class="d-flex align-items-center mb-20px">
+                                                      <figure class="me-15px">
+                                                            <a href="<?php the_permalink(); ?>">
+                                                                  <?php if (has_post_thumbnail()): ?>
+                                                                        <?php the_post_thumbnail('thumbnail'); ?>
+                                                                  <?php else: ?>
+                                                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/default-thumb.jpg" alt="No Image" />
+                                                                  <?php endif; ?>
+                                                            </a>
+                                                      </figure>
+                                                      <div class="col media-body">
+                                                            <a href="<?php the_permalink(); ?>" class="fw-600 fs-17 text-dark-gray d-inline-block mb-10px"><?php the_title(); ?></a>
+                                                            <div><a href="<?php the_permalink(); ?>" class="d-inline-block fs-15"><?php echo get_the_date(); ?></a></div>
+                                                      </div>
+                                                </li>
+                                          <?php endwhile;
+                                          wp_reset_postdata();
+                                    else: ?>
+                                          <li>No popular posts found.</li>
+                                    <?php endif; ?>
                               </ul>
+
                         </div>
                         <div class="mb-15 md-mb-50px xs-mb-35px">
                               <div class="fw-600 fs-19 lh-22 ls-minus-05px text-dark-gray border-bottom border-color-dark-gray border-2 d-block mb-30px pb-15px position-relative">Explore category</div>
                               <ul class="category-list-sidebar position-relative">
-                                    <li class="d-flex align-items-center h-80px cover-background ps-35px pe-35px" style="background-image: url('')">
-                                          <div class="opacity-medium bg-gradient-dark-transparent"></div>
-                                          <a href="blog-grid.html" class="d-flex align-items-center position-relative w-100 h-100">
-                                                <span class="text-white mb-0 fs-20 fw-500 fancy-text-style-4">Fashion</span>
-                                                <span class="btn text-white position-absolute"><i class="bi bi-arrow-right ms-0 fs-24"></i></span>
-                                          </a>
-                                    </li>
-                                    <li class="d-flex align-items-center h-80px cover-background ps-35px pe-35px" style="background-image: url('')">
-                                          <div class="opacity-medium bg-gradient-dark-transparent"></div>
-                                          <a href="blog-grid.html" class="d-flex align-items-center position-relative w-100 h-100">
-                                                <span class="text-white mb-0 fs-20 fw-500 fancy-text-style-4">Creative</span>
-                                                <span class="btn text-white position-absolute"><i class="bi bi-arrow-right ms-0 fs-24"></i></span>
-                                          </a>
-                                    </li>
-                                    <li class="d-flex align-items-center h-80px cover-background ps-35px pe-35px" style="background-image: url('')">
-                                          <div class="opacity-medium bg-gradient-dark-transparent"></div>
-                                          <a href="blog-grid.html" class="d-flex align-items-center position-relative w-100 h-100">
-                                                <span class="text-white mb-0 fs-20 fw-500 fancy-text-style-4">Business</span>
-                                                <span class="btn text-white position-absolute"><i class="bi bi-arrow-right ms-0 fs-24"></i></span>
-                                          </a>
-                                    </li>
-                                    <li class="d-flex align-items-center h-80px cover-background ps-35px pe-35px" style="background-image: url('')">
-                                          <div class="opacity-medium bg-gradient-dark-transparent"></div>
-                                          <a href="blog-grid.html" class="d-flex align-items-center position-relative w-100 h-100">
-                                                <span class="text-white mb-0 fs-20 fw-500 fancy-text-style-4">Lifestyle</span>
-                                                <span class="btn text-white position-absolute"><i class="bi bi-arrow-right ms-0 fs-24"></i></span>
-                                          </a>
-                                    </li>
+                                    <?php
+                                    $categories = get_categories(['hide_empty' => false]);
+
+                                    foreach ($categories as $category) {
+                                          $image_id = get_term_meta($category->term_id, 'category_image', true);
+                                          $image_url = wp_get_attachment_url($image_id);
+                                          $category_link = get_category_link($category->term_id);
+                                    ?>
+                                          <li class="d-flex align-items-center h-80px cover-background ps-35px pe-35px" style="background-image: url('<?php echo esc_url($image_url); ?>')">
+                                                <div class="opacity-medium bg-gradient-dark-transparent"></div>
+                                                <a href="<?php echo esc_url($category_link); ?>" class="d-flex align-items-center position-relative w-100 h-100">
+                                                      <span class="text-white mb-0 fs-20 fw-500 fancy-text-style-4"><?php echo esc_html($category->name); ?></span>
+                                                      <span class="btn text-white position-absolute"><i class="bi bi-arrow-right ms-0 fs-24"></i></span>
+                                                </a>
+                                          </li>
+                                    <?php } ?>
                               </ul>
-                        </div>
-                        <div class="mb-17 md-mb-50px xs-mb-35px">
-                              <div class="bg-white box-shadow-extra-large p-14 xl-p-10 newsletter-style-05">
-                                    <div class="fw-600 fs-19 lh-22 ls-minus-05px text-dark-gray border-bottom border-color-dark-gray border-2 d-block mb-20px pb-15px position-relative">Newsletter subscribe</div>
-                                    <p class="fs-15 lh-24">Signup for free and be the first to get notified on new updates.</p>
-                                    <form action="email-templates/subscribe-newsletter.php" method="post" class="position-relative">
-                                          <input class="w-100 fs-15 input-small form-control box-shadow-medium-bottom border-radius-0px text-center required mb-10px" type="email" name="email" placeholder="Enter your email address" />
-                                          <input type="hidden" name="redirect" value="">
-                                          <button class="btn btn-small btn-dark-gray w-100 btn-box-shadow submit" aria-label="submit now">submit now</button>
-                                          <div class="d-flex fs-14 mt-10px">
-                                                <div class="d-inline-block"><i class="line-icon-Handshake me-10px align-middle icon-very-medium"></i>Protecting your privacy</div>
-                                          </div>
-                                          <div class="form-results border-radius-4px mt-10px lh-normal pt-10px pb-10px ps-15px pe-15px fs-16 w-100 text-center position-absolute z-index-1 d-none"></div>
-                                    </form>
-                              </div>
                         </div>
                         <div class="mb-15 md-mb-50px xs-mb-35px elements-social social-icon-style-10">
                               <div class="fw-600 fs-19 lh-22 ls-minus-05px text-dark-gray border-bottom border-color-dark-gray border-2 d-block mb-30px pb-15px position-relative">Stay connected</div>

@@ -26,47 +26,47 @@
 </head>
 
 <body data-mobile-nav-style="full-screen-menu" data-mobile-nav-bg-color="#252840" class="custom-cursor">
-      
+
       <header>
-    <!-- start navigation -->
-    <nav class="navbar navbar-expand-lg header-light header-reverse header-demo" data-header-hover="light">
-        <div class="container-fluid"> 
-            <div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
-                <a class="navbar-brand" href="<?php echo home_url() . '/home-page' ?>">
-                    <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735134518/asterisk_media_inc._1_emvx0w.png" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="default-logo">
-                    <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735134518/asterisk_media_inc._1_emvx0w.png" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="alt-logo">
-                    <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735134518/asterisk_media_inc._1_emvx0w.png" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="mobile-logo">
-                </a>
-            </div>
-            <div class="col-auto col-lg-8 menu-order position-static">
-            <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-line"></span>
-                    <span class="navbar-toggler-line"></span>
-                    <span class="navbar-toggler-line"></span>
-                    <span class="navbar-toggler-line"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    
-                    <ul class="navbar-nav alt-font"> 
-                        <li class="nav-item dropdown submenu">
-                            <a href="javascript:void(0);" class="nav-link">Who we are</a>
-                            <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
-                            <div class="dropdown-menu submenu-content background-position-center cover-background" aria-labelledby="navbarDropdownMenuLink1" style="background-image: url(image path)">
-                                <div class="d-lg-flex mega-menu m-auto">
-                                    <ul class="col">
-                                    <a href="<?php echo home_url() . '/about-us' ?>"></i>About Us<i class="bi bi-arrow-up-right-square-fill"></i></a>
-                                    </ul>
-                                    <ul class="col">
-                                    <a href="<?php echo home_url() . '/why-choose-us' ?>">Why Choose Us <i class="bi bi-arrow-up-right-square-fill"></i></a>
-                                    </ul>
-                                    <ul class="col">
-                                    <a href="<?php echo home_url() . '/coming-soon' ?>">Events & Activities<i class="bi bi-arrow-up-right-square-fill"></i></a>
-                                    </ul>
-                                    <ul class="col">
-                                    <a href="<?php echo home_url() . '/coming-soon' ?>">Success Stories<i class="bi bi-arrow-up-right-square-fill"></i></a>
-                                    </ul>
-                                    
-                                    <li class="nav-item dropdown simple-dropdown">
+            <!-- start navigation -->
+            <nav class="navbar navbar-expand-lg header-light header-reverse header-demo" data-header-hover="light">
+                  <div class="container-fluid">
+                        <div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
+                              <a class="navbar-brand" href="<?php echo home_url() . '/home-page' ?>">
+                                    <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735134518/asterisk_media_inc._1_emvx0w.png" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="default-logo">
+                                    <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735134518/asterisk_media_inc._1_emvx0w.png" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="alt-logo">
+                                    <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735134518/asterisk_media_inc._1_emvx0w.png" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="mobile-logo">
+                              </a>
+                        </div>
+                        <div class="col-auto col-lg-8 menu-order position-static">
+                              <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-line"></span>
+                                    <span class="navbar-toggler-line"></span>
+                                    <span class="navbar-toggler-line"></span>
+                                    <span class="navbar-toggler-line"></span>
+                              </button>
+                              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+
+                                    <ul class="navbar-nav alt-font">
+                                          <li class="nav-item dropdown submenu">
+                                                <a href="javascript:void(0);" class="nav-link">Who we are</a>
+                                                <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                                <div class="dropdown-menu submenu-content background-position-center cover-background" aria-labelledby="navbarDropdownMenuLink1" style="background-image: url(image path)">
+                                                      <div class="d-lg-flex mega-menu m-auto">
+                                                            <ul class="col">
+                                                                  <a href="<?php echo home_url() . '/about-us' ?>"></i>About Us<i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            </ul>
+                                                            <ul class="col">
+                                                                  <a href="<?php echo home_url() . '/why-choose-us' ?>">Why Choose Us <i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            </ul>
+                                                            <ul class="col">
+                                                                  <a href="<?php echo home_url() . '/coming-soon' ?>">Events & Activities<i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            </ul>
+                                                            <ul class="col">
+                                                                  <a href="<?php echo home_url() . '/coming-soon' ?>">Success Stories<i class="bi bi-arrow-up-right-square-fill"></i></a>
+                                                            </ul>
+
+                                          <li class="nav-item dropdown simple-dropdown">
                                                 <a href="javascript:void(0);" class="nav-link <?php echo esc_attr($extra_class); ?>">Services</a>
                                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink5" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                                 <ul class="dropdown-menu" style="width: 274px;" aria-labelledby="navbarDropdownMenuLink5">
@@ -151,7 +151,7 @@
                                                       </li>
                                                 </ul>
                                           </li>
-                                           
+
                                           <li class="nav-item dropdown simple-dropdown">
                                                 <a href="<?php echo home_url() . '/coming-soon' ?>" class="nav-link <?php echo esc_attr($extra_class); ?>">Case Study</a>
                                           </li>
@@ -160,14 +160,14 @@
                                           </li>
                                           <div class="header-button"><a href="<?php echo home_url() . '/contact-us' ?>" class="btn btn-large d-table d-lg-inline-block xl-mb-15px md-mx-auto btn-rounded text-concep-back" style="margin-bottom: 0px !important">Contact us<i class="fa-solid fa-arrow-right"></i></a></div>
                                     </ul>
-                                </div> 
-                            </div> 
+                              </div>
+                        </div>
                         </li>
-                    </ul>
-                </div>
-            </div>
-          
-        </div>
-    </nav>
-    <!-- end navigation -->
-</header>
+                        </ul>
+                  </div>
+                  </div>
+
+                  </div>
+            </nav>
+            <!-- end navigation -->
+      </header>
