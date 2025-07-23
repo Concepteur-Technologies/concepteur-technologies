@@ -19896,3 +19896,13 @@ font-size:186px;
     width: 98% !important;
   }
 } */
+
+
+.blog-image a img {
+      width: -webkit-fill-available;
+}
+
+.page-numbers {
+      display: flex;
+      gap: 30px;
+}
