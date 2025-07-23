@@ -23,7 +23,6 @@ get_header();
       <div class="opacity-very-light  shape-image-animation bottom-0 p-0 w-100 d-none d-md-block">
       </div>
       <div class="floating-icons-container" style="opacity: 0.2;">
-            <!-- Example of Programming Language Icons (using Font Awesome or Devicon) -->
             <i class="devicon-python-plain"></i>
             <i class="devicon-java-plain"></i>
             <i class="devicon-javascript-plain"></i>
@@ -288,11 +287,11 @@ get_header();
                                           <h3 class="text-white mb-0 fw-500 ls-minus-1px ps-10px pe-10px">Learn more about Concepteur Technologies</h3>
                                     </div>
                                     <div class="col-xl-3 col-lg-4 position-relative z-index-1 text-center md-mb-20px">
-                                          <a href="/about-us" class="btn btn-extra-large btn-white btn-box-shadow btn-rounded text-transform-none fw-600 primary-font ls-0px">See Blogs<i class="fa-solid fa-arrow-right"></i></a>
+                                          <a href="/blogs" class="btn btn-extra-large btn-white btn-box-shadow btn-rounded text-transform-none fw-600 primary-font ls-0px">See Blogs<i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                               </div>
                               <div class="w-100 text-center position-relative mt-auto pt-20px pb-25px ps-15px pe-15px border-top border-color-transparent-white-light">
-                                    <div class="fs-14 text-uppercase text-white fw-500 ls-05px">Meet our developers. <a href="/blog" class="text-decoration-line-bottom text-white">Let's go</a></div>
+                                    <div class="fs-14 text-uppercase text-white fw-500 ls-05px">Meet our developers. <a href="/our-team" class="text-decoration-line-bottom text-white">Let's go</a></div>
                               </div>
                         </div>
                   </div>
@@ -383,12 +382,6 @@ get_header();
                   </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
-                  <a href="/phalcon" class="language-card">
-                        <i class="devicon-phalcon-plain colored"></i>
-                        <span>Phalcon</span>
-                  </a>
-            </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
                   <a href="/yii" class="language-card">
                         <i class="devicon-yii-plain colored"></i>
                         <span>Yii</span>
@@ -419,12 +412,6 @@ get_header();
                   </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
-                  <a href="/yii" class="language-card">
-                        <i class="devicon-yii-plain-wordmark colored"></i>
-                        <span>Yii</span>
-                  </a>
-            </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
                   <a href="/mysql" class="language-card">
                         <i class="devicon-mysql-plain-wordmark colored"></i>
                         <span>MySql</span>
@@ -434,12 +421,6 @@ get_header();
                   <a href="/postgre-sql" class="language-card">
                         <i class="devicon-postgresql-plain-wordmark colored"></i>
                         <span>PostgreSQL</span>
-                  </a>
-            </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
-                  <a href="/flutter" class="language-card">
-                        <i class="devicon-flutter-plain colored"></i>
-                        <span>Flutter</span>
                   </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
@@ -533,66 +514,6 @@ get_header();
 
 </section>
 
-<section class="bg-gradient-very-light-gray big-section" style="padding-bottom: 40px">
-      <div class="container background-no-repeat background-position-top">
-            <div class="row justify-content-center mb-2">
-                  <div class="col-xxl-6 col-lg-8 col-md-9 text-center">
-                        <h3 class="text-dark-gray fw-600 ls-minus-2px">Loved by most valuable clients</h3>
-                  </div>
-            </div>
-            <div class="row justify-content-center align-items-center">
-                  <div class="col-xl-10 position-relative">
-                        <div class="swiper testimonials-style-06 swiper-initialized swiper-horizontal swiper-backface-hidden" data-slider-options="{ &quot;loop&quot;: true, &quot;autoplay&quot;: { &quot;delay&quot;: 4000, &quot;disableOnInteraction&quot;: false }, &quot;keyboard&quot;: { &quot;enabled&quot;: true, &quot;onlyInViewport&quot;: true }, &quot;navigation&quot;: { &quot;nextEl&quot;: &quot;.swiper-button-next-nav&quot;, &quot;prevEl&quot;: &quot;.swiper-button-previous-nav&quot;, &quot;effect&quot;: &quot;fade&quot; } }">
-                              <div class="swiper-wrapper" id="swiper-wrapper-989e9576c76bc24d" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-1974px, 0px, 0px); transition-delay: 0ms;">
-                                    <div class="swiper-slide swiper-slide-next" style="width: 987px;" role="group" aria-label="1 / 3" data-swiper-slide-index="0">
-                                          <div class="row align-items-center justify-content-center">
-                                                <div class="col-8 col-md-4 col-sm-6 text-center md-mb-30px">
-                                                      <img alt="" src="<?php echo get_template_directory_uri() . '/assets/images/clients/client1.jpg'; ?>" data-no-retina="" class="custom-image-test">
-                                                </div>
-                                                <div class="col-lg-5 col-md-7 last-paragraph-no-margin text-center text-md-start">
-                                                      <span class="mb-10px fw-200 d-table fs-18 lh-28 text-dark-gray">"Working with Concepteur Technologies was a game-changer for our business. Their technical expertise and innovative solutions have helped us streamline our operations and improve efficiency." </span>
-                                                      <span class="fs-15 text-uppercase fw-700 text-dark-gray ls-1px">Alexandra Ross, CEO of Innovatech</span>
-                                                </div>
-                                          </div>
-                                    </div>
-                                    <div class="swiper-slide swiper-slide-prev" style="width: 987px;" role="group" aria-label="2 / 3" data-swiper-slide-index="1">
-                                          <div class="row align-items-center justify-content-center">
-                                                <div class="col-8 col-md-4 col-sm-6 text-center md-mb-30px">
-                                                      <img alt="" src="<?php echo get_template_directory_uri() . '/assets/images/clients/client2.jpg'; ?>" data-no-retina="" class="custom-image-test">
-                                                </div>
-                                                <div class="col-lg-5 col-md-7 last-paragraph-no-margin text-center text-md-start">
-                                                      <span class="mb-10px fw-200 d-table fs-18 lh-28 text-dark-gray">"The team at Concepteur Technologies helped us build a custom solution tailored to our needs. Their professionalism and attention to detail were exceptional."</span>
-                                                      <span class="fs-15 text-uppercase fw-700 text-dark-gray ls-1px">Jason Clark, CTO of FinSolutions</span>
-                                                </div>
-                                          </div>
-                                    </div>
-                                    <div class="swiper-slide swiper-slide-active" role="group" aria-label="3 / 3" style="width: 987px;" data-swiper-slide-index="2">
-                                          <div class="row align-items-center justify-content-center">
-                                                <div class="col-8 col-md-4 col-sm-6 text-center md-mb-30px">
-                                                      <img alt="" src="<?php echo get_template_directory_uri() . '/assets/images/clients/client3.jpg'; ?>" data-no-retina="" class="custom-image-test">
-                                                </div>
-                                                <div class="col-lg-5 col-md-7 last-paragraph-no-margin text-center text-md-start">
-                                                      <span class="mb-10px fw-200 d-table fs-18 lh-28 text-dark-gray">"We trusted Concepteur Technologies with a major project, and they exceeded all expectations. Their ability to solve complex problems with innovative technology is second to none." </span>
-                                                      <span class="fs-15 text-uppercase fw-700 text-dark-gray ls-1px">Liam Davis, Director of Operations, NexaTech</span>
-                                                </div>
-                                          </div>
-                                    </div>
-                              </div>
-                              <!-- start slider navigation -->
-                              <div class="swiper-button-previous-nav swiper-button-prev md-left-0px" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-989e9576c76bc24d"><i class="feather icon-feather-arrow-left icon-extra-medium text-dark-gray"></i></div>
-                              <div class="swiper-button-next-nav swiper-button-next md-right-0px" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-989e9576c76bc24d"><i class="feather icon-feather-arrow-right icon-extra-medium text-dark-gray"></i></div>
-                              <!-- end slider pagination -->
-                              <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-                        </div>
-                  </div>
-                  <div class="row mt-6">
-                        <div class="col-12 text-center">
-                              <span class="ls-1px text-uppercase text-dark-gray fw-600 lh-22 mb-10px d-block">Let's build something great together <a href="mailto:info@blogger.com" class="d-inline-block border-2 border-bottom border-color-dark-gray fw-700 text-dark-gray text-dark-gray-hover">info@concepteurit.com</a></span>
-                        </div>
-                  </div>
-            </div>
-      </div>
-</section>
 
 <section class="big-section" style="padding-top: 40px">
       <div class="container">
