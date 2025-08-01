@@ -45,8 +45,8 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav alt-font">
-                            <li class="nav-item dropdown submenu">
-                                <a href="javascript:void(0);" class="nav-link">Who we are</a>
+                            <li class="nav-item dropdown ">
+                                <a href="javascript:void(0);" class="nav-link <?php echo esc_attr($extra_class); ?>">Who we are</a>
                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                 <div class="dropdown-menu submenu-content background-position-center cover-background" aria-labelledby="navbarDropdownMenuLink1" style="background-image: url(image path)">
                                     <div class="d-lg-flex mega-menu m-auto">
@@ -63,7 +63,7 @@
                                             <a href="<?php echo home_url() . '/coming-soon' ?>">Success Stories<i class="bi bi-arrow-up-right-square-fill"></i></a>
                                         </ul>
 
-                            <li class="nav-item dropdown simple-dropdown">
+                            <li class="nav-item dropdown  ">
                                 <a href="javascript:void(0);" class="nav-link <?php echo esc_attr($extra_class); ?>">Services</a>
                                 <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink5" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                 <ul class="dropdown-menu" style="width: 274px;" aria-labelledby="navbarDropdownMenuLink5">

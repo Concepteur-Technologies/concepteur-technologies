@@ -61,7 +61,7 @@ get_header();
                                     <span><i class="fa-regular fa-envelope"></i></span>
                               </span>
                         </a>
-                        <a href="<?php echo home_url() . '/contact-us' ?>" class="btn btn-dark-gray btn-large btn-rounded  btn-transparent-dark-gray d-table d-lg-inline-block lg-mb-15px md-mx-auto text-concep-back-bor">
+                        <a href="<?php echo home_url() . '/why-choose-us' ?>" class="btn btn-dark-gray btn-large btn-rounded  btn-transparent-dark-gray d-table d-lg-inline-block lg-mb-15px md-mx-auto text-concep-back-bor">
                               <span>
                                     <span class="btn-double-text" data-text="Contact us">Our Process</span>
                                     <span><i class="fa-solid fa-arrow-right"></i></span>
@@ -75,7 +75,7 @@ get_header();
                                     <div class="swiper position-relative text-slider-style-04" data-slider-options='{ "autoHeight": true, "loop": true, "allowTouchMove": true, "autoplay": { "delay": 4000, "disableOnInteraction": false }, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }}'>
                                           <div class="swiper-wrapper">
                                                 <div class="swiper-slide">
-                                                      <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735385015/ngderqzoujt04acp533y.webp" alt="" />
+                                                      <img src="https://www.yarooms.com/hs-fs/hubfs/office%20neighbourhoods.jpg?width=1904&height=1062&name=office%20neighbourhoods.jpg" alt="" />
                                                       <div class="container position-absolute sm-position-relative bottom-0 right-0px z-index-1 swiper-slide-content">
                                                             <div class="row justify-content-end align-items-end h-100">
                                                                   <div class="col-lg-6 col-md-8 p-0">
@@ -498,12 +498,7 @@ get_header();
                         <span>Drupal</span>
                   </a>
             </div>
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
-                  <a href="/magento" class="language-card">
-                        <i class="devicon-magento-original colored"></i>
-                        <span>Magento</span>
-                  </a>
-            </div>
+           
             <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
                   <a href="/javascrpit" class="language-card">
                         <i class="devicon-javascript-plain colored"></i>

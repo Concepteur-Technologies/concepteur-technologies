@@ -912,9 +912,17 @@ b, strong {
   vertical-align: middle;
 }
 
+
+
 .new-class {
       color: white !important;
 }
+
+
+.sticky .new-class {
+      color: black !important;
+}
+
 /* Opacity */
 .opacity-full-dark, .opacity-full, .opacity-medium, .opacity-extra-medium, .opacity-light, .opacity-very-light, .opacity-all {
   position: absolute;

@@ -10,11 +10,11 @@ get_header();
       <div class=" main-bnr-image-two opacity-all"></div>
       <div class="container">
             <div class="row align-items-center justify-content-center small-screen">
-                  <div class="col-xl-6 col-lg-7 col-sm-8 position-relative text-center page-title-extra-small" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 400, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
+                  <div class="col-xl-6 col-lg-7 col-sm-8 position-relative text-center page-title-extra-small" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 100, "delay": 0, "staggervalue": 100, "easing": "easeOutQuad" }'>
                         <div>
-                              <h1 class="text-uppercase mb-15px alt-font text-white opacity-6 fw-500 ls-2px" data-fancy-text='{ "opacity": [0, 1], "translateY": [50, 0], "filter": ["blur(20px)", "blur(0px)"], "string": ["About Our Business Expertise and Innovation"], "duration": 400, "delay": 0, "speed": 50, "easing": "easeOutQuad" }'></h1>
+                              <h1 class="text-uppercase mb-15px alt-font text-white opacity-6 fw-500 ls-2px" data-fancy-text='{ "opacity": [0, 1], "translateY": [50, 0], "string": ["About Our Business Expertise and Innovation"], "duration": 100, "delay": 0, "speed": 20, "easing": "easeOutQuad" }'></h1>
                         </div>
-                        <h2 class="m-auto text-white alt-font text-shadow-double-large fw-700 w-90 xl-w-100" data-fancy-text='{ "opacity": [0, 1], "translateY": [50, 0], "filter": ["blur(20px)", "blur(0px)"], "string": ["We specialize in empowering startups with tailored solutions for growth"], "duration": 400, "delay": 0, "speed": 50, "easing": "easeOutQuad" }'></h2>
+                        <h2 class="m-auto text-white alt-font text-shadow-double-large fw-700 w-90 xl-w-100" data-fancy-text='{ "opacity": [0, 1], "translateY": [50, 0], "string": ["We specialize in empowering startups with tailored solutions for growth"], "duration": 100, "delay": 0, "speed": 20, "easing": "easeOutQuad" }'></h2>
                   </div>
                   <div class="down-section text-center" data-anime='{ "translateY": [-50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <a href="#down-section" class="section-link">
@@ -99,45 +99,7 @@ get_header();
       </div>
 </section>
 
-<section class="ps-9 pe-9 xl-ps-2 xl-pe-2 pt-0 bg-gradient-top-very-light-gray">
-      <div class="container-fluid">
-            <div class="row justify-content-center">
-                  <div class="col-12 sliding-box sliding-box-style-01 d-flex lg-flex-nowrap flex-wrap">
 
-                        <div class="sliding-box-item box-shadow-extra-large active md-mb-30px" style="height: 100%;">
-                              <div class="sliding-box-img" style="height: 100%;">
-                                    <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733054862/istockphoto-178447404-612x612_cnbelc.jpg" alt="" class="w-100" style="height: 100%;" />
-                              </div>
-                              <div class="d-flex flex-column align-items-start justify-content-center sliding-box-content bg-white p-65px md-p-40px sm-p-30px">
-                                    <div class="content-hover w-100">
-                                          <div class="d-inline-block fs-15 text-uppercase fw-600 text-gradient-pink-orange mb-5px">Web Development</div>
-                                          <div class="fs-26 lh-32 ls-minus-1px fw-600 text-dark-gray mb-15px">Brainium Information Technologies, IND</div>
-                                          <p class="mb-30px">Proud to have served as trusted vendors for Branium Infotech, delivering tailored solutions to meet their needs.</p>
-                                          <a href="https://www.brainiuminfotech.com/" class="btn btn-medium btn-gradient-pink-orange btn-rounded">Visit</a>
-                                    </div>
-                              </div>
-                        </div>
-                        <!-- end sliding box item -->
-                        <!-- start sliding box item -->
-                        <div class="sliding-box-item box-shadow-extra-large" style="height: 100%;">
-                              <div class="sliding-box-img" style="height: 100%;">
-                                    <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733054860/low-angle-view-skyscrapers_1359-1105_l0vflo.avif" alt="" class="w-100" style="height: 100%;" />
-                              </div>
-                              <div class="d-flex flex-column align-items-start justify-content-center sliding-box-content bg-white p-60px md-p-40px sm-p-30px">
-                                    <div class="content-hover w-100">
-                                          <div class="d-inline-block fs-15 text-uppercase fw-600 text-gradient-pink-orange mb-5px">Web Development</div>
-                                          <div class="fs-26 lh-32 ls-minus-1px fw-600 text-dark-gray mb-15px">SO technology, London, UK</div>
-                                          <p class="mb-30px">Honored to have collaborated as vendors for SO Technology, providing innovative solutions to support their vision.</p>
-                                          <a href="https://sotechnology.co.uk/" class="btn btn-medium btn-gradient-pink-orange btn-rounded">Visit</a>
-                                    </div>
-                              </div>
-                        </div>
-                        <!-- end sliding box item -->
-                  </div>
-            </div>
-      </div>
-
-</section>
 
 <section class="bg-very-light-gray big-section">
       <div class="container">
