@@ -45,7 +45,7 @@ get_header();
                   <div class="col-xl-8 col-lg-7 position-relative one-half-screen order-1 order-lg-2 md-mb-50px">
                         <div class="overflow-hidden position-relative">
                               <div class="w-100" data-anime='{ "effect": "slide", "direction": "lr", "color": "#f7f7f7", "duration": 1000, "delay": 0 }'>
-                                    <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1733042507/marcin-jozwiak-Jmsw8wYy7Ig-unsplash_msqwcj.jpg" alt="" class="w-100 liquid-parallax" data-parallax-liquid="true" data-parallax-position="top" data-parallax-scale="1.05">
+                                    <img src="https://png.pngtree.com/thumb_back/fw800/background/20221214/pngtree-business-people-group-on-meeting-at-office-worker-leader-company-photo-image_42321578.jpg" alt="" class="w-100 liquid-parallax" data-parallax-liquid="true" data-parallax-position="top" data-parallax-scale="1.05">
                               </div>
                         </div>
                   </div>
@@ -102,10 +102,10 @@ get_header();
                   </div>
                   <div class="about-thumbs">
                         <div class="thumb-first">
-                              <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1732988266/cherrydeck-rMILC1PIwM0-unsplash_zzhqi2.jpg" class="has_fade_anim" data-fade-from="right" alt="image" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                              <img src="https://miro.medium.com/v2/resize:fit:1400/0*IpVKMoU0P8t3-hqZ" class="has_fade_anim" data-fade-from="right" alt="image" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;height: 350px;width: 100%;object-fit: cover;">
                         </div>
                         <div class="thumb-second">
-                              <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1732988266/cherrydeck-rMILC1PIwM0-unsplash_zzhqi2.jpg" class="has_fade_anim" data-fade-from="left" alt="image" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
+                              <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJ1c2luZXNzJTIwb2ZmaWNlfGVufDB8fDB8fHww" class="has_fade_anim" data-fade-from="left" alt="image" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;height: 350px;width: 100%;object-fit: cover;">
                         </div>
                   </div>
             </div>
@@ -261,67 +261,6 @@ get_header();
                   <!-- end process step item -->
             </div>
 
-      </div>
-</section>
-
-<section class="bg-gradient-very-light-gray big-section" style="padding-bottom: 40px">
-      <div class="container background-no-repeat background-position-top">
-            <div class="row justify-content-center mb-2">
-                  <div class="col-xxl-6 col-lg-8 col-md-9 text-center">
-                        <h3 class="text-dark-gray fw-600 ls-minus-2px">Loved by most valuable clients</h3>
-                  </div>
-            </div>
-            <div class="row justify-content-center align-items-center">
-                  <div class="col-xl-10 position-relative">
-                        <div class="swiper testimonials-style-06 swiper-initialized swiper-horizontal swiper-backface-hidden" data-slider-options="{ &quot;loop&quot;: true, &quot;autoplay&quot;: { &quot;delay&quot;: 4000, &quot;disableOnInteraction&quot;: false }, &quot;keyboard&quot;: { &quot;enabled&quot;: true, &quot;onlyInViewport&quot;: true }, &quot;navigation&quot;: { &quot;nextEl&quot;: &quot;.swiper-button-next-nav&quot;, &quot;prevEl&quot;: &quot;.swiper-button-previous-nav&quot;, &quot;effect&quot;: &quot;fade&quot; } }">
-                              <div class="swiper-wrapper" id="swiper-wrapper-989e9576c76bc24d" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-1974px, 0px, 0px); transition-delay: 0ms;">
-                                    <div class="swiper-slide swiper-slide-next" style="width: 987px;" role="group" aria-label="1 / 3" data-swiper-slide-index="0">
-                                          <div class="row align-items-center justify-content-center">
-                                                <div class="col-8 col-md-4 col-sm-6 text-center md-mb-30px">
-                                                      <img alt="" src="<?php echo get_template_directory_uri() . '/assets/images/clients/client1.jpg'; ?>" data-no-retina="" class="custom-image-test">
-                                                </div>
-                                                <div class="col-lg-5 col-md-7 last-paragraph-no-margin text-center text-md-start">
-                                                      <span class="mb-10px fw-200 d-table fs-18 lh-28 text-dark-gray">"Working with Concepteur Technologies was a game-changer for our business. Their technical expertise and innovative solutions have helped us streamline our operations and improve efficiency." </span>
-                                                      <span class="fs-15 text-uppercase fw-700 text-dark-gray ls-1px">Alexandra Ross, CEO of Innovatech</span>
-                                                </div>
-                                          </div>
-                                    </div>
-                                    <div class="swiper-slide swiper-slide-prev" style="width: 987px;" role="group" aria-label="2 / 3" data-swiper-slide-index="1">
-                                          <div class="row align-items-center justify-content-center">
-                                                <div class="col-8 col-md-4 col-sm-6 text-center md-mb-30px">
-                                                      <img alt="" src="<?php echo get_template_directory_uri() . '/assets/images/clients/client2.jpg'; ?>" data-no-retina="" class="custom-image-test">
-                                                </div>
-                                                <div class="col-lg-5 col-md-7 last-paragraph-no-margin text-center text-md-start">
-                                                      <span class="mb-10px fw-200 d-table fs-18 lh-28 text-dark-gray">"The team at Concepteur Technologies helped us build a custom solution tailored to our needs. Their professionalism and attention to detail were exceptional."</span>
-                                                      <span class="fs-15 text-uppercase fw-700 text-dark-gray ls-1px">Jason Clark, CTO of FinSolutions</span>
-                                                </div>
-                                          </div>
-                                    </div>
-                                    <div class="swiper-slide swiper-slide-active" role="group" aria-label="3 / 3" style="width: 987px;" data-swiper-slide-index="2">
-                                          <div class="row align-items-center justify-content-center">
-                                                <div class="col-8 col-md-4 col-sm-6 text-center md-mb-30px">
-                                                      <img alt="" src="<?php echo get_template_directory_uri() . '/assets/images/clients/client3.jpg'; ?>" data-no-retina="" class="custom-image-test">
-                                                </div>
-                                                <div class="col-lg-5 col-md-7 last-paragraph-no-margin text-center text-md-start">
-                                                      <span class="mb-10px fw-200 d-table fs-18 lh-28 text-dark-gray">"We trusted Concepteur Technologies with a major project, and they exceeded all expectations. Their ability to solve complex problems with innovative technology is second to none." </span>
-                                                      <span class="fs-15 text-uppercase fw-700 text-dark-gray ls-1px">Liam Davis, Director of Operations, NexaTech</span>
-                                                </div>
-                                          </div>
-                                    </div>
-                              </div>
-                              <!-- start slider navigation -->
-                              <div class="swiper-button-previous-nav swiper-button-prev md-left-0px" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-989e9576c76bc24d"><i class="feather icon-feather-arrow-left icon-extra-medium text-dark-gray"></i></div>
-                              <div class="swiper-button-next-nav swiper-button-next md-right-0px" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-989e9576c76bc24d"><i class="feather icon-feather-arrow-right icon-extra-medium text-dark-gray"></i></div>
-                              <!-- end slider pagination -->
-                              <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-                        </div>
-                  </div>
-                  <div class="row mt-6">
-                        <div class="col-12 text-center">
-                              <span class="ls-1px text-uppercase text-dark-gray fw-600 lh-22 mb-10px d-block">Let's build something great together <a href="mailto:info@blogger.com" class="d-inline-block border-2 border-bottom border-color-dark-gray fw-700 text-dark-gray text-dark-gray-hover">info@concepteurit.com</a></span>
-                        </div>
-                  </div>
-            </div>
       </div>
 </section>
 
