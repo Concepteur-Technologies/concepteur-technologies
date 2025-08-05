@@ -31,9 +31,9 @@
             <div class="container-fluid">
                 <div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
                     <a class="navbar-brand" href="<?php echo home_url() . '/home-page' ?>">
-                        <img src="wp-content\themes\concepteur-technologies\assets\images\logo2.jpeg" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="default-logo">
-                        <img src="wp-content\themes\concepteur-technologies\assets\images\logo2.jpeg" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="alt-logo">
-                        <img src="wp-content\themes\concepteur-technologies\assets\images\logo2.jpeg" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="mobile-logo">
+                        <img src="wp-content\themes\concepteur\assets\images\logo2.jpeg" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="default-logo">
+                        <img src="wp-content\themes\concepteur\assets\images\logo2.jpeg" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="alt-logo">
+                        <img src="wp-content\themes\concepteur\assets\images\logo2.jpeg" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="mobile-logo">
                     </a>
                 </div>
                 <div class="col-auto col-lg-8 menu-order position-static">
