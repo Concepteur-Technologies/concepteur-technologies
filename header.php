@@ -15,8 +15,8 @@
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-    <link rel="icon" href="https://res.cloudinary.com/didxyeaj1/image/upload/v1735134659/C_TEC_2_mrxjep.png" type="image/x-icon" />
-    <link rel="shortcut icon" href="https://res.cloudinary.com/didxyeaj1/image/upload/v1735134659/C_TEC_2_mrxjep.png" type="image/x-icon">
+    <link rel="icon" href="wp-content\themes\concepteur-technologies\assets\images\co-icon.jpeg" type="image/x-icon" />
+    <link rel="shortcut icon" href="wp-content\themes\concepteur-technologies\assets\images\co-icon.jpeg" type="image/x-icon">
     <?php wp_head(); ?>
     <?php
     $current_page = trim($_SERVER['REQUEST_URI'], '/');
@@ -31,9 +31,9 @@
             <div class="container-fluid">
                 <div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
                     <a class="navbar-brand" href="<?php echo home_url() . '/home-page' ?>">
-                        <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735134518/asterisk_media_inc._1_emvx0w.png" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="default-logo">
-                        <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735134518/asterisk_media_inc._1_emvx0w.png" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="alt-logo">
-                        <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1735134518/asterisk_media_inc._1_emvx0w.png" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="mobile-logo">
+                        <img src="wp-content\themes\concepteur-technologies\assets\images\logo2.jpeg" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="default-logo">
+                        <img src="wp-content\themes\concepteur-technologies\assets\images\logo2.jpeg" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="alt-logo">
+                        <img src="wp-content\themes\concepteur-technologies\assets\images\logo2.jpeg" data-at2x="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902963/natycu58tp3knx6cplro.png" alt="" class="mobile-logo">
                     </a>
                 </div>
                 <div class="col-auto col-lg-8 menu-order position-static">
@@ -73,18 +73,18 @@
                                     <li class="dropdown">
                                         <a href="<?php echo home_url() . '/mobile-app-development' ?>">App Development<i class="bi bi-arrow-up-right-square-fill"></i></a>
                                     </li>
-                                    <li class="dropdown">
+                                    <!-- <li class="dropdown">
                                         <a href="<?php echo home_url() . '/coming-soon' ?>">Enterprises we worked with</a>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </li>
 
-                            <li class="nav-item dropdown simple-dropdown">
+                            <!-- <li class="nav-item dropdown simple-dropdown">
                                 <a href="<?php echo home_url() . '/coming-soon' ?>" class="nav-link <?php echo esc_attr($extra_class); ?>">Case Study</a>
                             </li>
                             <li class="nav-item dropdown simple-dropdown">
                                 <a href="<?php echo home_url() . '/coming-soon' ?>" class="nav-link <?php echo esc_attr($extra_class); ?>">Work with us</a>
-                            </li>
+                            </li> -->
                             <div class="header-button"><a href="<?php echo home_url() . '/contact-us' ?>" class="btn btn-large d-table d-lg-inline-block xl-mb-15px md-mx-auto btn-rounded text-concep-back" style="margin-bottom: 0px !important">Contact us<i class="fa-solid fa-arrow-right"></i></a></div>
                         </ul>
                     </div>
