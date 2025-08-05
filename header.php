@@ -15,8 +15,8 @@
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-    <link rel="icon" href="wp-content\themes\concepteur-technologies\assets\images\favicon-16x16.png" type="image/x-icon" />
-    <link rel="shortcut icon" href="wp-content\themes\concepteur-technologies\assets\images\favicon-16x16.png" type="image/x-icon">
+    <link rel="icon" href="wp-content\themes\concepteur\assets\images\favicon-16x16.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="wp-content\themes\concepteur\assets\images\favicon-16x16.png" type="image/x-icon">
     <?php wp_head(); ?>
     <?php
     $current_page = trim($_SERVER['REQUEST_URI'], '/');

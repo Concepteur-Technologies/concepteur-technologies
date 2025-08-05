@@ -4,7 +4,7 @@
                   <!-- start footer column -->
                   <div class="col-6 col-xl-3 col-lg-12 col-sm-6 last-paragraph-no-margin text-xl-start text-lg-center order-sm-1 lg-mb-50px sm-mb-30px">
                         <a href="demo-it-business.html" class="footer-logo mb-15px d-inline-block">
-                              <img src="wp-content\themes\concepteur-technologies\assets\images\logo2.jpeg" data-at2x="images/demo-it-business-logo-black@2x.png" alt="">
+                              <img src="wp-content\themes\concepteur\assets\images\logo2.jpeg" data-at2x="images/demo-it-business-logo-black@2x.png" alt="">
                         </a>
                         <p class="lh-28 w-90 xl-w-100 mx-lg-auto mx-xl-0">Driving your business forward with cutting-edge technology solutions.</p>
                         <div class="elements-social social-icon-style-02 mt-15px">
