@@ -168,9 +168,7 @@ get_header();
                         <div class="w-80 lg-w-85 mt-minus-20px float-end">
                               <img class="md-w-100" src="https://res.cloudinary.com/didxyeaj1/image/upload/v1732903140/section_d8d8si.jpg" alt="" data-no-retina="">
                         </div>
-                        <div class="w-50 position-absolute left-15px bottom-20px lg-bottom-minus-50px">
-                              <img src="https://res.cloudinary.com/didxyeaj1/image/upload/v1732902964/ekzcem4inpue7bn7ipq3.jpg" alt="" class="box-shadow-quadruple-large" data-no-retina="">
-                        </div>
+                        
                   </div>
             </div>
       </div>
